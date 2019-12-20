@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+
+import re
+import subprocess
+import sys
+from getopt import getopt
+import fileinput
+from collections import Counter
+
+
+def main():
+    opts, resto = getopt(sys.argv[1:], "albdc")
+    dop = dict(opts)
+
+    print(dop)
+    
+    texto = ""
+
+    # Reads file
+    for line in fileinput.input(resto):
+        texto += line
+
+main()

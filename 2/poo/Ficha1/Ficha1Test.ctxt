@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Ficha1Test
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Ficha1Test\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ ex_1()
+comment3.params=
+comment3.target=void\ ex_2()
+comment4.params=
+comment4.target=void\ ex_3()
+comment5.params=
+comment5.target=void\ ex_4()
+comment6.params=
+comment6.target=void\ ex_5()
+comment7.params=
+comment7.target=void\ ex_6()
+comment8.params=
+comment8.target=void\ ex_7()
+numComments=9

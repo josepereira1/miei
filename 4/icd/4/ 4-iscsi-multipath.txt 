@@ -1,0 +1,162 @@
+Configuração avançada de DRBD
+=============================
+
+1. multi-primario e recuperação automática de split-brains
+    ficheiro (/etc/drbd.d/d1.res)
+    resource d1 {
+            net {
+                    protocol C;
+                    allow-two-primaries yes;
+                    after-sb-0pri discard-least-changes;
+                    after-sb-1pri discard-secondary;
+                    after-sb-2pri call-pri-lost-after-sb;
+            }
+            on drbd1 {
+                    device    /dev/drbd1;
+                    disk      /dev/sdb;
+                    address   10.0.0.1:7789;
+                    meta-disk internal;
+            }
+            on drbd2 {
+                    device    /dev/drbd1;
+                    disk      /dev/sdb;
+                    address   10.0.0.2:7789;
+                    meta-disk internal;
+            }
+    }
+
+    ficheiro /etc/drbd.d/global_common.conf
+    
+    common {
+      options {
+        auto-promote yes;
+      }
+    }
+
+
+Server (target)
+==============
+
+NOTA (DÚVIDAS QUE POSSAM EXISTIR):
+    AQUI É NECESSÁRIO FAZER OS SEGUINTES COMANDOS (ambas as máquinas):
+        drbdadm create-md d1
+        drbdadm up d1
+        drbdadm primary --force d1 (APENAS NA DRBD1)
+        
+        //  ESPERAR PELA SYNC
+
+        drbdadm primary d1 (APENAS NA DRBD2)
+
+        //  ESPERAR PELA SYNC
+
+        (EM AMBAS)
+        mkdir /mnt/lv1
+        mkfs.xfs /dev/drbd1
+        mount /dev/drbd1 /mnt/lv1
+
+1. Instalar o servidor targetcli
+    yum install targetcli
+
+2. ativar o serviÃ§o no boot
+    systemctl enable target
+
+3. criaÃ§Ã£o e exportaÃ§Ã£o de um volume
+    iniciar o targetcli
+        cd backstores/block
+        create d1 /dev/drbd1
+        cd  /iscsi
+        create 
+        cd iqn.2003-01.org.linux-iscsi.drbd1.x8664:sn.0e8222b18d06/tpg1/luns (iqn.2003-01.org.linux-iscsi.drbd1.x8664:sn.0e8222b18d06 Ã© o nome do target criado)
+        create /backstores/block/d1
+        cd /iscsi/iqn.2003-01.org.linux-iscsi.drbd1.x8664:sn.0e8222b18d06/tpg1/
+        set attribute authentication=0 demo_mode_write_protect=0 generate_node_acls=1 cache_dynamic_acls=1 (coloca em demo mode. ver  https://www.certdepot.net/rhel7-configure-iscsi-target-initiator-persistently/ para definir acls com login e pass)
+        exit
+        
+4 instalar o targetcli na drbd2
+
+5. copiar o /etc/target/saveconfig.json da maquina drbd1 para a drbd2
+
+6. editar o /etc/target/saveconfig.json na drbd2
+    alterar o wwn do target
+    
+7. ativar o target cli
+
+8. guardar cÃ³pias do /etc/target/saveconfig.json
+
+9. instalar nettols em ambas as mÃ¡quinas
+     yum install net-tools.x86_64
+
+
+Cliente (Fazer um full clone da mÃ¡quina base)
+==============================================
+
+1. instalar iscsi.initiator
+    yum install iscsi-initiator-utils
+    
+2. mudar o nome do initiator
+    ficheiro  /etc/iscsi/initiatorname.iscsi
+        InitiatorName=iqn.2016-10.iscsi-cli:icd
+
+3. iniciar o serviÃ§o
+    systemctl start iscsi
+    
+4. Usar a placa em NAT para comunicar em os servidores e clientes iscsi
+
+5. Descobrir os servidores
+    iscsiadm --mode discovery --type sendtargets --portal  172.16.141.196
+    iscsiadm --mode discovery --type sendtargets --portal  172.16.141.198
+    
+6. fazer o login nos servidores
+    iscsiadm -m node -l
+
+    NOTA: (COMO FAZER LOG OUT CASO SEJA NECESSÁRIO)
+        iscsiadm --mode node --logoutall=all
+    
+7. verificar que os discos aparecem com
+    lsblk --scsi
+
+8. verificar que os discos tÃªm o mesmo uuid usando o comando blkid
+
+9. instalar o multipath
+    yum install device-mapper-multipath
+
+10. 
+    cp /usr/share/doc/device-mapper-multipath-0.4.9/multipath.conf /etc/multipath.conf
+    systemctl start multipathd
+
+11. multipath -l (para ver o estado do multipath)
+
+12.  fazer mount da partiÃ§Ã£o e obrigar um dos servidores a falhar
+    iptables -A INPUT -p tcp --dport 3260 -j DROP
+    
+    ativar novamente
+    
+    iptables -D INPUT -p tcp --dport 3260 -j DROP
+    
+    
+MISC
+====
+
+1. ativar drbd
+    systemctl enable drbd
+    
+2. criar dependencia entre drbd e target.
+    editar /usr/lib/systemd/system/target.service
+        [Unit]
+        Description=Restore LIO kernel target configuration
+        Requires=sys-kernel-config.mount drbd.service
+        After=sys-kernel-config.mount network.target local-fs.target drbd.service
+
+        [Service]
+        Type=oneshot
+        RemainAfterExit=yes
+        ExecStart=/usr/bin/targetctl restore
+        ExecStop=/usr/bin/targetctl clear
+        SyslogIdentifier=target
+
+        [Install]
+        WantedBy=multi-user.target
+
+
+
+

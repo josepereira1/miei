@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Datas
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Datas\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=
+comment1.target=Datas()
+comment2.params=datas\ ocu
+comment2.target=Datas(java.time.LocalDate[],\ int)
+comment3.params=d
+comment3.target=void\ insereData(java.time.LocalDate)
+comment4.params=data
+comment4.target=java.time.LocalDate\ dataMaisProxima(java.time.LocalDate)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

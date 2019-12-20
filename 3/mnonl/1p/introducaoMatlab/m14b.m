@@ -1,0 +1,1 @@
+produto1 = a.*b      %   o símbolo . indica que queremos multiplicar cada elemento unicamente e não fazer a multiplicação de matrizes de álgebra;

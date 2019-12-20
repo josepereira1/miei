@@ -1,0 +1,5486 @@
+RELÍQUIA_
+DE EÇA DE QUEIRÓS
+verão:t:t
+Mosteiro
+Lindoso
+Crispim
+1875:t:t
+Santo António
+D. Patrocínio
+Neves
+Campo de Santana:l
+Jerusalém:l
+Nizam
+Pôncio Pilatos
+Judeia:l
+Lama
+Legado
+Imperial da Síria
+J. Caifás
+Sumo Pontífice
+Egipto
+Palestina
+Guia
+Pitoresco do Oriente
+Evangelho
+Alentejo
+Buda
+Migadaia
+Veluvana
+Rajágria
+Mestre
+Ele
+Hira
+Meca
+Medina
+Maomé
+Betânia:l
+Galileia:l
+Jesus Nosso Senhor:p
+Jordão
+Lima
+Mosteiro
+Messias
+Altíssimo
+Escritura
+Topsius:p
+Universidade
+Bonn
+Instituto Imperial de Escavações Históricas
+Leipzig:l
+Jerusalém Passeada
+Comentada_
+Topsius:p
+Barcas
+Topsius:p
+Diante
+Cruzada de Godofredo
+Nosso Senhor:p
+Santa:l
+Verônica
+Bossuet
+Gazeta de Colónia
+Germânia
+Meio
+Dia
+Jerusalém Passeada
+Topsius:p
+Alexandria:l
+Carmelo
+Doutor Topsius:p
+Maneira
+Alemanha
+Evangelho
+Igreja
+Igreja
+Igreja
+Topsius:p
+Os
+Conceição
+Topsius:p
+Egipto
+Canaã
+Jerusalém Passeada_
+Alemanha
+Alemanha
+História
+Farsa
+Meu
+Padre Rufino da Conceição
+Vida de Santa Filomena
+Amendoeirinha
+Nossa Senhora da Assunção
+Rufino da Assunção
+Raposo
+Filomena Raposo
+Repolhuda
+Rua do Lagar dos Dízimos
+Farol do Alentejo
+1853:t:t
+D. Gaspar de Lorena
+Corazim
+Galileia:l
+São João
+Cônego
+Pita
+noite:t:t
+Farol
+Pecúlio de Pregadores
+D. Gaspar
+Igreja
+Corazim
+Farol
+Conde Ordonho
+Rufino
+Assunção
+Rufino da Conceição
+São José
+Universidade
+Porto
+Viana:l
+Entre
+Minho
+Lima
+{Julho:t
+Lisboa:l
+Comendador G. Godinho
+verão:t:t
+Mosteiro
+Lindoso
+D. Maria
+Patrocínio
+manhã:t:t
+Santana:l
+D. Rosa
+Amor
+Melancolia
+Mosteiro
+Margaride
+D.
+Patrocínio
+D. Rosa
+Conde Ordonho
+Rosa
+tarde:t de {sexta-feira:t
+Paixão
+manhã:t:t
+Aleluia
+Viana:l
+tarde:t:t
+verão:t:t
+Traviata
+D. Maria
+Mosteiro
+{Julho:t
+Gervasia
+Comendador G. Godinho
+noite:t:t
+Senhoras Macedos
+Mariana
+Largo
+Senhora da Agonia
+Senhora
+{Inverno:t
+noite:t:t
+Gervásia
+João
+Jesus
+Nosso Senhor:p
+Gervásia
+Senhor Matias
+Patrocínio
+Senhor Matias
+Gervásia
+João
+Senhor Matias
+Ora
+tarde:t:t
+Senhor:p
+Matias
+noite:t:t
+Gonçalves
+Senhor Matias
+Gonçalves
+Ave
+Marias
+Senhor:p
+Senhor Matias
+tarde:t:t
+Vénus
+noite:t:t
+Senhor Matias
+domingo:t de {manhã:t
+Senhor Matias
+Lisboa:l
+Senhor:p
+Matias
+Vicência:p
+Patrocínio
+Senhor Matias
+Nossa Senhora das Dores
+Esta
+Titi:p
+Senhor Matias
+Titi:p
+Titi:p
+Titi:p
+Credo
+Vicência:p
+Sim
+Titi:p
+Senhor Matias
+Está
+Titi:p
+Era
+Vicência:p
+Senhor Matias
+Vicência:p
+noite:t:t
+Vicência:p
+Titi:p
+noite:t:t
+Tedrico
+Te
+Titi:p
+Nosso Senhor:p
+Raposo
+Viana:l
+Sim
+Titi:p
+Deus
+Titi:p
+Teodorico
+Titi:p
+Titi:p
+Sim
+Titi:p
+Titi:p
+Vicência:p
+Titi:p
+Senhor:p
+Nosso Senhor Jesus Cristo
+Titi:p
+Jesus
+Nossa Senhora
+Pai
+noite:t:t
+Vicência:p
+Padre
+Nossos
+Titi:p
+Godinho
+Titi:p
+Isidoros
+Santa Isabel
+Crispim
+Teles
+Crispim
+Cia
+Pampulha
+Crispim
+domingo:t:t
+noite:t:t
+quinta-feira:t:t
+Padre Soares
+Senhor:p
+Ora
+Caifás
+Caifás
+Judeia:l
+domingo:t:t
+Cavinetti
+Vicência:p
+domingo:t:t
+Titi:p
+Júnior
+Vicência:p
+D.
+Neves
+Campo de Santana:l
+Chiado
+Crispim
+Loreto
+Titi:p
+manhã:t:t
+Panorama Universal
+São José
+Titi:p
+Credo
+Mandamentos
+domingo:t:t
+Padre Casimiro:p
+Titi:p
+Isidoros
+Bélgica
+Padre Pinheiro
+Padre Casimiro:p
+Vai
+Padre Pinheiro
+Felizes
+Titi:p
+Casimiro:p
+Vicência:p
+domingo:t:t
+Senhor José Justino:p
+São José
+Titi:p
+São Paulo
+Vicência:p
+D. Patrocínio
+Vicência:p
+Titi:p
+Misericórdia
+Comendador Godinho
+Mosteiro
+Viana:l
+Titi:p
+Titi:p
+Vicência:p
+Adeus
+noite:t:t
+Vicência:p
+Vicência:p
+Crispim
+Isidoros
+Vicência:p
+Natal
+Titi:p
+Jesus
+Padre Casimiro:p
+Titi:p
+Torres:l
+Retórica
+Isidoros
+Coimbra:l
+Doutor Roxo
+Titi:p
+São Luís Gonzaga
+Senhor:p
+Padre
+Casimiro:p
+Minerva
+Doutor Roxo
+Direito
+Pimentas
+São Luís Gonzaga
+Camelas
+Trony
+Terreiro da Erva
+Raposão
+Titi:p
+Coração de Jesus
+tarde:t:t
+Sé
+Santa:l
+Cruz
+verão:t:t
+Lisboa:l
+Titi:p
+Tu
+Titi:p
+Ora
+domingo:t:t
+Padre Pinheiro
+Comendador Godinho
+Neves
+Margaride
+Viana:l
+Mangualde:l
+Abel
+Câmara Patriarcal
+Praça da Figueira
+Mosteiro
+Titi:p
+Baixa
+Apenas
+Margaride
+Ninguém
+Titi:p
+Doutor Margaride
+Viana:l
+Conde Ordonho
+{Tarde:t
+Mosteiro
+sexta-feira:t:t
+Paixão
+Titi:p
+Teodorico
+D. Patrocínio
+Excelência
+Telémaco
+Rossio
+{Agosto:t
+Comendador G. Godinho
+Doutor Margaride
+Xavier
+Alcântara:l
+Comendador G. Godinho
+Secretaria da Justiça
+Xavier
+Cármen
+Rua da Fé
+domingo:t:t
+Xavier
+manhã:t:t
+Cármen
+Xavier
+Patrocínio
+Patrocínio
+Jesus
+Godinho
+Patrocínio
+Estado
+Tu
+Teodorico
+Rodrigo
+Teodorico
+Teodorico
+Titi:p
+Titi:p
+Titi:p
+Xavier
+Titi:p
+Rua da Fé
+{Setembro:t
+Natividade de Nossa Senhora
+Doutor Barroso
+Xavier
+tarde:t:t
+Cármen
+Xavier
+Então
+Xavier
+Titi:p
+Jornal de Notícias
+Xavier Godinho
+Comendador G.
+D. Patrocínio das Neves
+Godinho
+Mas
+Godinho
+Lolita
+Benta Bexigosa
+Conta
+Xavier
+Olha
+Cármen
+Titi:p
+Gordinhos
+Jesus
+Titi:p
+Notícias
+Xavier
+Xavier
+Cármen
+Titi:p
+verão:t:t
+Titi:p
+Que
+Deus
+Deus
+Nosso Senhor Jesus Cristo
+Titi:p
+Senhor:p
+Titi:p
+Também
+Coimbra:l
+Terreiro da Erva
+Teresa dos Quinze
+Titi:p
+Titi:p
+Teresa
+Rua da Fé
+Senhor Godinho
+Passeio
+Coimbra:l
+Oh
+Raposão
+Silvério
+Rinchão
+Pimentas
+Alentejo
+Barão de Alconchel
+Ernestina
+Salitre
+Queres
+Raposão
+Adélia:p
+Adélia:p
+Adélia:p
+domingo:t:t
+noite:t:t
+Titi:p
+Rinchão
+Adélia:p
+Rinchão
+Madeira
+Ernestina
+Adélia:p
+Silvério
+Ernestina
+Madeira
+Adélia:p
+Então
+Lamego
+Ernestina
+Teodorico
+Por
+Madeira
+Ernestina
+Rinchão
+Adélia:p
+Titi:p
+Campo de Santana:l
+Titi:p
+Titi:p
+Relaxações
+D. Patrocínio
+Padre
+Pinheiro
+Justiço
+Doutor Margaride
+Casimiro:p
+D. Patrocínio
+Teodorico
+Martinho
+Nem
+Padre Casimiro:p
+Martinho
+Encarnação
+Barão de Alconchel
+Patrocínio
+Olha
+Doutor Margaride
+Está
+Teodorico
+Barão de Alconchel
+maio:t:t
+Alentejo
+Portugal:l
+Casimiro:p
+Tome
+Teodorico
+Magistratura
+Igreja
+domingo:t:t
+Comendador G.
+Titi:p
+Titi:p
+Titi:p
+tarde:t:t
+Cristo
+Titi:p
+Lisboa:l
+Titi:p
+As
+Está
+Deus Nosso Senhor:p
+Cristo
+manhã:t:t
+Padre Casimiro:p
+Boa
+Doutor Teodorico
+Titi:p
+Lisboa:l
+Um
+Padre Casimiro:p
+Nossa Senhora do Rosário
+Titi:p
+Padre Casimiro:p
+Titi:p
+Lisboa:l
+Nossa Senhora
+Olhe
+Teodorico
+Titi:p
+Deus
+São José
+Titi:p
+Tonquim
+Titi:p
+Está
+Deus
+Titi:p
+Deus
+D. Patrocínio das Neves
+Titi:p
+Igreja de Santana:l
+Padre Pinheiro
+Titi:p
+Gloria Patri
+Titi:p
+São:l
+{Domingo:t
+Japão
+Conceição Velha
+Sagrado Coração
+Jesus
+Senhor:p
+Coimbra:l
+tarde:t:t
+Senhor da Cana
+Verde
+Oh
+Raposão
+Ora
+Largo
+Loreto
+Arco do Bandeira
+manhã:t:t
+Montanha
+Titi:p
+São José
+Jesus
+Maria
+Titi:p
+Vicência:p
+Pio IX
+Comendador G. Godinho
+Titi:p
+Rua da Madalena
+Largo dos Caídas
+Titi:p
+Adélia:p
+Adélia:p
+noite:t:t
+Rinchão
+Salitre
+Coimbra:l
+Universidade
+Titi:p
+Salitre
+Adélia:p
+Rinchão
+Largo dos Caídas
+Eleutério Serra
+Serra Brito
+Cia
+Conceição Velha
+Minha
+Ela
+Levei
+Rinchão
+Ernestina
+Titi:p
+Se
+Titi:p
+Ora
+Eleutério
+Rua Nova
+Carmo
+Adélia:p
+Adeus
+Delinha
+Agasalha
+Campo de Santana:l
+verão:t:t
+{Outono:t
+Campo de Santana:l
+{Outubro:t
+Titi:p
+São:l
+Carlos
+Doutor Margaride
+Titi:p
+Titi:p
+Barão de Alconchel
+Titi:p
+Igreja
+Jesus
+Senhor:p
+Titi:p
+Titi:p
+Cristo
+Titi:p
+Está
+São Carlos
+Lá
+Titi:p
+maio:t:t
+El
+Rei
+Titi:p
+Jesus
+Eleutério Serra
+Paris:l
+Adélia:p
+Titi:p
+Padre Casimiro:p
+Porque
+Patrocínio
+Comendador G. Godinho
+Cristo
+Titi:p
+D.
+Neves
+Quando
+Vicência:p
+Eusébia
+Páscoa
+Titi:p
+Padre Pinheiro
+França
+Padre Pinheiro
+Adélia:p
+Titi:p
+Jesus
+Sou
+Titi:p
+D. Patrocínio
+Arraiolos
+Saberás
+Simões
+Coimbra:l
+Satanás
+C.
+Raposo
+Titi:p
+Titi:p
+Norma
+Largo dos Caídas
+Adélia:p
+São Teodorico
+noite:t:t
+Rossio
+Adélia:p
+Doutor
+Margaride
+São:l
+Carlos
+Profeta
+Titi:p
+Profeta
+Profeta
+Sim
+Profeta
+Diz
+Titi:p
+Doutor Margaride
+Rua Nova
+Carmo
+Adélia:p
+Ceres
+Doutor Margaride
+Igreja da Graça
+Senhor:p
+Passos
+Visconde Souto
+Santos
+Viscondessa de Souto Santos
+Viscondessa de Vilar
+Velho
+Souto Santos
+Vilar
+Velho
+noite:t:t
+Chiado
+Doutor Margaride
+Titi:p
+Souto Santos
+Vilar
+Velho
+Titi:p
+Quer
+Martinho
+Doutor
+Margaride
+Rossio
+Não
+Martinho
+Lisboa:l
+Martinho
+Margaride
+Titi:p
+Titi:p
+tarde:t:t
+Titi:p
+Deus
+Casimiro:p
+Doutor Margaride
+Padre
+Casimiro:p
+Patrocínio
+Titi:p
+Vossa Excelência
+Doutor Margaride
+Titi:p
+Doutor Margaride
+Padre
+Casimiro:p
+Titi:p
+Deliciosa
+Excelente
+Doutor Margaride
+Titi:p
+Titi:p
+Teodorico
+Rebento
+Doutor Margaride
+Essa
+Teodorico
+Nosso Senhor Jesus Cristo
+Senhor Jesus Cristo
+Titi:p
+Estou
+Teodorico
+noite:t:t
+Doutor Margaride
+Nem
+Teodorico
+Cristo
+Estado
+D. Patrocínio
+Santa Madre Igreja
+Com
+Não
+Lisboa:l
+Doutor Margaride
+noite:t:t
+Carmo
+Rua Nova
+Palma
+Titi:p
+Nossa Senhora
+Rosário
+Nossa Senhora
+Titi:p
+Titi:p
+Sim
+Titi:p
+Cristo
+Madre Igreja
+Jesus
+Maria
+Comendador G. Godinho
+Senhor:p
+Estados
+Igreja da Graça
+Baixa
+Titi:p
+tarde:t:t
+Titi:p
+Rua de São:l
+Lázaro
+Titi:p
+Jesus
+Senhor:p
+Titi:p
+Que
+Teodorico
+Desculpe
+Titi:p
+Doutor Margaride
+Titi:p
+Rua Nova
+Palma
+Nosso Senhor:p
+Titi:p
+São José
+Titi:p
+Viscondessa
+Souto Santos
+Vilar
+Velho
+Jesus
+Salvador
+Titi:p
+noite:t:t
+Adélia:p
+{Inverno:t
+Senhor:p
+Passos
+Ordem Terceira de São:l
+Francisco
+Nossa Senhora do Patrocínio
+Titi:p
+Virgem
+Padre
+Nossos
+Titi São Telésforo
+Santa Secundina
+António Estroncônio
+Santa Restituta
+Santa Umbelina
+São Bernardo
+Santa:l
+Basilisca
+São Hipácio
+{Agosto:t
+Atalaia
+Sagrado Coração de Jesus
+Santíssimo
+Sacramento
+Setenário das Dores
+Santana:l
+Igreja de São José
+Oliveirinha
+Santíssimo
+Santa Engrácia
+Santa Joana
+Sacramento
+Nossa Senhora
+Picoas
+Chagas de Cristo
+Pingalho
+Mártires
+São:l
+{Domingo:t
+Desagravo
+Igreja da Visitação das Salésias
+Monserrate
+Amoreiras
+Glória
+Cardal da Graça
+Flamengas
+Albertas
+Pena
+Rato
+Sé
+noite:t:t
+Adélia:p
+Esperta
+Adélia:p
+Senhor:p
+Santo António
+Adélia:p
+Adélia:p
+Está
+Campo de Santana:l
+noite:t de {Julho:t
+Adélia:p
+Adélia:p
+Adelino
+Ricardina
+Viseu:l
+Teodoriquinho
+Senhor Adelino
+Estimo
+noite:t:t
+Adélia:p
+verão:t:t
+Conceição Velha
+São Joaquim
+Campo
+Santana:l
+Adélia:p
+manhã:t:t
+tarde:t:t
+noite:t:t
+Rua da Madalena
+Casimiro:p
+Torres:l
+Rinchão
+Paris:l
+Padre
+Pinheiro
+Vénus Mercenária
+José
+Justino:p
+José Justino:p
+São:l
+José
+Titi:p
+noite:t:t
+Justininho
+Campo de Santana:l
+Delinha
+Justino:p
+São Paulo
+Largo
+Caídas
+Justino:p
+noite:t:t
+Justino:p
+tarde:t:t
+manhã:t:t
+Titi:p
+Nosso Senhor:p
+Justino:p
+Justininho
+Fiquei
+Nosso Senhor:p
+Justino:p
+Ele
+Justino:p
+Adélia:p
+Montanha
+Senhora
+Mariana
+Deus
+Mariana
+Adélia:p
+Nossa Senhora
+Lurdes
+Titi:p
+Há
+Mariana
+Adélia:p
+Adélia:p
+Senhor Adelino
+Adélia:p
+Adelino
+verão:t:t
+Belém
+Adélia:p
+{Maio:t
+noite:t:t
+tarde:t:t
+Adélia:p
+Mariana
+Está
+Mariana
+Deus
+Titi:p
+Da
+Titi:p
+Igreja da Graça
+Senhor:p
+Ai
+Titi:p
+Padre Eugénio
+Eugeninho
+Senhor:p
+Que
+Titi:p
+Pois
+Titi:p
+Senhor:p
+Justino:p
+Xavier
+Rua da Fé
+Titi:p
+Nação
+Desgraças
+Patrocínio
+Titi:p
+Titi:p
+Patrocínio
+São:l
+José
+Isso
+Titi:p
+Macieira
+Macieira
+São José
+noite:t:t
+{Julho:t
+Rossio
+Carmo
+Adélia:p
+Deus
+Mariana
+Adélia:p
+Senhor Adelino
+Senhor:p
+Adelino
+Senhor Adelino
+Quem
+Só
+Outra
+Adélia:p
+Não
+tarde:t:t
+Abre
+Abre
+Pois
+Fica
+Titi:p
+Almanaque da Imaculada Conceição
+1878:t:t
+manhã:t:t
+Adélia:p
+Então
+Senhor Adelino
+Baixa
+tarde:t:t
+Adélia:p
+Martinho
+noite:t:t
+Jesus
+Messias
+Adélia:p
+Senhor:p
+Nossa
+Senhora do Patrocínio
+noite:t:t
+Senhora do Patrocínio
+Adelinha
+Titi:p
+São José
+São Luís Gonzaga
+Adélia:p
+noite:t:t
+Adélia:p
+Senhor Adelino
+Sou
+Senhor Adelino
+Queria
+Adeliazinha
+Adélia:p
+Atira
+{Setembro:t
+Rinchão
+Paris:l
+São Caetano
+Martinho
+Paris:l
+Rinchão
+Rinchão
+Uma
+noite:t:t
+Café
+Paix
+Cora
+Valtesse
+Rinchão
+Rinchão
+Papa
+Popotte
+Campos Elísios
+Mr
+Le Comte
+Alcázar
+Paulina
+Chouriço de Marselha
+Viste Vítor Hugo
+Não
+Paris:l
+Rinchão
+Lisboa:l
+Adélia:p
+Titi:p
+Paris:l
+D. Patrocínio
+Paris:l
+Titi:p
+domingo:t:t
+Campo de Santana:l
+Padre
+Casimiro:p
+Varatojo
+Sé de Lamego
+Casimiro:p
+D. Patrocínio das Neves
+Porque
+Senhor:p
+Justino:p
+Minho
+Olhe
+Justino:p
+Titi:p
+Conceição Velha
+Santana:l
+Padre Pinheiro
+Titi:p
+Padre Pinheiro
+Papa
+Leão X.
+Se
+Titi:p
+Mas
+Santíssimo Padre
+Nosso Senhor:p
+Caifases
+Ave
+Maria
+Pontífice
+Doutor Margaride
+Pontífice
+Santo
+Padre
+Não
+Casimiro:p
+Doutor Margaride
+Diga
+Doutor Margaride
+Deixe
+Vossa Excelência
+D. Patrocínio
+Reino
+Só
+Porque
+Vossa Excelência
+D. Patrocínio
+Doutor Margaride
+Teodorico
+Teodorico
+Paris:l
+Papas
+Titi:p
+Doutor Margaride
+Deus
+Titi:p
+Nutro
+Doutor Margaride
+Gostava
+Paris:l
+Cruzes
+D. Patrocínio
+Ir
+Paris:l
+Para
+Titi:p
+Não
+Santíssimo
+Doutor Margaride
+Titi:p
+Deus
+Não
+Paris:l
+Vossa
+Excelência
+D. Maria do Patrocínio
+Padre Pinheiro
+Roma:l
+Upa
+Padre Pinheiro
+Pinheiro
+Titi:p
+Roma:l
+Doutor Margaride
+Ia
+Terra Santa:l
+D. Patrocínio
+Palestina
+Jerusalém:l
+Jordão
+Gólgota
+Chateaubriand
+Vossa
+Excelência
+Sião:l
+Senhor:p
+Arábia
+Jerusalém:l
+Linda
+Casimiro:p
+Sem
+Padre Pinheiro
+Nosso Senhor Jesus Cristo
+Santo Sepulcro
+Até
+Justino:p
+Pinheiro
+Panorama
+Pinheiro
+Terra Santa:l
+Santo Sepulcro
+Patriarca de Jerusalém:l
+Não
+Por
+Doutor Margaride
+Assim
+Titi:p
+Titi:p
+Titi:p
+Pagando
+Padre Pinheiro
+Titi:p
+Vicência:p
+tarde:t:t
+Titi:p
+França
+Lisboa:l
+Titi:p
+Comendador G.
+Senhor dos Passos
+Deus
+Jesus
+Adélia:p
+manhã:t:t
+Titi:p
+São Roque
+São José
+Titi:p
+Tonquim
+Casimiro:p
+Ora
+Ouça
+Deus
+Titi:p
+Teodorico
+Teodorico
+Padre Casimiro:p
+Terra Santa:l
+Hem
+Casimiro:p
+Assim
+Titi:p
+Jerusalém:l
+Jesus Cristo
+Nosso Senhor:p
+Nosso Senhor:p
+Padre
+Casimiro:p
+São Roque
+Titi:p
+Padre Casimiro:p
+Jerusalém:l
+Olha
+Jerusalém:l
+Jerusalém:l
+Senhora do Patrocínio
+Jerusalém:l
+Senhor:p
+Jordão
+Danúbio
+Jerusalém:l
+Jerusalém:l
+Deus
+Andaluzia
+Maria Santíssima
+Era
+Nápoles
+Virgem
+Grécia
+Vénus
+Grécia
+Senhora do Patrocínio
+Caramba
+Titi:p
+Titi:p
+Titi:p
+Nosso Senhor:p
+Fazes
+Teodorico
+Santo Sepulcro
+Ela
+Louvado
+Nosso Senhor:p
+Teodorico
+Nossa Senhora do Rosário
+Deus
+Guia do Oriente
+Jerusalém:l
+Benjamim Sarrosa
+Cia
+Marrocos
+Málaga
+Casa
+Jadley
+Gibraltar
+Malta:l
+Egipto
+Alexandria:l
+Levante
+Síria
+Jafa:l
+noite:t:t
+Jerusalém:l
+Diabo
+Benjamim:p
+Espanha
+Refestela
+Alexandria:l
+Montanha
+Brito
+manhã:t:t
+Jornal
+Novidades
+Parte
+Jerusalém:l
+Redentor
+Teodorico Raposo
+Excelentíssima
+D. Patrocínio das Neves
+Titi:p
+São José
+Adélia:p
+Jornal
+Justino:p
+Teodorico
+Padre Pinheiro
+Foi
+Senhor:p
+Casimiro:p
+Titi:p
+Nosso Senhor:p
+Titi:p
+Jerusalém:l
+Sempre
+Doutor Margaride
+Pinheiro
+Levo
+Benjamim:p
+Doutor Margaride
+Senhor:p
+Pinheiro
+Jordão
+Titi:p
+Monte Olivete
+Doutor
+Margaride
+Jesus
+Cristo
+Titi:p
+Cá
+domingo:t:t
+Até
+Nosso Senhor:p
+Jordãozinho
+Jerusalém:l
+Titi:p
+Titi:p
+D. Patrocínio das Neves
+Jerusalém:l
+Evangelho
+Aqui
+Titi:p
+Se
+Titi:p
+Doutor Margaride
+Teodorico
+Titi:p
+Titi:p
+Titi:p
+Raposão
+Justino:p
+manhã:t de {domingo:t
+{Setembro:t
+Santa Libânia
+Titi:p
+Titi:p
+Adeus
+Senhor:p
+Guia do Oriente
+Vicência:p
+Pingalho
+Santana:l
+Oriente
+Palestina
+Senhor:p
+Larga
+Pingalho
+Jerusalém:l
+Foi
+domingo:t:t
+S. Jerónimo
+Alexandria:l
+Oriente
+Senhor da Boa
+Viagem
+Topsius:p
+Doutor
+Universidade de Bonn
+Instituto
+Imperial de Escavações Históricas
+Egipto
+Egipto
+Deus Phtah
+Deus das Letras
+Deus da História
+Líbia
+Hotel das Pirâmides
+Bonn
+Egipto
+Egipto
+Egipto
+Não
+D. Raposo
+Topsius:p
+Malta:l
+manhã:t:t
+Levante
+Jerusalém:l
+Alemanha
+Judeia:l
+Galileia:l
+História dos Herodes
+Alexandria:l
+História
+Lágidas
+Herodes
+Lágidas
+Topsius:p
+Então
+Doutor Topsius:p
+Pois
+D. Raposo
+Shlock
+Expressão
+Lagartos
+Alemanha
+Topsius:p
+Síntese Monoteísta da Teogonia Egípcia
+Deus
+Ftá
+Deus Imhotep
+Tríades dos Nomos
+Topsius:p
+Munique:l
+Boletim
+Hebdomadário de Escavações
+Históricas
+Rei Pi
+Sibkmé
+Ramsés II
+Tânis
+Alemanha
+Topsius:p
+Topsius:p
+Mar de Tiro
+Jerusalém:l
+Jericó:p
+Galileia:l
+Ideia
+Doutor Topsius:p
+Alemanha
+Alemanha
+Alemanha
+Metafísica
+Hotel das Pirâmides
+Topsius:p
+Da Imperial Alemanha
+João de Castro
+Ormuz
+Adamastor
+São:l
+Roque
+Tejo
+Raposo
+Português
+Daquém
+Dalém
+Mar
+Em
+Alpedrinha:p
+Trancoso
+Soares de Passos
+Lisboa:l
+Travessa
+Conceição
+Dulce
+Madrid
+Dulce
+Marselha
+Roma:l
+Atenas:l
+Moreia
+Esmirna
+Egipto
+Hotel das Pirâmides
+Lisboa:l
+Jornais de Notícias
+Lacedemónia
+Oriente
+Sobre
+Jornal dos Debates
+Mandolinata
+Topsius:p
+Ptolomeus
+Alpedrinha:p
+Patrocínio
+São:l
+José
+Egipto
+Santa:l
+Família
+Sé
+Alpedrinha:p
+Rua das Duas Irmãs
+Miss Mary
+Luvas
+Flores de Cera
+Miss Mary
+Hotel
+Pirâmides
+Duas Irmãs
+São José
+Lisboa:l
+maio:t:t
+Suécia
+Trago
+Alpedrinha:p
+Esqueci São José
+Lágidas
+Iorque
+Inglaterra
+Maricoquinhas
+Cleópatra
+Cairo
+Nilo
+Esfinge
+manhã:t:t
+Mary
+Alexandria:l
+Nilo
+tarde:t:t
+Topsius:p
+Canal Mamudieh
+Maricoquinhas
+Nilo
+tarde:t:t
+Goethe
+Hotel das Pirâmides
+Topsius:p
+tarde:t:t
+Alexandria dos Ptolomeus
+Canópia
+Osíris
+Alexandria:l
+Vénus Assíria
+Topsius:p
+Alexandria:l
+Homero
+Séneca
+Alexandria:l
+Canópia
+Sem
+Jerusalém:l
+manhã:t:t
+Alpedrinha:p
+Alexandriazinha
+Titi:p
+Jerusalém:l
+Tu
+Jerusalém:l
+Alpedrinha:p
+Não
+Braga
+Irra
+Maricocas
+noite:t:t
+Bela
+Raposo
+Síria
+Vénus
+Cantares
+Pois
+Ainda
+Mamudieh
+Calvário
+noite:t:t
+Egipto
+Deus
+Titi:p
+Sagrado Coração de Jesus
+Latakié
+Mary
+Que
+manhã:t:t
+Evangelho
+Mary
+Alexandria:l
+Maricas
+Parei
+Topsius:p
+Luís de Camões
+Dafundo
+Calcinhas
+Calcinhas
+noite:t:t
+Egipto
+Lacedemónia
+Caimão
+Israel
+D. Topsius_
+Alpedrinha:p
+Maricoquinhas
+Teodorico
+Manda
+Jerusalém:l
+Nosso Senhor:p
+Topsius:p
+Bíblia
+Mas
+Mary
+Cleópatra
+António
+Roma:l
+Alexandria:l
+Mamudieh
+Ptolomeus
+Rua das Duas Irmãs
+Miss
+Mary
+História dos Lágidas
+Cleópatra
+Herodes
+Judeia:l
+Alpedrinha:p
+Cavalheiro
+Mary
+Pertence
+D. Mary
+Dou
+Teodorico
+Teodorico
+Titi:p
+Alexandria:l
+noite:t:t
+Evangelho
+D. Teodorico
+tarde:t:t
+tarde:t:t
+Ao
+Teodorico
+Oh
+Alpedrinha:p
+Maricoquinhas
+Mary
+Teodorico
+Escreve
+Jerusalém:l
+Lembra
+Mary
+Mamudieh
+Topsius:p
+Sete
+Estados
+Lágidas
+Ilha de Faros
+Homero
+Maricoquinhas
+Alpedrinha:p
+Caimão
+Ptolomeus
+Eunotos
+Cleópatra
+Egipto
+noite:t:t
+Caimão
+Mar
+Tiro
+Mary
+Topsius:p
+Grande Verde
+Titi:p
+tarde:t:t
+Adélia:p
+Mary
+Adélia:p
+Porca
+Assim
+Jesus
+José
+Cristo
+Ascensão
+Cristo
+Ascensão
+Bíblos
+Cartago
+Elêusis
+Mênfis:l
+Babilónia
+Aí
+Melita
+Em
+Vénus
+Seguiam
+Susa
+Eufrates
+noite:t:t
+Moloque
+Adónis
+Egipto
+Eu
+Maricocas
+Não
+Maricocas
+Quando
+Mênfis:l
+Nilo
+Grécia
+Jónia
+Vénus
+Helénia
+Galileia:l
+Lúcifer
+Deixe
+Moloque
+Eu
+Raposo
+Assim
+Satanás
+Campo
+Santana:l
+Olha
+Teodorico
+Porco
+Sujo
+Voltei
+Titi:p
+Titi:p
+Levante
+Raposo
+Palestina
+Caimão
+Jerusalém:l
+Jesus
+Senhor:p
+Mary
+manhã:t:t
+Palestina
+Jafa:l
+Topsius:p
+Aí
+D. Raposo
+Jepo
+Noé
+Caramba
+Caimão
+Terra
+Santa:l
+Abissínia
+Alexandria:l
+Jafa:l
+Caimão
+Salvador
+Mary
+Maria
+Topsius:p
+Alá
+Os
+Jafa:l
+Mary
+Mary
+Iorque
+Alexandria:l
+Terra Santa:l
+Senhor:p
+Bem
+Topsius:p
+Palestina
+Minha
+Jerusalém:l
+Titi:p
+Senhora da Agonia
+Bem
+Quando
+Topsius:p
+Escritura
+Paulo Pote:p
+Montenegro
+Síria
+Pote:p
+Damasco
+Carmelo
+Engaddi
+Pote:p
+Hotel de Josafat
+Pote:p
+Senhor:p
+Mary
+Topsius:p
+Pote:p
+Cruzadas
+Ricardo
+Coração
+Leão
+Avante
+Jerusalém:l
+Deus
+Jafa:l
+Mercado
+Hospício dos Padres
+Latinos
+tarde:t:t
+Deus
+Alá
+Raquel
+tarde:t:t
+Sáron
+Bíblia
+São João
+Judeia:l
+Mar de Tiro
+Jerusalém:l
+Hotel do Mediterrâneo
+Jerusalém:l
+Balada do Rei de Tule
+Topsius:p
+Palestina
+sexta-feira:t:t
+tarde:t:t
+Senhor:p
+Topsius:p
+Galileia:l
+Ora
+Raposo
+Jerusalém:l
+Raposo
+Jerusalém:l
+Sião:l
+Sião:l
+Isto
+Topsius:p
+Alpedrinha:p
+Braga
+Topsius:p
+Nosso Senhor:p
+Sim
+domingo:t:t
+Jordão
+Herodes
+Jericó:p
+Herodes
+Jesus
+Topsius:p
+Mas
+Caramba
+Topsius:p
+Grande
+Topsius:p
+Cibele
+Hércules
+Maricocas
+Guia do Oriente
+Jerusalém:l
+Hércules
+Ibraim
+Topsius:p
+Topsius:p
+Alemanha
+Instituto Imperial de Escavações
+Históricas
+Irra
+Qual
+Raposo
+Raposos
+Alentejo
+tarde:t:t
+Deus
+Titi:p
+Cibele
+Balada
+Tule
+Jesus
+Via Dolorosa
+Pote:p
+Cibele
+Pote:p
+Ibraim
+Aí
+Topsius:p
+Negociante
+Pote:p
+Ruby
+Galileia:l
+Ora
+Pilatos
+Deixa
+Pilatos
+Pilatos
+Ibraim
+Pote:p
+Via Dolorosa
+Pote:p
+Ibraim
+Miss Ruby
+Síria
+noite:t:t
+Caramba
+Ora
+Santo Sepulcro
+São:l
+José
+Jordão
+Dei_
+Paixão
+Nazaré:l
+Monte Olivete
+Virgem Maria
+Cristo
+Titi:p
+Noé
+Irra
+Cristo
+Síria
+Caramânia
+Loja
+Pote:p
+Grande
+Pote:p
+Jesus
+Padre Pinheiro
+Mênfis:l
+Caldeia
+Mar Cáspio
+Líbano
+Maomé
+Cristo
+José de Arimateia
+Bem
+Topsius:p
+Vá
+Herodes
+Não
+Titi:p
+Senhor:p
+Osíris
+Cáspio
+Godofredo
+Impropério
+Senhor:p
+Túnica
+Senhor:p
+Senhor:p
+Calvário
+Astarté
+Baco
+Cristo
+Nesta
+Eleison
+Cristo
+As
+Eleison
+Eleison
+Herodes
+Topsius:p
+Jesus
+Pote:p
+tarde:t:t
+Lisboa:l
+Evangelho
+Homem dos Três Calções
+Via Dolorosa
+Cibele
+Senhor:p
+tarde:t:t
+Jerusalém:l
+Vale do Cédron
+Raquel
+Jerusalém:l
+Raposo
+Hércules
+Ele
+Sabe
+Senhor:p
+Lisboa:l
+noite:t:t
+Sião:l
+Topsius:p
+Monte
+Oliveiras
+Siloé:l
+Homem dos Três Calções
+Mar de Tiro
+noite:t:t
+Fatmé
+Arménios
+Palestina
+Flor de Jericó:p
+Abelha
+Fatmé
+Torre de David
+Pérsia
+Herodes
+Dongola
+Topsius:p
+Abelha
+Rosa de Jericó:p
+Alemanha
+manhã:t:t
+Sião:l
+Senhor:p
+Fatmé
+Alá
+Rosa de Jericó:p
+Raposos
+Alentejo
+Flor de Jericó:p
+Alemanha
+Topsius:p
+Alemanha
+D. Raposo
+Sebo
+Raposo
+Raposos do Alentejo
+Nosso Senhor Jesus
+Cristo
+Portugal:l
+Afonso Henriques
+Herculano
+Topsius:p
+Paz
+Alá
+Rosa de Jericó:p
+Galgalá:l
+Venha
+Caramba
+Pote:p
+Pote:p
+Alepo
+Fatmé
+Fatmé
+Alá
+Oh
+Topsius:p
+Isto
+Qual
+Rua
+Arco
+Bandeira
+Fatmé
+Pote:p
+Fatmé
+Nilo
+Núbia
+noite:t:t
+Oriente
+Fatmé
+Vénus
+Hem
+Pote:p
+Veja
+Fatmé
+Ah
+Lisboa:l
+Dafundo
+Silva
+Núbia
+Olha
+Pote:p
+Uma
+Oriente
+Pote:p
+Fatmé
+Hotel do Mediterrâneo
+Sião:l
+Lisboa:l
+Titi:p
+Titi:p
+Deus
+Titi:p
+Titi:p
+Senhor:p
+noite:t:t
+Titi:p
+Via Dolorosa
+noite:t:t
+Senhora do Patrocínio
+Jerusalém:l
+noite:t:t
+Senhora
+Ai
+Patrocínio
+Titi:p
+Senhora
+Raposo
+Senhora
+Filho
+São José
+Titi:p
+Alexandria:l
+São José
+Casimiro:p
+Titi:p
+Teodorico
+P.
+Ai
+Titi:p
+Pilatos
+Santa Verónica
+Titi:p
+Titi:p
+Antes
+Besta
+Mary
+Jordão
+Judá
+Jericó:p
+tarde:t:t
+Judá
+Monte da Quarentena
+Moabe
+Canaã
+Mar Morto
+{Dezembro:t
+{Inverno:t
+Síria
+Topsius:p
+Canaã
+Ségor
+Egipto
+Senhor:p
+Depois
+Topsius:p
+Altíssimo
+Mas
+Birra
+Moabe
+Senhor:p
+Cascais
+Além
+Maqueros:l
+Topsius:p
+Ali
+Herodes
+Antipas
+Galileia:l
+Herodes
+Grande
+D. Raposo
+Baptista
+Jordão
+Pote:p
+Alepo
+Topsius:p
+verão:t:t
+Herodes
+Iokanan
+Igreja
+Baptista
+Mas
+Pois
+D. Raposo
+Herodes
+Roma:l
+Herodíade
+Filipe
+Itália
+Judeia:l
+Herodíade
+Herodes
+Síria
+Rei Aretas
+Herodíade
+Maqueros:l
+Judeia:l
+Senhor:p
+Antipas Herodes
+Baptista
+Jordão
+Mas
+Topsius:p
+Pois
+D. Raposo
+Siquém
+Judeia:l
+Galileia:l
+Carmelo
+D. Raposo
+Baptista
+Baptista
+Elias
+Elias
+Elias
+Elias
+Elias
+Elias
+Acabe
+Baptista
+Herodíade
+D. Raposo
+Qual
+Herodíade
+Herodes
+São João
+Não
+Herodes
+D.
+D. Raposo
+Elias
+Iokanan
+Elias
+D.
+Safa
+Pois
+D. Raposo
+Esquema
+Herodes
+Maqueros:l
+Vitélio
+Síria
+Raposo
+Vitélio
+César
+Roma:l
+Babilónia
+Salomé
+Herodíade
+Filipe
+Cesareia:l
+Templo
+Hércules
+Herodes
+Baptista
+Tiberíade
+Genesaré
+Iokanan
+Decápola
+Vitélio
+Tu
+Momentos
+D. Raposo
+Idumeia
+São João
+noite:t de {Junho:t
+Jordão
+Jordão
+Escritura
+Pote:p
+Lago de Galileia:l
+Mar
+Morto
+Pérsia
+Canaã
+manhã:t:t
+Jeová
+Moabe
+Deus
+Altíssimo
+Engaddi
+Titi:p
+Baptista
+São:l
+Joãozinho
+Pote:p
+Adélia:p
+Galgalá:l
+Jordão
+tarde:t:t
+Agar
+Moabe
+Senhor:p
+Aquele
+Raposo
+Moriah
+Moisés
+Jeová
+Egipto
+Israel
+Arca
+Jericó:p
+Josué
+Canaã
+Viva Nosso Senhor Jesus Cristo
+domingo:t:t
+Topsius:p
+Jericó:p
+Herodes
+Cleópatra
+Samaria
+manhã:t:t
+Adélia:p
+Senhor:p
+Adelino
+Escritura
+Titi:p
+Santana:l
+Montanha
+Doutor Margaride
+Praça da Figueira
+Dia
+Notícias
+Lisboa:l
+Gaza
+Egipto
+Maricoquinhas
+Suspirei
+manhã:t:t
+Oriente
+Para
+Jerusalém:l
+Galileia:l
+David
+Deus
+Isidoros
+sábado:t:t
+Padre Soares
+Judeia:l
+Era
+Era
+Titi:p
+Se
+Assim
+D. Patrocínio das Neves
+Jordão
+manhã:t:t
+Titi:p
+G. Godinho
+Anda
+Lineu
+Evangelho
+Titi:p
+Titi:p
+Lisboa:l
+Titi:p
+D.
+Topsius:p
+Eliseu
+Herodes
+Topsius:p
+Um
+Síria
+Hasselquist
+D. Raposo
+Topsius:p
+Messias
+Senhor dos Passos
+Estado
+noite:t:t
+Constituição
+Igreja
+Mas
+D. Raposo
+Igreja
+Paixão
+maio:t:t
+Titi:p
+Sim
+Topsius:p
+Topsius:p
+Hasselquist
+Jerusalém:l
+Que
+Titi:p
+Topsius:p
+Titi:p
+Estado
+D. Raposo
+Alemanha
+Foi
+Foi
+Rabi Jeschoua Natzarieh
+Jesus de Nazaré:l
+Cristo
+Topsius:p
+Cipron
+Herodes
+Pote:p
+Soberbo
+Quer
+Só
+Jesus
+Titi:p
+Jerusalém:l
+Judá
+Pote:p
+Jerusalém:l
+Pote:p
+Pote:p
+Nem
+Topsius:p
+Eliseu
+Champanhe
+Pote:p
+Eu
+Moed
+Chandon
+Canaã
+noite:t:t
+maio:t:t
+Jericó:p
+tarde:t:t
+Moabe
+Maqueros:l
+Iokanan
+Vale
+Escritura
+Havia
+Teodorico
+Teodorico
+Jerusalém:l
+Topsius:p
+Champanhe
+Teodorico
+manhã:t:t
+Páscoa
+Jerusalém:l
+Oh Topsius:p
+D. Raposo
+Hébron
+Nizam
+Israel
+Babilónia
+Tito
+Jerusalém:l
+Evangelho
+Páscoa
+Gamaliel
+Hilel
+Sanedrim
+D. Raposo
+noite:t:t
+noite:t:t
+Israel
+Monte Nebo
+Topsius:p
+Eliseu
+Síria
+Aquilo
+Jericó:p
+Herodes
+Canaã
+Universo
+Topsius:p
+Gruem Majorem_
+Apolo
+Septimano
+Campânia
+Engaddi
+Roma:l
+Roma:l
+Horácio
+Topsius:p
+noite:t:t
+{Agosto:t
+Sanedrim
+Maldito
+Evangelho
+Fariseu
+Senhor:p
+noite:t:t
+Nizam
+Jerusalém:l
+Páscoa
+Moabe
+Elias
+Escritura
+Senhor:p
+Topsius:p
+Siquém
+Páscoa
+Esquema
+Benditas
+Páscoa
+Jerusalém:l
+Rabi:p
+Betânia:l
+Topsius:p
+Galileia:l
+Páscoa
+Jerusalém:l
+Paixão
+Síria
+Topsius:p
+Roma:l
+Longa
+Caio Tibério
+Cidade Santa:l
+Jerusalém:l
+{Abril:t
+Escritura
+Rei Salomão
+Topsius:p
+Oriente
+Valério Grato
+Legado Imperial
+Síria
+Valério Grato
+Esculápio
+Os
+Topsius:p
+Osânias:p
+Jerusalém:l
+Boetos
+Sanedrim
+Páscoa
+Betfagé:l
+Topsius:p
+Monte
+Oliveiras
+Moabita
+Egipto
+Damasco
+Cédron
+Siloé:l
+Hébron
+Idumeia
+Ascalon
+Neftali
+Judeia:l
+Jerusalém:l
+Páscoa
+Decápola
+Tiberíade
+Samaria
+Cesareia:l
+Perea
+Siloé:l
+Cesareia:l
+Egipto
+Cós
+Assíria
+Pártia
+Topsius:p
+Siquém
+abril:t:t
+Páscoa
+primavera:t:t
+Topsius:p
+Jerusalém:l
+Cédron
+Nizam
+Sião:l
+Hínon
+Gareb
+Judeia:l
+Topsius:p
+Pátio dos Gentílicos
+Israel
+Paros
+Salomão
+Jericó:p
+Deus
+Adro de Israel
+Sacerdotes
+Híeron
+Jeová
+Babilónia
+Topsius:p
+Torre Antónia
+Cidade Santa:l
+Jeová
+Antónia
+David
+Acra
+Bezeta:l
+Herodes
+Antipas
+Helena
+Enrogel
+Ah Topsius:p
+Rabi Eliézer:p
+Jerusalém:l
+Betânia:l
+Galileia:l
+Jerusalém:l
+Galileia:l
+Gescala
+Antipas Herodes
+Galileia:l
+Tiberíade
+Sião:l
+David
+Jerusalém:l
+Tu
+Senhor:p
+Jerusalém:l
+Senhor:p
+Cidade Santa:l
+Abraão
+Betfagé:l
+Refraim:l
+Topsius:p
+Jerusalém:l
+Senhor:p
+Sião:l
+Israel
+Efraim
+Fornalhas
+Raquel
+Bendita
+Sião:l
+Outros
+Sião:l
+Judá
+Jeová
+Topsius:p
+Homens de Galileia:l
+Neftali
+Homens de Galileia:l
+Rabi Jeschoua
+Jeschoua
+Hannan
+Neftali
+D. Raposo
+Topsius:p
+Homem
+Sanedrim
+Jerusalém:l
+Gamaliel
+Hébron
+Topsius:p
+Pescado
+Jerusalém:l
+Alexandria:l
+Eunotos
+Moabe
+Babilónia
+Astarté
+Adónis
+Topsius:p
+Caramba
+Espera
+Gamaliel
+Simeão
+Ezequiah
+Gamaliel
+Assíria
+Teu
+Topsius:p
+Entra
+Gamaliel
+Simeão
+Egipto
+Entrai
+Gamaliel
+Topsius:p
+Osânias:p
+Beotos
+Aristóbolo
+Oriente
+Gamaliel
+Jordão
+Senhor:p
+Benjamim:p
+Emaús
+Gamaliel
+Pois
+Que
+Gamaliel
+Orfel
+Herodes
+Grande
+Vale da Fonte
+Siloé:l
+Monte do Escândalo
+Colina dos Túmulos
+Mar Morto
+Moabe
+Maqueros:l
+Idumeia
+Arábia
+Gamaliel
+Monte das Oliveiras
+Sim
+noite:t:t
+Betânia:l
+Rabi Jeschoua
+Depois
+Mas Pôncio
+Galileia:l
+Antipas Herodes
+Páscoa
+Jerusalém:l
+Pôncio
+Rabi:p
+Bezeta:l
+Topsius:p
+Coisa
+Pôncio
+Pôncio
+Pôncio
+Pôncio
+Neftali
+Osânias:p
+Beotos
+Ou
+Pôncio
+Rabi:p
+Topsius:p
+Osânias:p
+Idumeia
+Rabi:p
+Pórtico de Salomão
+Porta Susa
+Cláudia
+Torre Antónia
+Tebete
+Gentis
+Pôncio
+Rabi:p
+Cláudia
+Cápreas
+Suburra
+Atalanta
+Síria
+Galileia:l
+Osânias:p
+Rabi:p
+Rabi:p
+Galileia:l
+Magdala
+Bezeta:l
+Prurim
+Herodes
+Joana
+Cosna
+Antipas
+Efraim
+Susana
+noite:t:t
+Rabi:p
+Cesareia:l
+Oh Osânias:p
+Oh
+Beotos
+Rabi:p
+Lama
+Senhor:p
+Osânias:p
+Oh Manassés
+Judas de Galaunítida
+Hannan
+Que
+Hannan
+Menahem
+Rabi de Galileia:l
+Siquém
+Samaria
+Gamaliel
+Oh Gad:p
+Rabi:p
+Sibáris
+Lesbos
+Via Judiciária
+Osânias:p
+Beotos
+Jeová
+Rabi:p
+Jeschoua
+Gad:p
+Mas
+Rabi:p
+Manassés
+Sossega
+Gad:p
+Samaria
+Apolónio
+Gabieno
+Grão
+Sacerdote Ânio
+Rabi Quequiná
+Osânias:p
+Gad:p
+Em
+Engaddi
+Alexandria:l
+Eunotos
+Oanes
+Eufrates
+noite:t:t
+Vós
+Galileia:l
+maio:t:t
+Lago
+Tiberíade
+Gamaliel
+Jesus
+Sidrá
+Hilel
+Esquemaia:p
+Siloé:l
+Babilónia
+Alexandria:l
+Iokanan
+Baptista
+Maqueros:l
+Iokanan
+Gad:p
+Iokanan
+Fui
+Maqueros:l
+Baptista
+Herodíade
+noite:t:t
+Galileia:l
+Gamaliel
+Topsius:p
+Nós
+Senhor:p
+Senhor:p
+Eu
+Jeová
+Esta
+Senhor:p
+Senhor:p
+Se
+Esta
+Senhor:p
+Rabi de Nazaré:l
+Galileia:l
+Jerusalém:l
+Rabi:p
+Manassés
+Lei
+Herodes
+Gareb
+Manassés
+Todavia
+Rabi de Galileia:l
+César
+Rabi:p
+Roma:l
+Israel
+Jerusalém:l
+Deus
+Jerusalém:l
+Manassés
+Judas de Gamala
+Oh
+Israel
+Rabi:p
+Pátria
+Rabi:p
+Osânias:p
+Decerto
+Deus
+Templo
+Lei
+Manassés
+Gareb
+Rabi de Galileia:l
+Judas de Gamala
+Manassés
+Jordão
+Canaã
+Tracaunítida
+César
+Grécia
+Judá
+Judas Macabeu
+Roma:l
+Roma:l
+Galácia
+Filipe
+Perseu
+Antíoco
+Grande
+Mas
+Rabi de Galileia:l
+Jerusalém:l
+Messias
+Galileia:l
+Israel
+César
+Judeia:l
+Torre
+Antónia
+manhã:t:t
+Corbã
+manhã:t:t
+Samaria
+Decápola
+Israel
+Messias
+Rabi:p
+Osânias:p
+Beotos
+Sanedrim
+Herodes
+Topsius:p
+Homens
+Israel
+Beotos
+Salomão
+Rabi de Galileia:l
+Israel
+Deus
+Jesus
+Gamaliel
+Por
+Topsius:p
+Rabi:p
+Galileia:l
+manhã:t:t
+Rabi Jeschoua
+Joseph
+Nazaré:l
+Galileia:l
+Jesus
+Cristo
+Senhor:p
+Deus
+Igreja da Graça
+domingo:t:t
+Adélia:p
+Travessa
+Caídas
+Senhor:p
+Jesus
+Jesus
+Salvador
+Deus
+Senhor Jesus
+São João
+São Mateus
+Cristo
+Evangelho
+Igreja
+S. Teodorico Evangelista
+Onde
+Jesus de Nazaré:l
+Senhor:p
+Gamaliel
+Amo
+Rabi:p
+Pretório
+Gamaliel
+Abraão
+Ao Pretório
+Topsius:p
+Jerusalém:l
+Herodes
+Pretório
+Síria
+Galileia:l
+Tiberíade
+Topsius:p
+Um
+Pôncio
+Pilatos
+Batávia:l
+Herodes
+Manassés
+Topsius:p
+Subi
+Manassés
+Tereis
+Topsius:p
+Rabi Robã
+Uma
+Sanedrim
+Caifás
+Rabi Robã
+Jopé
+Cesareia:l
+Deus
+Teodorico Raposo
+Gamaliel
+Teodoricus
+Promontório Magno
+Tibério
+Roma:l
+Jesus
+Cristo
+Messias
+Galileia:l
+manhã:t:t
+Siquém
+Emá:l
+Jesus
+Evangelhos
+Galileia:l
+Sareias:p
+Sanedrim
+Nizam
+Jesus de Galileia:l
+Pretor de Roma:l
+Sareias:p
+Pilatos
+Galileia:l
+Antipas
+Herodes
+Grande
+Herodes
+Antipas
+Sanedrim
+Jesus
+Senhor:p
+Hannan
+Rabi:p
+Hannan
+Rabi:p
+Betabara
+Sareias:p
+Senhor:p
+Augusto
+Rabi:p
+Eu
+Jeová
+Testemunhas
+Senhor:p
+Deus
+Jesus
+Pretor
+Que
+Cousas
+Topsius:p
+Pretor
+Jeová
+Jeová
+César
+César
+Sareias:p
+Jesus
+Jeová
+David
+Jerusalém:l
+Porta de Ouro
+Hosana
+David
+Israel
+Ele
+David
+Gad:p
+Sareias:p
+Pretor
+Rabi:p
+Jesus
+Rabi:p
+Pôncio
+Rabi:p
+Galileia:l
+Jesus
+Rei
+Israel
+Tirai
+Crucificai
+Pretor
+Judeia:l
+Caio Tibério
+Pôncio
+Dizes
+Pretor
+Eu
+Mas
+Nazaré:l
+Pretório
+Pilatos
+Pretório
+Israel
+Pretor
+Rabi:p
+Rabi:p
+Jerusalém:l
+Betânia:l
+Engaddi
+Jesus
+Rabi:p
+Deus
+Rabi Robã
+Manassés
+Sareias:p
+Rabi Robã
+Pretor
+Rabi:p
+Pretor
+Israel
+Moisés
+Rabi:p
+Senhor:p
+Robã
+Jeová
+Augusto
+Senhor:p
+Israel
+Pretor
+Pilatos
+Procurador da Judeia:l
+Augusto
+Que
+Sanedrim
+Pretor
+Pretório
+Sanedrim
+Jesus
+José
+Eu
+Procurador da Judeia:l
+Herodes
+Rabi Robã
+Oficial de César
+Pôncio
+Deus
+Porta de Ouro
+Rei
+Judeia:l
+Judeia:l
+Tibério
+César
+César
+César
+Pôncio
+Roma:l
+César
+Cessai
+César
+César
+Rabi:p
+Pôncio
+Que
+César
+Alexandria:l
+Bubastes
+Rei do Egipto
+Judeia:l
+Torre Antónia
+Pôncio
+César
+Eu
+Lama
+César
+Tu
+Rabi Robã
+Mas
+Pôncio
+Galileia:l
+Judá
+Rabi Robã
+Pretor
+Tu
+César
+Judas de Gamala
+Samaria
+Judeia:l
+César
+Itália
+Roma:l
+Idumeia
+César
+César
+Roma:l
+César
+César
+Judeia:l
+Império
+Pretor
+Pretório
+Sareias:p
+Talvez
+César
+Mar de Cáprea
+Sejano
+Cesónio
+Tibério
+Rei dos Judeus
+Judeia:l
+Há
+Judeia:l
+César
+Copónio
+Samaria
+Quereis
+Somos
+Rabi Robã
+Antes
+Pretório
+Pretor
+Herodes
+Rabi:p
+Sídron
+Topsius:p
+Jesus
+Páscoa
+Salomão
+Outra
+Rabi:p
+D. Raposo
+Tiberíade
+Jesus
+Rabi:p
+Moabe
+Betfagé:l
+Entre
+Hébron
+Hannan
+Síria
+Senhor:p
+Jeová
+Em
+Jeová
+Deus
+Judá
+Irra
+Depois
+Jeová
+Elias
+Topsius:p
+Na
+Jeová
+Enrogel
+Carmelo
+Betfagé:l
+Herodes
+Ptolomeus
+Topsius:p
+Egipto
+Naim
+Antipas Herodes
+Bezeta:l
+Páscoa
+Rabi:p
+Galileia:l
+Aquele
+Jesus
+Rabi:p
+Então
+Herodes
+Sim
+Senhor:p
+Susa
+Jopé
+Oséias
+Ramá
+Torre Antónia
+Menahem
+Páscoa
+Páscoa
+Jerusalém:l
+Senhor:p
+Mas
+Rabi de Galileia:l
+Eboim
+Jopé
+Rabi:p
+Rabi:p
+Babilónia
+Rabi:p
+Rabi:p
+Naim
+Senhor:p
+Jeová
+Rabi:p
+Jesus
+Jesus
+Filipe
+Augusto
+Cirenaica
+Zeus Amon
+Judeia:l
+Naim
+Pai
+Rabi:p
+Sareias:p
+Pôncio
+Torre Mariana
+Jesus de Galileia:l
+Senhor:p
+Pôncio Pilatos
+César
+Sanedrim
+Jerusalém:l
+Imediatamente Sareias:p
+Mas
+Escutai
+Páscoa
+Pretor de Jerusalém:l
+Valério Grato
+César
+Pretor
+Pretor
+Herodes
+Pretor
+Um
+Rabi Jeschoua
+David
+Pretor
+Xistus
+Barrabás
+Barrabás
+Barrabás
+Pôncio
+Barrabás
+Barrabás
+Barrabás
+Pretório
+Rabi:p
+Barrabás
+Tiberíade
+Barrabás
+Barrabás
+Rabi:p
+Pretor
+Barrabás
+Jesus
+Pretor
+César
+Ide
+Sanedrim
+Jesus
+Rabi de Galileia:l
+Herodes
+Topsius:p
+Gad:p
+Não
+Foste
+Conheço
+Cafarnaum:l
+Não
+Refraim:l
+Eliézer:p
+Ramá
+Torto
+Gad:p
+Vi
+Cafarnaum:l
+Jesus
+Rabi:p
+Nazaré:l
+Rabi:p
+Elzéar
+Simeão
+Jesus
+Senhor:p
+Rabi:p
+Rabi:p
+Tocou
+Assim
+Rabi:p
+Jerusalém:l
+Oh
+Pretório
+Rabi:p
+Barrabás
+Maldito
+Um
+Cafarnaum:l
+Não
+Ramá
+Nesse
+Rabi:p
+Cafarnaum:l
+Gad:p
+Jesus
+Escutai
+Ramata
+Rabi:p
+Pretor
+Gamaliel
+Vão
+Tiropeu
+Xistus
+Pôncio
+Pretório
+Roma:l
+Pretório
+Raposo
+Times
+Antiguidade
+Tibério
+Apolo
+Marte
+Jerusalém:l
+Esquema
+Sabá
+Rabi:p
+tarde:t:t
+Gareb
+Topsius:p
+noite:t:t
+José
+Itália
+Roma:l
+Velabro
+Huldá
+Herodes
+Nizam
+manhã:t:t
+Caramba
+Isto
+Salomão
+Lácio
+Assíria
+Páscoa
+Tárdis
+Mesopotâmia
+Tadmor
+Tiro
+Oriente
+Sheba
+Babilónia
+Galácia
+Tilos
+Oronte
+Cirenaica
+Císico
+Real
+Esquemaia:p
+Hilel
+Pode
+Sabá
+Ressurreição
+Topsius:p
+Topsius:p
+Rabi:p
+Israel
+Senhor:p
+Jerusalém:l
+Israel
+Idumeias
+Babilónia
+Síria
+Dácia
+Mísia
+Teodorico Raposo
+Moloque
+Serepta
+Bela
+Israel
+Numídia
+Judá
+Gamaliel
+Sede
+Senhor:p
+Senhor:p
+Vós
+Israel
+Eterno
+Eliézer de Silo:l
+Judá
+Eliézer de Silo:l
+Sim
+Jericó:p
+Boa
+Rica
+Louvado
+Eterno
+Por
+Sião:l
+Eterno
+Jericó:l
+Síria
+Tomai
+Alexandria:l
+Pérsia
+Emaús
+Pátio das Mulheres
+Nicanor
+manhã:t:t
+Salomão
+Oriente
+Israel
+Muito
+Forte
+Judá
+Eliézer de Silo:l
+Gamaliel
+Topsius:p
+Queimai
+Ofertai
+Jerusalém:l
+Cedar
+Galaade
+Galácia
+Ai Topsius:p
+Topsius:p
+Que
+Antipas
+Aristóteles
+Sófocles:l
+Sófocles:l
+César
+Itália
+Ibéria
+Galácia
+Topsius:p
+Nicanor
+{Maio:t
+Ai
+Sião:l
+Topsius:p
+D. Raposo
+Israel
+Deus
+Senhor:p
+Moisés
+Terra
+Eterno
+D. Raposo
+Porta
+Judiciária
+Gareb
+Calvário
+Topsius:p
+Jesus
+Acra
+Galileia:l
+Jeová
+Arrasados
+Ezequiah
+Judiciária
+Betebara
+Emá:l
+Jesus de Galileia:l
+Sanedrim
+Páscoa
+Jopé
+José de Ramata
+Jesus
+Sanedrim
+Gad:p
+Gad:p
+Rabi:p
+Sofreu
+Sofreu
+Rabi:p
+José de Ramata
+Nicodemo
+noite:t:t
+Betânia:l
+Rabi:p
+Rosmofim
+Topsius:l
+noite:t:t
+Gamaliel
+Jopé
+Tarses
+Topsius:p
+Vale de Hinom
+Topsius:p
+Gareb
+Topsius:p
+Rabi:p
+Rabi:p
+Topsius:p
+José de Ramata
+Vamos
+Rabi:p
+Tu
+Rabi:p
+Herdeiro de David
+Filho de Deus
+Rabi:p
+José de Ramata
+Topsius:p
+maio:t:t
+tarde:t:t
+Olha
+As
+Genath
+Gareb
+Rabi:p
+Rei dos Judeus
+Quem
+Pretor
+Rei dos Judeus
+Era
+Caio
+Tibério
+Tibério
+Rei da Judeia:l
+Pretor
+Israel
+César
+Rabi:p
+Topsius:p
+Betânia:l
+Gareb
+Bezeta:l
+Hinom
+tarde:t:t
+Herodes
+Egipto
+Jopé
+Eh
+Helénia
+tarde:t:t
+Sião:l
+Jónia
+Ateneia
+Zeus
+Fado
+Samnos
+Cesareia:l
+Hércules
+Síria
+Tiberíade
+Samaria
+Mileto
+Meandro
+Templo
+Febo Didimeu
+Grécia
+Mar de Tiro
+Páscoa
+Hinom
+Sabá
+Acra
+Pretor
+Hébron
+Acabai
+Atirai
+Rabi:p
+Torre Mariana
+Topsius:p
+Jesus
+Rabi:p
+Quem
+Eu
+José de Ramata
+José de Ramata
+Sanedrim
+Rabi:p
+José de Ramata
+Rabi:p
+Campo dos Tintureiros
+Nicodemo
+Sinagoga de Cirenaica
+Que
+Raça de Messias
+Raça de Messias
+Israel
+Sossegai
+Jeová
+Amém
+Deus
+Jerusalém:l
+Gareb
+Gamaliel
+Eliézer de Silo:l
+Egipto
+Eliézer:p
+Assíria
+Gamaliel
+Grandes
+Sião:l
+Gamaliel
+Jerusalém:l
+Silo:l
+Ela
+Senhor:p
+Terra
+No
+Terra
+Terra
+Jerusalém:l
+Altíssimo
+Judeia:l
+Sólido
+Média
+Gamaliel
+Rabi Eliézer:p
+Topsius:p
+Jeová
+noite:t:t
+Silo:l
+Altíssimo
+Kisleu
+Tebete
+Topsius:p
+Eliézer:p
+Gamaliel
+Simeão
+Silo:l
+Bebamos
+Senhor:p
+Ergueu
+Siquém
+Topsius:p
+Israel
+Depois
+Israel
+Egipto
+Eliézer:p
+Topsius:p
+Teofrasto
+Eubulo
+Nicandro
+Dicionário
+Fénias
+Tratado
+Plantas
+Défilo
+Epicarmo
+Hecateu
+Mileto
+Descrição
+Altíssimo
+Mas
+Topsius:p
+Xenofonte
+Xenofonte
+Xenofonte
+Topsius:p
+Xenofonte
+Sócrates
+Comagênia
+Sócrates
+Sócrates
+Judeia:l
+Senhor:p
+Jeová
+Gamaliel
+Jerusalém:l
+Sófocles:l
+Eurípides
+Deus
+Oh Gamaliel
+Simeão
+Eliézer de Silo:l
+Para
+Eliézer:p
+Hébron
+Gareb
+Jerusalém:l
+Gihon
+Siloé:l
+Fui
+Jesus
+Fui
+Jesus
+tarde:t:t
+Sanedrim
+Jesus
+Messias
+Sanedrim
+Jesus de Galileia:l
+Páscoa
+Jerusalém:l
+Xistus
+Cleos
+Hannan
+Messias
+Messias
+Manahem
+Israel
+Messias
+José
+Gogue
+David
+Magogue
+Hébron
+Messias
+Ora
+Teodorico
+Jerusalém:l
+Senhor:p
+Galileia:l
+Pretor de Roma:l
+Depois
+Eliézer:p
+Sanedrim
+Israel
+Beftagé
+Silo:l
+Topsius:p
+Gamaliel
+Sócrates
+Platão
+Aristóteles
+Gamaliel
+Eliézer:p
+Aleluia
+Senhor:p
+Egipto
+Gamaliel
+Ofel
+Senhor:p
+Eliézer:p
+Mesopotâmia
+noite:t:t
+Páscoa
+Jerusalém:l
+David
+Acra
+noite:t:t
+Hípica
+Mariana
+Farsala
+noite:t:t
+Siloé:l
+Monte das Oliveiras
+Gareb
+noite:t:t
+Israel
+Jerusalém:l
+Galileia:l
+Jerusalém:l
+Que
+Ah
+Gad:p
+Que
+Jesus
+Engaddi
+Rabi:p
+Gareb
+Engaddi
+Topsius:p
+Sim
+Vinde
+Gad:p
+Passaremos
+Jesus
+Em
+José de Ramata
+Para
+Rabi:p
+José
+Rabi:p
+Está
+Genath
+noite:t:t
+José
+Jesus
+Salomão
+maio:t:t
+Topsius:p
+Herodes
+Topsius:p
+Que
+Tudo
+Rabi:p
+São:l
+Rosmofim
+Germânia
+Públio
+José de Ramata
+Rabi:p
+Gad:p
+Ao
+noite:t:t
+Rabi:p
+Gareb
+Jopé
+José
+Simeão
+Essénio
+Alexandria:l
+Jesus
+Nicodemo
+Rabi:p
+Escuta
+Era
+José de Ramata
+Senhor:p
+Elias
+Depois
+Rabi:p
+Gad:p
+Escuta
+Senhor:p
+Galileia:l
+Lá
+Topsius:p
+Teodorico
+noite:t:t
+Jerusalém:l
+Depois
+manhã:t:t
+Sabá
+Galileia:l
+José de Ramata
+Jesus
+Desapareceu
+Então Maria de Magdala
+Jerusalém:l
+Gamaliel
+Porta de Ouro
+Jericó:p
+Siquém
+Topsius:p
+Moabe
+Canaã
+Topsius:p
+Moabe
+Pote:p
+Pote:p
+manhã:t:t
+Tapioca
+Pote:p
+Portugal:l
+Ao
+domingo:t:t
+Jericó:p
+Vale
+Querite
+Galileia:l
+Síria
+Efraim
+Zebelon
+noite:t:t
+Betel:l
+Gileade
+Pote:p
+Jacó
+Bersabé
+Tem
+Jacó
+Jesus
+Carmelo
+noite:t:t
+Elias
+Hirão
+Rei de Tiro
+Esdrelon
+Lago
+Genesaré
+Antiguidade
+Manassés
+Babilónia
+Rabi:p
+Judiciária
+Raposo
+Jerusalém:l
+Nizam
+Pôncio Pilatos
+Judeia:l
+Monte Ebal
+Siquém
+Nazaré:l
+Palestina
+Santo
+Antonino
+Maria
+Jesus
+tarde:t:t
+Pote:p
+Santo Antonino
+Oh
+Maria
+Eu
+Nazaré:l
+Idumeias
+Topsius:p
+Jesus
+Deus
+Endor
+Sulém
+Tabor
+Carmelo
+Pérea
+Golfo de Caifa
+Samaria
+Vistazinha
+Jerusalém:l
+Samaria
+Ramá
+Síria
+Gibeá
+David
+Sião:l
+Jerusalém:l
+Nizam
+Acra
+Bezeta:l
+Enrogel
+El
+Kurds
+Kurds
+Senhor:p
+Cédron
+Porta de Damasco
+Rua Cristã
+Hotel do Mediterrâneo
+Pílulas Holloway
+Nicolas
+Jerusalém:l
+Augusto
+César
+Corri
+Sião:l
+tarde:t:t
+Samaria
+Mary
+Pote:p
+Jerusalém:l
+Via
+Dolorosa
+Constantinopla
+Cônsul Damiani
+Rua Arménia
+Reis
+Missão Protestante
+Itália
+Alemanha
+Betlém
+Igreja
+Natividade
+Sião:l
+Herodes
+Vale de Josafat
+Retiro
+Sinai
+Viva
+Retiro
+Pote:p
+Titi:p
+Potezinho
+Retiro do Sinai
+Topsius:p
+Galileia:l
+Comissão de Escavações
+Bíblicas
+Josefo
+Fílon
+Porta Bela
+Numídia
+Não
+Estou
+Topsius:p
+Patrocínio
+Sé
+Sião:l
+Marselha
+Santo Sepulcro
+Jordão
+Via Dolorosa
+Monte Olivete
+Lago de Genesaré
+São:l
+José
+Senhor:p
+Virgem
+Santa Família
+Egipto
+maio:t:t
+Titi:p
+Líbano
+Salomão
+Hirão
+Rei de Tiro
+Pote:p
+Flandres
+Jerusalém:l
+Titi:p
+Arca de Noé
+Monte Arará
+Sinai
+Jerusalém:l
+Via Dolorosa
+Carmelo
+Topsius:p
+Jericó:l
+Jordão
+D. Patrocínio
+Topsius:p
+Oh Topsius:p
+Titi:p
+As
+D. Raposo
+Titi:p
+Bendito
+tarde:t:t
+Comissão
+Escavações
+Horto das Oliveiras
+Jerusalém:l
+tarde:t:t
+Santo Estêvão
+Cédron
+Getsêmani
+Jesus
+noite:t:t
+Nizam
+Deus
+Jesus
+tarde:t:t
+manhã:t:t
+Sintra
+Lisboa:l
+Titi:p
+Titi:p
+Santana:l
+Titi:p
+São Pedro
+Nossa Senhora
+Patrocínio
+São Casimiro:p
+São José
+Titi:p
+Titi:p
+{Maio:t
+Dona Patrocínio
+Justino:p
+Porto
+G.
+Santana:l
+Nossa Senhora
+Raposo
+Titi:p
+G. Godinho
+Paris:l
+Jerusalém:l
+Vale de Josafat
+tarde:t:t
+Igreja da Flagelação
+Hotel do Mediterrâneo
+Jerusalém:l
+Via Dolorosa
+Fica
+Sião:l
+Já
+Damasco
+Amigo Pote:p
+Mary
+Basta
+Como
+Talvez
+Mary
+Egipto
+Jerusalém:l
+Cidade Santa:l
+Patrocínio
+Titi:p
+noite:t:t
+Ao
+Se
+Assim
+Titi:p
+Magistratura
+Igreja
+Coloniê
+Topsius:p
+noite:t:t
+Judá
+Pote:p
+Mary
+Senhor:p
+Samuel
+Emaús
+Jerusalém:l
+Topsius:p
+Puxe
+Mary
+Pote:p
+Pote:p
+Topsius:p
+Judeia Muçulmana
+Hotel do Mediterrâneo
+Mary
+Pote:p
+Torre
+David
+Fatmé
+Palmira
+Samaritana
+Vénus
+Síria
+Alá
+Damasco
+manhã:t:t
+Hotel de Josafat
+Jafa:l
+Alpedrinha:p
+Topsius:p
+Pote:p
+Egipto
+Alpedrinha:p
+Alexandriazinha
+Hotel
+Pirâmides
+Caimão
+Jerusalém:l
+Kesham
+Bagdad
+Egipto
+Eufrates
+Babilónia
+Jerusalém:l
+Via Dolorosa
+Lisboa:l
+Egipto
+Duas Irmãs
+Mary
+tarde:t:t
+Síria
+noite:t:t
+Dize
+Alpedrinha:p
+Maricoquinhas
+Já
+Tebas:l
+Para Tebas:l
+Egipto
+Núbia
+Alindar
+Alpedrinha:p
+Iorque
+Alexandria:l
+Tebas:l
+Ramsés
+Amon
+Maricoquinhas
+Que
+Então
+Babadinha
+Alpedrinha:p
+Hotel de Josafat
+Alpedrinha:p
+Alpedrinha:p
+Alpedrinha:p
+Maricoquinhas
+Alpedrinha:p
+Também
+Terra
+Terra
+Alpedrinha:p
+Como
+Ia
+Topsius:p
+Pote:p
+Então
+Esmirna
+tarde:t:t
+Egipto
+Caimão
+Ainda
+Ainda
+Oriente
+tarde:t:t
+Caimão
+Palestina
+Pote:p
+Alepo
+D. Raposo
+Pote:p
+Alpedrinha:p
+Pote:p
+Caimão
+Alpedrinha:p
+Albuquerques
+Castros
+Deus
+Deus
+Alpedrinha:p
+Alpedrinha:p
+Oriente
+Caimão
+Jafa:l
+tarde:t:t
+Adeus
+Palestina
+Adeusinho
+Escritura
+Mary
+Caimão
+Deus
+Oh
+Caimão
+Mar de Tiro
+Caimão
+Cleópatra
+Egipto
+Caimão
+tarde:t:t
+Hotel das Pirâmides
+El Cid Campeador
+Portugal:l
+Topsius:p
+Mamudieh
+noite:t:t
+Oriente
+tarde:t:t
+Rua das Duas Irmãs
+manhã:t:t
+Topsius:p
+Adeus
+Santana:l
+Aqueles
+Cid Campeador
+Então
+Titi:p
+Pode
+Oh
+Mas
+Ocidente
+Oriente
+Duas
+Pingalho
+Campo
+Santana:l
+Titi:p
+César
+janeiro:t:t
+Lisboa:l
+Dona Patrocínio
+Teodorico
+Raposão
+Baixa
+Titi:p
+Doutor Teodorico
+Evangelho
+Chiado
+Raposito
+Raposo
+Terra Santa:l
+Chateaubriand
+Sociedade
+Geografia
+Benta Bexigosa
+Pingalho
+Dona Patrocínio das Neves
+Oh
+Titi:p
+Oh
+Ai
+Titi:p
+Senhor:p
+Dá
+São Teodorico
+Vicência:p
+Pingalho
+Flandres
+Aqui
+Titi:p
+Senhor:p
+Nossa Senhora
+Sete Dores
+Eusébia
+Santíssimo
+Jesus
+Titi:p
+Senhor:p
+Salvador
+Filho
+Logo
+noite:t:t
+Jerusalém:l
+Titi:p
+Agora
+Titi:p
+Dona Patrocínio
+Vicência:p
+Titi:p
+Titi:p
+Egipto
+Santa Família
+Jafa:l
+Topsius:p
+Judá
+Patrocínio
+Jerusalém:l
+Titi:p
+Ai
+Patrocínio das Neves
+Ainda
+Uma
+tarde:t:t
+Monte das Oliveiras
+Dizia
+Tirei
+Nosso Senhor:p
+Ela
+Santo Antão
+São Brás
+Nazaré:l
+Nossa Senhora
+São João
+Titi:p
+Ai
+São João
+Se
+Titi:p
+Já
+Ela
+Vicência:p
+Pio IX
+Comendador G. Godinho
+Ai Vicência
+Parece
+Nosso Senhor Jesus Cristo
+Trago
+Titi:p
+noite:t:t
+Trago
+Menino Jesus
+Titi:p
+Hás
+Oh
+Titi:p
+Todas
+Titi:p
+Jerusalém:l
+Senhor:p
+Titi:p
+Nosso Senhor:p
+Titi:p
+Casimiro:p
+domingo:t:t
+Os
+Seja
+Padre Negrão
+Negrão
+Negrão
+Torres:l
+Lisboa:l
+Tem
+Deus
+Torres:l
+Titi:p
+Lá
+Jerusalém:l
+domingo:t:t
+Vicência:p
+Titi:p
+Ah Teodorico
+Sim
+Titi:p
+Dona Patrocínio
+São Teodorico
+Jesus
+Santa Madre Igreja
+Titi:p
+Tonquim
+D. Patrocínio das Neves
+Dona Patrocínio
+Senhor:p
+Pois
+Titi:p
+Jerusalém:l
+Raposo
+Assim
+Titi:p
+Santo
+Sepulcro
+Tens
+Jordão
+Dona
+Patrocínio
+Olha
+Titi:p
+Egipto
+Titi:p
+Campo de Santana:l
+Ramsés
+Tebas:l
+Alemanha
+Herodes
+Lágidas
+Mary
+Sião:l
+Cóscoro
+Jerusalém:l
+Titi:p
+Titi:p
+Oh Santa Virgem Maria
+Justino:p
+Doutor Margaride
+Titi:p
+Teodorico
+Justino:p
+Margaride
+Não
+Titi:p
+Patriarca de Jerusalém:l
+Vicência:p
+Ai
+Dona Patrocínio das Neves
+Dona
+Patrocínio das Neves
+Malta:l
+Campo de Santana:l
+Titi:p
+Negrão
+Estimo
+Grandíssima
+Pinheiro
+Mais
+Mais
+Margaride
+Mais
+Padre Negrão
+Titi:p
+Dona Patrocínio
+Então
+Jerusalém:l
+Que
+Mas
+Titi:p
+São Teodorico
+Negrão
+Método
+Teodorico
+Titi:p
+Doutor Margaride
+Aqui
+Teodorico
+Negrão
+Málaga
+Gibraltar
+Tudo
+Padre Pinheiro
+Mas
+Eu
+Padre Pinheiro
+Que
+Negrão
+Titi:p
+Campo de Santana:l
+Deus
+Justino:p
+noite:t:t
+Alexandria:l
+Eu
+Justino:p
+Mafona:l
+noite:t:t
+Alexandria:l
+Rossio
+{Maio:t
+Rossio
+verão:t:t
+Rossio
+Doutor Margaride
+Gamas
+Albuquerques
+Pois
+Bom
+Padre Pinheiro
+Padre Pinheiro
+Judeia:l
+Você
+Raposo
+Cristo
+Sim
+noite:t:t
+noite:t:t
+Titi:p
+Doutor Margaride
+Ai
+Foi
+Negrão
+maio:t:t
+Estou
+Padre Negrão
+Como
+Chateaubriand
+Margaride
+Alexandria:l
+tarde:t:t
+Lisboa:l
+Titi:p
+Egipto
+Santa Família
+Jafa:l
+Titi:p
+Magnífico
+Doutor Margaride
+Teodorico
+Ora
+Doutor Margaride
+Padre
+Pote:p
+noite:t:t
+Ramleh
+Doutor Margaride
+Que
+Bíblia
+Eurico
+Negrão
+Teodorico
+Ninguém
+Padre Negrão
+Titi:p
+Está
+Nosso Senhor:p
+Jerusalém:l
+manhã:t:t
+Jerusalém:l
+Santo
+Sepulcro
+Padre Pote:p
+Oh
+Jesus
+Senhor:p
+Titi:p
+Que
+Nessa
+noite:t:t
+Raposo
+Portugal:l
+Uma
+Negrão
+Titi:p
+Jesus Cristo
+Sim
+Vossa Senhoria
+Patriarca de Jerusalém:l
+Pois Teodorico
+Que
+Vossa Senhoria
+Se Sua Eminência
+Sim
+Titi:p
+Barba
+Azul
+Titi:p
+Oh Santa Maria
+Patrocínio
+Titi:p
+Sou
+Barba
+Azul
+noite:t:t
+Faz
+Doutor Margaride
+Você
+Assim
+Nosso Senhor:p
+Nosso Senhor:p
+Titi:p
+Escavaquei
+Titi:p
+Pinheiro
+John Bull
+Lá
+Negrão
+Deus
+Vicência:p
+G. Godinho
+Que
+noite:t:t
+São Carlos
+Justino:p
+Bendito
+Oh
+Justino:p
+De
+Justininho
+janeiro:t:t
+Sim
+noite:t:t
+Jordão
+Padre Pinheiro
+Jordão
+Oh Padre Pinheiro
+Monte Olivete
+Justino:p
+Margaride
+Palestina
+Doutor Margaride
+Titi:p
+Dona Patrocínio
+Ter
+Nosso Senhor Jesus Cristo
+D. Patrocínio
+Nosso Senhor:p
+Porque
+Teodorico
+Bravíssimo
+Doutor Margaride
+Com
+Teodorico
+Portugal:l
+Padre
+Pinheiro
+Justino:p
+Negrão
+Resta
+Talvez Vossa Senhoria
+Dona Patrocínio
+Titi:p
+Essa
+Deslumbrada
+Titi:p
+Doutor Margaride
+Dona Patrocínio
+Vicência:p
+noite:t:t
+Cristo
+Tudo
+Doutor Margaride
+Ave
+Titi:p
+Patriarca
+Jerusalém:l
+Arca
+Noé
+Padre Negrão
+Arca
+Titi:p
+Jerusalém:l
+Nosso Senhor:p
+Comigo
+Magistratura
+Igreja
+Titi:p
+Margaride
+Justino:p
+Negrão
+Padre Pinheiro
+Titi:p
+Padre Pinheiro
+Teodorico
+Titi:p
+Senhor:p
+Não
+Titi:p
+Jerusalém:l
+Deus
+Ai
+Titi:p
+Titi:p
+Titi:p
+Titi:p
+Mary
+Mary
+Mary
+Ao
+Teodorico
+Assinado
+M. M.
+Mary
+maio:t:t
+Negrão
+Titi:p
+Deboche
+Dona Patrocínio
+Distingui
+Titi:p
+Porcalhão
+Vicência:p
+Menino
+Vicência:p
+Ai
+Nação
+Titi:p
+Vicência:p
+Titi:p
+São José
+Virgem
+noite:t:t
+Baixa
+Hotel da Pomba de Ouro
+Pomba
+Vidago
+Nação
+Ora
+Senhor:p
+Lino
+Ao
+Nação
+Reis
+De
+Senhor Lino
+Vossa Senhoria
+Não
+Jerusalém:l
+Senhor Uno
+Deus
+Deus
+Câmara Patriarcal
+Ah
+Câmara Patriarcal
+Sim
+Patriarca
+Jerusalém:l
+Senhor Lino
+Vidago
+Escritura
+Que
+Jerusalém:l
+Como
+Não
+Senhor Lino
+Sim
+Damiani
+Via Dolorosa
+Senhor:p
+Lino
+Câmara Patriarcal
+Andrezinho
+Porto
+Senhor Lio
+Com
+Senhor:p
+Deus
+Jerusalém:l
+manhã:t:t
+Monte
+Olivete
+Jordão
+Tem
+Dou
+Quinze
+Jordão
+Vossa
+Senhoria
+São João Baptista
+Senhoria
+Jordão
+Arsenal
+Santa:l
+Justa
+manhã:t:t
+Dou
+Pomba
+Senhor Lino
+Jordão
+Nação
+Teodorico Raposo
+Pomba de Ouro
+Senhor Lino
+manhã:t:t
+Virgem
+Nação
+Profundis_
+Titi:p
+Igreja de Santana:l
+Titi:p
+manhã:t:t
+Negrão
+Melchior
+Titi:p
+Magistratura
+Igreja
+Padre
+Pinheiro
+Doutor Margaride
+noite:t:t
+Justino:p
+Benta Bexigosa
+Ande
+Lino
+Economia Política
+Lino
+Senhor dos Passos da Graça
+Para
+Doutor Raposo
+Jerusalém:l
+Jordão
+Jordão
+Palestina
+Lisboa:l
+Pomba
+Ouro
+Nossa Senhora
+Santa Família
+Lino
+São José
+Foi
+Terra Santa:l
+Raposo
+Jerusalém:l
+Terra
+Santa:l
+Raposo
+Patriarca de Jerusalém:l
+Portugal:l
+Nazaré:l
+Diário
+Notícias
+Preciosidades da Terra Santa:l
+Rego
+Muitas
+manhã:t:t
+Virgem Maria
+São Pedro
+Baratinhos
+Já
+Pomba de Ouro
+André
+Nação
+Se
+No
+Montanha
+Em
+Benta Bexigosa
+D. Adelaide
+Lino
+Vamos
+Sião:l
+Mas
+Câmara Patriarcal
+Essa
+Foi Vossa Senhoria
+Menino Jesus
+São:l
+Catorze
+Vossa Senhoria
+Cristo
+Vossa Senhoria
+noite:t:t
+Rinchão
+Benta
+Bexigosa
+Rinchão
+Nogueira
+Senhora Nogueira
+Beja
+Santo
+Sepulcro
+Galileia:l
+Rinchão
+Pomba
+Ouro
+Pita
+Travessa da Palha
+Cristo
+Lisboa:l
+manhã:t:t
+André da Pomba de Ouro
+Justino:p
+Meu
+Caramba
+Negrão
+Teodorico
+Deserdado
+Justino:p
+São Paulo
+Diário
+Notícias
+Com
+Bucelas
+Então
+Justininho
+Justino:p
+G. Godinho
+Campo de Santana:l
+Senhor dos Passos da Graça
+Companhia do Gás
+Linda
+Pastora
+Casimiro:p
+Pinheiro
+Rua do Arsenal
+Mosteiro
+Lindoso
+Crédito Público
+Campo de Santana:l
+Cristo
+Padre Negrão
+Margaride
+Vicência:p
+Para
+Justino:p
+Travessa da Palha
+Titi:p
+Dou
+Gritei
+Deus
+Planejei
+tarde:t:t
+Pita
+noite:t:t
+Justino:p
+Aí
+Acendi
+Justino:p
+Patrocínio
+noite:t:t
+Senhor:p
+Passos
+Casimiro:p
+Negrão
+Mosteiro
+Travessa da Palha
+Terra Santa:l
+Raposo
+D. Patrocínio das Neves
+Raposo
+Jerusalém:l
+Deus
+Pote:p
+Topsius:p
+Titi:p
+Profundas Sociais
+Cristo
+Foste
+Foste
+Sim
+Titi:p
+Mary
+domingo:t:t
+Lisboa:l
+Titi:p
+Olha
+Pretor de Roma:l
+Rabi:p
+Nizam
+Titi:p
+Acra
+Jerusalém:l
+Cristo
+Quando
+Titi:p
+Titi:p
+G. Godinho
+Titi:p
+Titi:p
+Titi:p
+Adélia:p
+Benta
+Jesus
+Virgem
+Titi:p
+D. Patrocínio
+Palestina
+Titi:p
+Titi:p
+Teodorico
+tarde:t:t
+Eu
+Raposo
+Raposo
+Titi:p
+domingo:t:t
+Teodorico
+Cristo
+Tu
+Profundas
+Sociais
+Banco
+Jesus de Nazaré:l
+Oh
+Senhor Jesus
+Deus
+Deus
+Jesus
+Deus
+Galileia:l
+Hércules
+Júpiter
+Argólida
+São Pedro de Alcântara:l
+Crispim
+Teles Crispim
+Cia
+Pampulha
+Crispim
+Isidoros
+noite:t:t
+Teles
+Visconde de São:l
+Teles
+Crispim
+Crispim
+Cia
+Terra Santa:l
+Jornal das Novidades
+D.
+Neves
+Amargamente
+Mary
+Travessa da Palha
+De
+Crispinzinho
+Cia
+Portugal:l
+Carta
+Religião
+Ora
+Um
+Pampulha
+Cia
+Irra
+Pampulha
+Caixa
+Carmo
+Lá
+Raposo
+Coimbra:l
+sábado:t de {Agosto:t
+tarde:t:t
+Caixa
+Crispim
+Cia
+Ouve
+Raposão
+Eu
+manhã:t:t
+Outra Banda
+Ribeira
+Santos
+Hotel Tentral
+Cacilhas
+Cia
+Senhor dos Passos da Graça
+Irmandade de São José
+Futuro
+Renan
+Crispim
+Cia
+Conceição
+Nova
+Travessa da Palha
+Olha
+Crispim
+Deus
+domingo:t:t
+Pois
+Raposo
+Grande
+Papa
+Santo Padre
+Central
+Ribeira
+D. Jesuína
+domingo:t:t
+Eva
+Baixa
+Aterro
+Salésias
+China
+França
+Teodorico
+Coração
+Leão
+Palestina
+domingo:t:t
+Pampulha
+D. Jesuína
+Raposão
+tarde:t:t
+Crispim
+Cia
+D. Jesuína
+Vossa Excelência
+D. Jesuína
+Raposinho
+Ela
+verão:t:t
+Natal
+Crispim
+Cia
+Caixa
+Então
+Raposinho
+Senhor Raposo
+Jesuina
+Cia
+D. Jesuína
+Travessa da Palha
+Amor
+Dá
+Cristo
+Doutor Margaride
+domingo:t:t
+Estado
+Barão
+Mosteiro
+Mosteiro
+tarde:t:t
+Negrão
+Torres:l
+Lindoso
+Ora
+Teodorico
+Teodorico
+Raposo
+Mosteiro
+Cia
+Compra
+Páscoa
+Justino:p
+Negrão
+Mosteiro
+Que
+Negrão
+Justino:p
+Negrão
+Padre Casimiro:p
+São:l
+João
+Deus
+Padre
+Pinheiro
+Torres:l
+Pinheiro
+Negrão
+Negrão
+Senhor dos Passos
+G. Godinho
+Que
+Chame
+Lisboa:l
+Adélia:p
+Que Adélia:p
+Uma
+Eleutério
+Sei
+Pois
+Negrão
+São Roque
+Que
+Negrão
+Torres:l
+Adélia:p
+Negrão
+G.
+Titi:p
+Titi:p
+Eis
+Santa Maria Madalena
+M. M.
+Braga
+Virgem Maria
+Nação
+Negrão
+Pinheiro
+Igreja
+Patrocínio
+Sé
+Papa
+Topsius:p
+Maria de Magdala
+Novo Testamento
+Judeia:l
+Síria
+Europa
+Champollions
+Topsius:p
+Lepsius
+Raposo
+Renan
+Que
+Raposo
+Sem
+Mary
+Galileia:l
+Igreja
+G. Godinho
+Jesus
+Deus
+Galileia:l
+Hércules
+Júpiter
+Argólida
+São Pedro de Alcântara:l
+Crispim
+Teles Crispim
+Cia
+Pampulha
+Crispim
+Isidoros
+noite:t:t
+Teles
+Visconde de São:l
+Teles
+Crispim
+Crispim
+Cia
+Terra Santa:l
+Jornal das Novidades
+D.
+Neves
+Amargamente
+Mary
+Travessa da Palha
+De
+Crispinzinho
+Cia
+Portugal:l
+Carta
+Religião
+Ora
+Um
+Pampulha
+Cia
+Irra
+Pampulha
+Caixa
+Carmo
+Lá
+Raposo
+Coimbra:l
+sábado:t de {Agosto:t
+tarde:t:t
+Caixa
+Crispim
+Cia
+Ouve
+Raposão
+Eu
+manhã:t:t
+Outra Banda
+Ribeira
+Santos
+Hotel Central
+Cacilhas
+Cia
+Senhor dos Passos da Graça
+Irmandade de São José
+Futuro
+Renan
+Crispim
+Cia
+Conceição
+Nova
+Travessa da Palha
+Olha
+Crispim
+Deus
+domingo:t:t
+Pois
+Raposo
+Grande
+Papa
+Santo Padre
+Central
+Ribeira
+D. Jesuína
+domingo:t:t
+Eva
+Baixa
+Aterro
+Salésias
+China
+França
+Teodorico
+Coração
+Leão
+Palestina
+domingo:t:t
+Pampulha
+D. Jesuína
+Raposão
+tarde:t:t
+Crispim
+Cia
+D. Jesuína
+Vossa Excelência
+D. Jesuína
+Raposinho
+Ela
+verão:t:t
+Natal
+Crispim
+Cia
+Caixa
+Então
+Raposinho
+Senhor Raposo
+Jesuina
+Cia
+D. Jesuína
+Travessa da Palha
+Amor
+Dá
+Cristo
+Doutor Margaride
+domingo:t:t
+Estado
+Barão
+Mosteiro
+Mosteiro
+tarde:t:t
+Negrão
+Torres:l
+Lindoso
+Ora
+Teodorico
+Teodorico
+Raposo
+Mosteiro
+Cia
+Compra
+Páscoa
+Justino:p
+Negrão
+Mosteiro
+Que
+Negrão
+Justino:p
+Negrão
+Padre Casimiro:p
+São:l
+João
+Deus
+Padre
+Pinheiro
+Torres:l
+Pinheiro
+Negrão
+Negrão
+Senhor dos Passos
+G. Godinho
+Que
+Chame
+Lisboa:l
+Adélia:p
+Que Adélia:p
+Uma
+Eleutério
+Sei
+Pois
+Negrão
+São Roque
+Que
+Negrão
+Torres:l
+Adélia:p
+Negrão
+G.
+Titi:p
+Titi:p
+Eis
+Santa Maria Madalena
+M. M.
+Braga
+Virgem Maria
+Nação
+Negrão
+Pinheiro
+Igreja
+Patrocínio
+Sé
+Papa
+Topsius:p
+Maria de Magdala
+Novo Testamento
+Judeia:l
+Síria
+Europa
+Champollions
+Topsius:p
+Lepsius
+Raposo
+Renan
+Que
+Raposo
+Sem
+Mary
+Galileia:l
+Igreja
+G. Godinho
+Obra
+1887:t:t
+Deolinda
+Rodrigues Cabrera
+Projecto Vercial
+1996:t:t
+2003:t:t

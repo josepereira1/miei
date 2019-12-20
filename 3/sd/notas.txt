@@ -1,0 +1,4 @@
+regras de two fase locking:
+	1 - não podemos ter locks depois de unlocks;
+	2 - não podemos ter comportamentos sobre objetos (leitura e escrita de dados), sem antes fazer locks dos mesmos;
+	3 - os locks devem ser feitos sempre pela mesma ordem, ou seja, se eu quiser fazer locks às contas, tenho de o fazer sempre pela mesma ordem, isto é, se eu ordenar por exemplo as contas pelo o seu id, devo fazer o lock por essa ordem, e sempre em qualquer parte do programa;

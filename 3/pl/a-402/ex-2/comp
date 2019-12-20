@@ -1,0 +1,52 @@
+%{
+
+#include <stdio.h>
+#define INT 200;
+#define CHAR 201;
+#define RETURN 202;
+#define ID 203;
+#define NUM 204;
+
+union{int i; char* s;} yylval;	//yy lex value
+
+%}
+
+%option noyywrap
+
+%x COM
+
+%%
+
+int 			return INT;
+char 			return CHAR;
+return 			return RETURN;
+[a-z|A-Z][a-zA-Z0-9]*	{yylval.s = yytext; return ID;}
+[0-9]+                  {yylval.i=atoi(yytext); return NUM;}
+[(){},;\[\]]		return yytext[0];
+[ \t\n]			{}
+\/\/.*\n		{}
+\/\/*			BEGIN COM;
+
+<COM>.|\n		{}
+<COM>\*\/		BEGIN INITIAL;
+%%
+
+int main(int argc, char** argv){
+	int c = 1;
+	while( c != 0){
+		if(c<200){
+			printf("\'%c\'\n",c);
+		}else{ 
+			if(c==203){
+				printf("%d %s", c, yylval.s);	// yylval.s vai buscar o campo s
+			}
+			if(c==204){
+				printf("%d %d\n", c, yylval.i); // yylval.i vai buscar o campo i
+			}else{
+				printf("%d\n", c);
+			}
+		}
+		c = yylex();
+	}
+	return 0;
+}

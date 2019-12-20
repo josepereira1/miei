@@ -1,0 +1,6 @@
+int main(){
+	/* isto é um comentário */
+	char var[37];	//	isto é um comentário
+	return 0;
+	/* isto é um comentário */
+}

@@ -1,0 +1,18 @@
+criamos um ficheiro.fl
+
+flex prog.fl
+vim prog.fl
+cc lex.yy.c
+./a.out
+
+	//criar um ficheiro exemplo.txt com texto e números, para testar o programa a.out
+./a.out < eixemplo.txt	
+	//vai usar o exemplo.txt como input para o programa
+isto acontece proque antes fizemos no programa prog.fl:
+
+[0-9]    {}	//isto significa que, quando encontrar um digito não coloca nada
+
+
+od -c ficheiro	//mostra todos (normais + ocultos) os caracteres de um ficheiro 
+
+[0-9]+ {printf("%d", atoi(yytext)/3    );}	//o '+' é necessário, pois caso fosse '*', teriamos problemas com a string vazia

@@ -1,0 +1,100 @@
+#!/usr/bin/python3
+
+"""
+Xcent - extract and classify named entities
+"""
+
+import re
+import subprocess
+import sys
+from getopt import getopt
+import fileinput
+from collections import Counter
+
+
+fimfrase = r"[.?!:]\s*"
+mark_s = "#s_"
+mark_e = ("{","}")
+class_d = ':t'  #   time references
+
+# esta função marca fim de frases
+def markS(text):    
+    fimfrase = r"([.?!:]+\s*)"
+    text = re.sub(fimfrase, r"\1"+ mark_s, text)    #   marcar o fim de frases
+    text = re.sub(r"([A-Z][a-z]?\. )" + mark_s + r"([A-Z])", r"\1\2" , text)    
+    #   remover as marcas, mal colocadas anteriormente:
+    #       Mr. José
+    #       S. Francisco
+    return text
+
+#   esta função marca entidades
+def markE(text):
+    text=markD(text)
+    #   juntar as expressões que não são nomes próprios, que estão separadas por um "de"
+    text=re.sub(r'\{(.*?):t\} de \{(.*?):t\}',r'{\1 de \2:t}',text)
+
+    d = r"(?:da|do|de|dos|das)"
+    #pM = r"[A-ZÂ]\w+"
+    pM = r"(?:[A-ZÂ]\w+|[A-Z]\.|[A-Z][a-z]\.)"
+    #nP = pM + " " + "(" + pM + " " + "|" + d + " " + pM + ")*" #feioso, problemas com espaços
+    nP = f"{pM}(?: {pM}| {d} {pM})*"
+    text = re.sub(r"\b" + f"({nP})", mark_e[0] + r"\1" + mark_e[1], text)
+    text = re.sub(r"{{(.*?)}",r"{\1",text)
+    return text
+
+def listE(text):
+    return re.findall(r"\{(.*?)\}",text)
+
+def printE(entities):
+    for ent in entities:
+        print(ent)
+
+
+def bagE(entities):
+    # d = {}
+    # for i in entities:
+    #     d[i]=d.get(i,0)+1
+    return Counter(entities)
+
+def printBagE(b):
+    l=sorted(b.items(),key=lambda p: p[1],reverse=True)
+    for a,b in l:
+        print(b,a)
+
+#   esta função marca palavras que podem ser confundidas com nomes próprios
+def markD(txt):
+	meses="janeiro fevereiro março abril maio".split() #   faz o split pelo espaço ["janeiro", "fevereiro", ...]
+	estacoes="primavera verão outono inverno".split()
+	dias=[x+"-feira" for x in "segunda terça quarta quinta sexta".split()]+("sábado domingo".split())
+	partes="manhã tarde noite".split()
+    #   "|".join(["janeiro", "fevereiro", ...]) = "janeiro|fevereiro|..."
+    #   isto foi uma forma inteligente de listar todas as palavras especiais, que podem ser confundidas com nomes próprios
+    #   com o objetivo de criar a expressão regular (janeiro|fevereiro|...|segunda-feira|terça-feira|...)
+	txt=re.sub("("+"|".join(meses+estacoes+dias+partes)+")",r'{\1:t}',txt,flags=re.I)  #   marcar as referências de tempo
+	txt=re.sub(r'(\b\d{4}\b)',r'{\1:t}',txt)   #   anos
+	txt=re.sub(r'(\b(s(é|e)c(?:ulo|ulos|\.)?) [XLDIVMC]+)',r'{\1:t}',txt)  #   números romanos, ex: séc X
+	return txt 
+
+
+
+def main():
+    opts, resto = getopt(sys.argv[1:], "albd")
+    dop = dict(opts)
+    
+    texto = ""
+
+    # Reads file
+    for line in fileinput.input(resto):
+        texto += line
+
+    if "-a" in dop:
+        print(markE(markS(texto)))
+    elif "-l" in dop:
+        printE(listE(markE(markS(texto))))
+    elif "-b" in dop:
+        printBagE(bagE(listE(markE(markS(texto)))))
+    # elif "-d" in dop:
+    #     # print("Não Implementado!!")
+    #     printE(listE(markD(markS(texto))))
+
+main()

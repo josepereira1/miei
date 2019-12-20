@@ -1,0 +1,1 @@
+matrizNula = zeros(2,3)

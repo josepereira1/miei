@@ -1,0 +1,19 @@
+// 2 operations and without views materialized: (select count(*) from t1 where b > 500; and update)
+op1 = 27147 | op2 = 28188
+response time = 0.0018895740095321444
+throughput = 4227.8
+
+// 2 operations with views materialized: (select * from V3Mat; and update)
+op1 = 70495 | op2 = 70736
+response time = 7.554196866189526E-4
+throughput = 10576.9
+
+// 1 operation withou views materialized: (select count(*) from t1 where b > 500;)
+op1 = 36644 | op2 = 0
+response time = 0.002630958955543864
+throughput = 3041.2
+
+// 1 operation with view materialized: (select * from V3Mat;)
+op1 = 287369 | op2 = 0
+response time = 3.647625152427584E-4
+throughput = 21853.0

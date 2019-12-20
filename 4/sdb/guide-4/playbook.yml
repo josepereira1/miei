@@ -1,0 +1,22 @@
+hosts: all
+become: yes
+var:
+    username: deployer
+    shell: /bin/bash
+    password: 123456
+tasks:
+    - name: update and upgrade systems packages
+      apt:
+        update_cache: yes
+        upgrade: yes
+    - name: Install vim-nox
+      apt: name=vim-nox state=present
+    - name: Install openntpd
+      apt: name=openntpd state=present
+    - name: Install sudo
+      apt: name=sudo state=present
+    
+    - name: create user
+      user:
+        name: '{{username}}'
+        password: ''

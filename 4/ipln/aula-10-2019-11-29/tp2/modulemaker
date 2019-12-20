@@ -1,0 +1,50 @@
+#!/bin/python3
+
+"""
+Result:
+
+setup.py
+acctk
+    |_bin
+        |_addacc
+    |_ __init__.py
+        |_ ""
+    |_ test
+        |_ <files>
+
+"""
+
+import re
+import subprocess
+import sys,os
+from getopt import getopt
+import fileinput
+from collections import Counter
+
+
+
+def main():
+    opts, resto = getopt(sys.argv[1:], "albdc")
+    dop = dict(opts)
+    
+    texto = ""
+    
+    # Reads file
+    for line in fileinput.input(resto):
+        texto += line
+    string = "(?:\"|')(.*?)(?:\"|')"
+    name=re.search(r"name="+string,texto)[1]
+
+    scripts=re.search(r"scripts=\[("+string+",?)*\]",texto)[2]
+    os.makedirs(name+"/bin",exist_ok=True)
+    os.makedirs(name+"/test",exist_ok=True)
+    f = open(f"{name}/__init__.py","w")
+    f.close()
+    f = open(scripts,"w")
+    f.write("#!/usr/bin/python3\n")
+    f.write(f"\n\nimport {name}")
+    f.close()
+    print (scripts)
+    
+    
+main()

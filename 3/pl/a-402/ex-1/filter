@@ -1,0 +1,10 @@
+#!/usr/local/bin/gawk -f
+
+BEGIN{
+	RS = "<a[^>]*href=\""	#	[^>]* isto é pq se fosse só .* ele apanhava tudo até ao próximo href de outro link
+	FS = "\"[^>]*>|</a>"
+}
+	#	objetivo é listar todos os links e respetivos textos <a ... href="link">texto</a>
+	#{ print "(link=" $1 ")", "(texto=" $2 ")" }
+
+NR > 1 && $1~/http/	{ print "(link=" $1 ")", "(texto=" $2 ")" }

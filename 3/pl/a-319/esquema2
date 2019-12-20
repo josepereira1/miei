@@ -1,0 +1,10 @@
+#!/usr/local/bin/gawk -f
+
+BEGIN{
+        FS = "\t"
+	PAD = ARGV[1]
+	ARGV[1] = "inscritos.txt"
+}
+
+#$20 ~ PAD {print $0, $28}
+$20~ PAD {print $20, $28}	#	o ~ testa se o $20 ao PAD (padrão) que é dado como argumento e depois fazemos o print do nome e do email

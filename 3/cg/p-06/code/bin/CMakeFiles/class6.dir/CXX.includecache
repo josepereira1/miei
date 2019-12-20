@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/josepereira/src/univ/programs/curso-miei/3/cg/p-06/code/main.cpp
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+vector
+-
+../devil/IL/il.h
+/Users/josepereira/src/univ/programs/curso-miei/3/cg/p-06/devil/IL/il.h
+GLUT/glut.h
+-
+GL/glew.h
+-
+GL/glut.h
+-
+
+/Users/josepereira/src/univ/programs/curso-miei/3/cg/p-06/devil/IL/il.h
+stdio.h
+-
+wchar.h
+-
+

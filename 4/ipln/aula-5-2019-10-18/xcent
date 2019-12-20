@@ -1,0 +1,103 @@
+#!/usr/local/bin/python3
+
+"""
+xcent - extract classify named entities
+"""
+
+# top 10 dos nomes que mais ocorrem no ficheiro (Os\ Mais):
+# 	./xcent Os\ Maias | sort | uniq -c | sort -nr | head
+# 		uniq -c = conta as ocorrências (e remove repetidos ???)
+# 		sort -n -r <=> sort -nr = a flag -n é para ordenar pelos números e -r por ordem inversa
+# 		head = top 10 por padrão
+# ou
+# grep -o -P "Carlos \w+" Os\ Mais | sort | uniq -c | sort -nr 
+
+
+import re
+import subprocess;
+import sys;
+from getopt import getopt;
+import fileinput;
+
+# isto é para substituir fins de frase pela marca (mark)
+def markS(text):
+	# \s = space
+	fimfrase = r"([.?!:]+\s*)" # grupo de captura c/ ()
+	text = re.sub(fimfrase, f"\1" + mark_s, text) # <<find and replace>>, ou seja, nos fins de frase, colocar uma marca (mark_s)
+	
+	# como em cima estou a identificar pontos finais, expressões
+	# como Mr. José, também vão ser marcadas com (mark_s), então
+	# vai-se remover as mesmas 
+	re.sub(r"([A-Z][a-z]?\. )" + mark_s + r"([A-Z])", r"\1\2" ,text)
+	# r"\1\2" isto vai escrever a captura 1 e 2 respetivamente
+	return text
+
+def markE(text):
+	d = r"da|do|de|dos|das"
+	#pM = r"[A-ZÂ]\w+"
+	pM = r"([A-ZÂ]\w+|[A-Z]\.|[A-Z][a-z]\.)"
+	#nP = pM + " (" + pM + "|" + d + " " + pM + ")*" # feioso, problemas com espaços
+	nP = f"{pM}({pM}| {d} {pM})*"	# simplificar o nP
+
+	text = re.sub(r"\b" + f"({nP})" , mark_e[0] + r"\1" + mark_e[1], text)
+	return text
+
+def listE(text):
+	# non-greedy *?
+	# grupo de captura ()
+	return re.findall(r"{(.*?)}",text)
+
+def printE(entities):
+	for ent in entities:
+		print(ent)
+
+texto = ""
+
+# nomes possíveis:
+
+# Axxx da Mxxx
+# Axxx Mxxx
+# Axxx Mxxx Fxxx
+# Axxx
+
+# NP -> pM c
+
+# c -> {}
+#	| pM c
+#	| d pM c
+# => c = (pM|d|pM)*
+
+#pM = r"(?<=\W)[A-Z]\w+"
+#nP = pM + r"(?: (?:[A-Z]\w+|da|do|de))*"	# nomes próprios
+fimfrase = r"[.?!:]\s*"
+mark_s = "#s_"
+mark_e = ("{","}") # marca das entidades
+
+d = r"da|do|de|dos|das"
+#pM = r"[A-ZÂ]\w+"
+pM = r"([A-ZÂ]\w+|[A-Z]\.|[A-Z][a-z]\.)"
+#nP = pM + " (" + pM + "|" + d + " " + pM + ")*" # feioso, problemas com espaços
+nP = f"{pM}({pM}| {d} {pM})*"	# simplificar o nP
+# Nome1
+# Nome1 de Nome2
+# Nome1 Nome2 de Nome3
+
+# Reads file
+for line in fileinput.input():
+    texto += line
+
+print(printE(listE(markE(markS(texto)))))
+
+#print(markE(markS(texto)))
+
+frases = re.split(fimfrase,texto)
+
+# (?<=\W) look behind
+
+entidades = []
+for frase in frases:
+    entidades += re.findall(r"(?<=[^\W<<])"+nP,frase)
+
+print(entidades)
+
+    

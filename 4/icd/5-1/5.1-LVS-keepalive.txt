@@ -1,0 +1,53 @@
+    
+keepalived: /etc/keepalived/keepalived.conf
+vrrp_sync_group VG1 {
+        group {
+                RH_EXT
+                RH_INT
+        }
+}
+vrrp_instance RH_EXT {
+        state MASTER
+        interface ens33
+        virtual_router_id 50
+        priority 50
+        advert_int 1
+        authentication {
+                auth_type PASS
+                auth_pass password123
+        }
+        virtual_ipaddress {
+                172.16.141.197/24
+        }
+}
+vrrp_instance RH_INT {
+        state MASTER
+        interface ens34
+        virtual_router_id 50
+        priority 50
+        advert_int 1
+        authentication {
+                auth_type PASS
+                auth_pass password123
+        }
+        virtual_ipaddress {
+                10.10.10.1/24
+        }
+}
+
+virtual_server 172.16.141.197 80 {
+        delay_loop 6
+        lb_algo rr
+        lb_kind NAT
+        protocol TCP
+        real_server 10.10.10.9 80 {
+                TCP_CHECK {
+                        connect_timeout 10
+                }
+        }
+        real_server 10.10.10.10 80 {
+                TCP_CHECK {
+                        connect_timeout 10
+                }
+        }
+}

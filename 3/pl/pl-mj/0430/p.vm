@@ -1,0 +1,6 @@
+start
+pushi 5
+pushi 5
+mul
+writei
+stop

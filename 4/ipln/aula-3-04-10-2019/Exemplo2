@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import re
+import requests as req
+di = {}
+
+def importDict():
+   t=open("PtDe.dic").read()
+   for Pt,De in re.findall("PT: *(.*?)\s+De:(.*)",t):
+       di[Pt]=De
+# fix me:  close
+
+def traduz(texto):
+    tDe =re.sub(r"\w+",lambda x:f"{di.get(x[0],x[0])}",texto)
+    return tDe
+importDict()
+print(traduz("um jacaré e mais um rato"))

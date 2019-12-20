@@ -1,0 +1,2 @@
+vms ficheiro.vm		// corre o ficheiro assembly
+vms -g 			// abre a vms, onde se pode ver step by step

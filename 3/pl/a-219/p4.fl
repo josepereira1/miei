@@ -1,0 +1,18 @@
+%option main
+
+	/*agr queremos escolher automáticamente a unidade(cm, m, pés)  mais adequada*/
+
+%%
+
+	int i;
+
+[0-9]{1,2}\ pés   {sscanf(yytext,"%d", &i);
+                printf("%.2f metros", i/3.0    );}
+
+[0-9]+\ pés   {sscanf(yytext,"%d", &i);
+                printf("%.0f metros", i/3.0    );}
+	/*se eu receber 40 caracteres, ele vai escolher imediatamente a segunda ER, pois sabe que essa é a adequada para este caso
+	caso contrário ele vai escolher a menor, caso sejam iguais, ele escolhe a que vier primeiro*/
+
+
+%%

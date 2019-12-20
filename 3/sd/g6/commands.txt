@@ -1,0 +1,3 @@
+netstat -p tcp	//	conseguimos ver as conexões estabelecidas
+
+netstat -p tcp -na | grep 12345	//	

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=HotelStandard
+comment1.params=
+comment1.target=HotelStandard()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=id\ nome\ localidade\ categoria\ numero_de_quartos\ preco_por_quarto\ epoca\ pontosPorEuro
+comment2.target=HotelStandard(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ boolean,\ int)
+comment3.params=umHotelStandard
+comment3.target=HotelStandard(HotelStandard)
+comment4.params=
+comment4.target=boolean\ getEpoca()
+comment5.params=
+comment5.target=int\ getPontosPorEuro()
+comment6.params=epoca
+comment6.target=void\ setEpoca(boolean)
+comment7.params=x
+comment7.target=void\ setPontosPorEuro(int)
+comment8.params=
+comment8.target=HotelStandard\ clone()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=11

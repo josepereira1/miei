@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>enfermeiros</description>
+	<configs>
+		<config category="opl" default="true" name="Configuration1">
+			<ref name="enfermeiros.mod" type="model">
+			</ref>
+			<ref name="enfermeiros.ops" type="setting">
+			</ref>
+			<ref name="enfermeiros.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

@@ -1,0 +1,1 @@
+randomMatrix = rand(3)  %   matriz 3x3, com valores random entre 0 e 1;

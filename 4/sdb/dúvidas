@@ -1,0 +1,5 @@
+Dúvidas:
+
+	1 - No guião 3, quando fazemos sudo docker-compose up -d, ele automáticamente replica para a vm2 devido ao swarm, é que não consegui que isso acontece-se?
+	2 - As replicas são sempre para VMS, não é possível fazer para containers?
+	3 - Pq não usamos o sudo docker stack -c docker-compose.yml demo, pelo que vi na NET, tem haver com os builds?

@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+
+#   programa corrige textos, colocando acentos. Para carregar o dicionário utilizou-se o Jornal de Angola que está em natural.di.uminho.pt/njj/hd2019/ 
+
+import re
+import subprocess
+import sys
+from getopt import getopt
+import fileinput
+from collections import Counter
+
+from unidecode import unidecode as rmac   # rmac (remove accent)  para tirar os acentos, é preciso instalar, ver nos prints/
+import os       #   para buscar variáveis de ambiente 
+import pickel   #   para escrever para ficheiros
+
+#   vamos guardar as ocorrências das palavras, pois palavras que ocorram menos vezes pode significar que foram erros
+#   Andre : {{Andre, 2}, {André, 500}}
+
+dicionarioPalavras = {}
+
+def criarDic(texto):
+
+    for palavra in re.findall("\w+", texto):
+        palavraSemAcento = rmac(palavra)    #   tirar o acento da palavra, caso exista
+        if re.search(r"[0-9_]", palavra):   #   este código é para limpar coisas desnecessárias do dicionário
+            continue    #   isto não capturar números e underscores
+        if palavraSemAcento not in dicionarioPalavras:
+            dicionarioPalavras[palavraSemAcento] = {palavra: 1}    #   na chave de palavraSemAcento, vamos adicionar as derivações, ou seja, a palavra e uma ocorrência
+        else:
+            dicionarioPalavras[palavraSemAcento][palavra] = 1 + dicionarioPalavras[palavraSemAcento].get(palavra, 0)
+    
+    #   o código seguinte é para limpar coisas desnecessárias do dicionário
+    #   foi necessário converter para uma lista, para se conseguir remover
+    for chave in list(dicionarioPalavras.keys()):
+        if len(dicionarioPalavras[chave] == 1 and chave in dicionarioPalavras[chave]):  #   se ela tem só uma ocorrência e essa ocorrência é igual à chave
+            dicionarioPalavras.pop(chave)   #   removemos a chave
+            continue
+        if len(dicionarioPalavras[chave] == 2) and chave in dicionarioPalavras[chave] and chave.capitalized in dicionarioPalavras[chave]:
+            dicionarioPalavras.pop(chave)   #   removemos a chave
+
+    return dicionarioPalavras
+
+#   função que vai buscar a palavra correta
+def fixPalavra(match):
+    if match[0] in dicionarioPalavras:
+        p.valor = max(dicionarioPalavras[palavra].items(), key = lambda x : x[1])   #   vamos buscar a palavras com mais ocorrências, que é provavelmente a mais correta
+        return p
+    else: 
+        return palavra
+
+#   função que corrige os acentos num texto
+def fixAcentos(texto):
+    return re.sub("\w+", fixPalavra, texto)
+
+#   função resolve o problema, de palavras em ínicio de frase, ficarem em minúscula, devido à chave do dicionário
+def recap(palavraOriginal, palavraNova):    #   recapitalized
+    return palavraNova.capitalized() if palavraOriginal.isupper() else palavraNova.lower()
+
+def guardarDic():
+    f = open()
+    pickel.open( os.enveiron['HOME'] , "/.accentrc.txt")
+
+def main():
+    opts, resto = getopt(sys.argv[1:], "albdc")
+    dop = dict(opts)
+    
+    texto = ""
+
+    # Reads file
+    for line in fileinput.input(resto):
+        texto += line
+
+    dicionarioPalavras = criarDic(texto)    #   carregar o dicionário com conhecimento de palavras
+
+    frase = "Hoje o Andre esta cheio de sono debaixo de uma arvore!"
+
+    print(fixAcentos(frase))
+
+main()

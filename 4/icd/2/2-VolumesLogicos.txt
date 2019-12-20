@@ -1,0 +1,88 @@
+1. Criar uma cópia da VM da aula anterior
+
+2. Na configuração da máquina adicionar 2 discos de 1GB
+
+3. ligar a máquina  (Responder copiei à pergunta se copiou ou moveu a máquina)
+
+4. mudar o nome da máquina para lvm.
+    usar o nmtui
+
+5. verificar que os dois discos novos estão presentes em principio chamam-se
+/dev/sdb e /dev/sdc
+
+6. criar PVs a partir dos discos 
+     usar o pvcreate
+
+7. Criar um Volume group com um dos discos
+    usar o vgcreate
+     vgcreate AulaICD /dev/sdb
+    
+    NOTA (POSSÍVEIS DÚVIDAS): 
+        apenas um disco é associado ao volume group nesta fase, o outro é adicionado mais adiante
+
+8. criar 2 volumes lógicos (lv1 e lv2) com 25% do disco criado
+    usar o lvcreate
+
+    NOTA (POSSÍVEIS DÚVIDAS): 
+        lvremove -f /dev/AulaICD/lv1 para remover caso haja um erro
+    
+9. verificar que os volumes foram criados
+    usar o lvdisplay
+    ls -la /dev/AulaICD
+
+10. criar um filesystem em cada um dos volumes lógicos criados
+    mkfs.xfs /dev/AulaICD/lv1
+    mkfs.xfs /dev/AulaICD/lv2
+    
+11. criar mount points para cada uma das partições em /mnt
+        mkdir  /mnt/lv1
+        mkdir /mnt/lv2
+
+12. fazer o mount das partições
+    mount /dev/AulaICD/lv1 /mnt/lv1
+    
+13. copiar dados para cada uma das partições (por exemplo a /etc)
+    
+    NOTA (POSSÍVEIS DÚVIDAS): 
+        sudo cp -r /etc/ /mnt/lv2/
+
+14. aumentar um dos volumes lógicos em 25%
+    usar o lvextend
+    
+    NOTA (POSSÍVEIS DÚVIDAS):
+        lvextend -L +256M /dev/AulaICD/lv1
+
+15. fazer o resize do filesystem associado ao volume lógico
+    xfs_growfs /mnt/lv1
+    
+16. criar um snapshot de um dos volumes, e verificar que esté é read write e que as alterações não se refletem no volume original
+    usar o lvcreate
+    
+    montar o volume
+     mount -o nouuid  /dev/AulaICD/lv1-snap /mnt/lv1-s/
+     umount
+     xfs_admin -U generate /dev/AulaICD/lv1-snap
+
+    NOTA (POSSÍVEIS DÚVIDAS):
+        criar o snapshot: 
+            lvcreate -L 128MB -s -n lv1-snapshot /dev/AulaICD/lv1
+        umount:
+            umount /dev/AulaICD/lvol0-snapshot
+
+17. adicionar o outro disco ao Volume group
+    vgextend AulaICD /dev/sdc
+
+18. Migrar os dados entre os volumes fisicos
+     pvmove /dev/sdb  /dev/sdc
+    
+19. remover o volume físico do volume group
+    vgreduce AulaICD /dev/sdb
+
+    NOTA: 
+        estes passos finais (17,18,19), servem para demonstrar, a adição/remoção
+        de discos aos volume groups sem afetar os volumes lógicos
+
+
+
+
+

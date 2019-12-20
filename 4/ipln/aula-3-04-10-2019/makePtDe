@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+# exercício: através do site wwww.jonsay.co.uk 
+# buscar os vários links e o respetivos nomes,
+# e a estes links buscar a informação que está em tabelas
+
+import re
+import requests as req
+
+x= req.get("https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&langb=German")
+x = x.text
+
+# os () servem para delimitar a região de captura, ou seja, tudo que esteja fora, é descartado
+
+# *? non-greddy: apanha tudo até à primeira ocorrência do caracter imediatamente à direita
+# Ex: 	texto = 101000000000100
+#     	res = findall(r"1.*?1", texto)
+#		print(res)
+#		>>> 101		
+
+cats = re.findall(r'href="(.*?)".*?class="nav">(.*?)</a>',x)
+
+# print(cats)
+
+def paginaProc(pagina):
+    return re.findall(r"<tr><td>(.*?)</td><td>(.*?)</td></tr>",pagina)
+
+
+for url,name in cats:
+    pagina = req.get(url).text
+    for Pt,De in paginaProc(pagina):
+        print(f" Dom:{name} PT: {Pt}   De:{De}")
+    
+
+
+
+
+    

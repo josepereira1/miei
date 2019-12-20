@@ -1,0 +1,18 @@
+#!/usr/local/bin/gawk -f
+
+BEGIN{
+	FS = "\t"
+}
+
+#	mostra os vários campos, $i, campo presente na posição i
+NR==2	{	
+		#for(i=1;i<NF;i++) printf("%d - %s\n", i, $i)
+	}
+#	mostra o nome e o respetivo email
+NR>2	{	
+		#print $20 " - " $28
+		a[$10]++ #sempre que encontra a mesma chave, incrementa mais uma unidade
+	}
+
+END {	for(k in a) print k, a[k] 
+	print "Número de Registos: " NR-2	}

@@ -1,0 +1,234 @@
+Grammar
+
+    0 $accept: prog $end
+
+    1 prog: decls insts
+
+    2 decls: VAR ID ':' tipo ';'
+    3      | %empty
+
+    4 insts: insts inst
+    5      | %empty
+
+    6 inst: ID '=' exp ';'
+    7     | PRINT exp ';'
+
+    8 exp: NUM '+' NUM
+    9    | ID
+
+   10 tipo: INT
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'+' (43) 8
+':' (58) 2
+';' (59) 2 6 7
+'=' (61) 6
+error (256)
+NUM (258) 8
+VAR (259) 2
+PRINT (260) 7
+INT (261) 10
+ID (262) 2 6 9
+
+
+Nonterminals, with rules where they appear
+
+$accept (12)
+    on left: 0
+prog (13)
+    on left: 1, on right: 0
+decls (14)
+    on left: 2 3, on right: 1
+insts (15)
+    on left: 4 5, on right: 1 4
+inst (16)
+    on left: 6 7, on right: 4
+exp (17)
+    on left: 8 9, on right: 6 7
+tipo (18)
+    on left: 10, on right: 2
+
+
+State 0
+
+    0 $accept: . prog $end
+
+    VAR  shift, and go to state 1
+
+    $default  reduce using rule 3 (decls)
+
+    prog   go to state 2
+    decls  go to state 3
+
+
+State 1
+
+    2 decls: VAR . ID ':' tipo ';'
+
+    ID  shift, and go to state 4
+
+
+State 2
+
+    0 $accept: prog . $end
+
+    $end  shift, and go to state 5
+
+
+State 3
+
+    1 prog: decls . insts
+
+    $default  reduce using rule 5 (insts)
+
+    insts  go to state 6
+
+
+State 4
+
+    2 decls: VAR ID . ':' tipo ';'
+
+    ':'  shift, and go to state 7
+
+
+State 5
+
+    0 $accept: prog $end .
+
+    $default  accept
+
+
+State 6
+
+    1 prog: decls insts .
+    4 insts: insts . inst
+
+    PRINT  shift, and go to state 8
+    ID     shift, and go to state 9
+
+    $default  reduce using rule 1 (prog)
+
+    inst  go to state 10
+
+
+State 7
+
+    2 decls: VAR ID ':' . tipo ';'
+
+    INT  shift, and go to state 11
+
+    tipo  go to state 12
+
+
+State 8
+
+    7 inst: PRINT . exp ';'
+
+    NUM  shift, and go to state 13
+    ID   shift, and go to state 14
+
+    exp  go to state 15
+
+
+State 9
+
+    6 inst: ID . '=' exp ';'
+
+    '='  shift, and go to state 16
+
+
+State 10
+
+    4 insts: insts inst .
+
+    $default  reduce using rule 4 (insts)
+
+
+State 11
+
+   10 tipo: INT .
+
+    $default  reduce using rule 10 (tipo)
+
+
+State 12
+
+    2 decls: VAR ID ':' tipo . ';'
+
+    ';'  shift, and go to state 17
+
+
+State 13
+
+    8 exp: NUM . '+' NUM
+
+    '+'  shift, and go to state 18
+
+
+State 14
+
+    9 exp: ID .
+
+    $default  reduce using rule 9 (exp)
+
+
+State 15
+
+    7 inst: PRINT exp . ';'
+
+    ';'  shift, and go to state 19
+
+
+State 16
+
+    6 inst: ID '=' . exp ';'
+
+    NUM  shift, and go to state 13
+    ID   shift, and go to state 14
+
+    exp  go to state 20
+
+
+State 17
+
+    2 decls: VAR ID ':' tipo ';' .
+
+    $default  reduce using rule 2 (decls)
+
+
+State 18
+
+    8 exp: NUM '+' . NUM
+
+    NUM  shift, and go to state 21
+
+
+State 19
+
+    7 inst: PRINT exp ';' .
+
+    $default  reduce using rule 7 (inst)
+
+
+State 20
+
+    6 inst: ID '=' exp . ';'
+
+    ';'  shift, and go to state 22
+
+
+State 21
+
+    8 exp: NUM '+' NUM .
+
+    $default  reduce using rule 8 (exp)
+
+
+State 22
+
+    6 inst: ID '=' exp ';' .
+
+    $default  reduce using rule 6 (inst)

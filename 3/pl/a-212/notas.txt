@@ -1,0 +1,25 @@
+grep 'title' *	//	filtra todos os ficheiros as partes do texto onde aparece a palavra title
+grep 'olhos' musica/*	//	procura em todos os ficheiros, onde ocorre a palavra 'olhos'
+grep 'title.*olhos' musica/*	//	mostra os titles onde aparece qq coisa olhos
+grep 'Sérgio Godinho' musica/*	//	músicas de Sérgio Godinho
+grep -i 'sérgio Godinho' musica/*	//	com o -i tira o case sensative, ou seja s == S
+grep -i 'Sérgio Godinho' musica/* | wc	//	indica o número de linhas, caracteres, ...
+grep -i -l 'Sérgio Godinho' musica/* | wc	//	mostra o nome dos ficheiros que contém  esta frase
+grep -i -b 'Sérgio Godinho' musica/*	//	indica o byte onde ocorre a palavra procurada
+grep -i -n 'Sérgio Godinho' musica/*	//	indica a linha em que ocorre esta frase
+grep -l 'Sérgio Godinho' musica/* > sg	//	guarda a informação em sg
+grep 'title' $(cat sg)	//
+grep -h 'title' $(cat sg)	//	o -h tira o nome dos ficheiros
+grep 'title' $(cat sg) | grep '*'
+grep -E	//	sempre que se usa, deve-se colocar -E ou -P, pois o grep sozinho falta-lhe as flags mais fortes como o '+'
+grep -P	//	se bem que este não existe no OSX, temos que usar o -E
+grep -E '_' musica/	//	para encontrar os acordes da viola, como nessas frases tem um '_'
+grep -E '_.*' musica/	//	este comando também faz o memso que o de cima
+grep -E '_.*?\s\s' musica/*	//	o \s representa o conjunto [\n| (espaço(Representação:_))\ (tab(Representação:\T))]
+grep -E '_.*?\s\s' musica/godinho-tercaFeira.lyr | grep -o '\s\s.*'	//	apenas os acordes
+grep -E '_.*?\s\s' musica/godinho-tercaFeira.lyr | grep -o '\s\s.*' | grep -E -o '[^ \t]+'
+grep -E '_.*?\s\s' musica/godinho-tercaFeira.lyr | grep -o '\s\s.*' | grep -E -o '[^ \t]+' | sort | uniq -c
+
+
+
+sed -E 's/ +(.*)/\n \1#/' *	//	substitui caracteres

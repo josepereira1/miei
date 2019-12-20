@@ -1,0 +1,108 @@
+
+
+
+	7.8
+		R14: A extinção entra em funcionamento quando a temperatura ultrapassa os 200 graus.
+		R15: Quando houver uma falha na alimentação, o carro deve parar sem perigo.
+		R16: O refletor do radar de topo deve disponibilizar um sinal com um nível superior a 1 W, em qualquer posição do barco.
+
+	7.9
+		R17: O aluno pode submeter o seu programa.
+			 A interface web deve utilizar cores suaves {amarelo, verde, ...}
+		R18: O coordenador da disciplina atribuí a cada programa Ruby um assistente.
+			 O assistente faz a revisão do programa.
+	 	R19: Nota: este requisito deveria ser junto com o R18.
+	 		 O coordenador atribui o programa a um assistente, sem conflitos de interesse.
+
+	 	R20: Os assistentes introduzem comentários sobre os programas que lhe foram atribuídos.
+	 		 O coordenador da disciplina, atribuí uma nota através dos comentários.
+
+	7.10
+		1. O André fez uma visita à casa de praia e ficou encantado com a casa.
+		2. O convite é enviado para as tias e para as primas solteiras.
+		3. Os bancos cobram juros às empresas por atrasos de responsabilidades das empresas.
+		4. Pode acontecer que o paciente engorde depois da operação.
+		5. Aplica-se um desconto a indivíduos menores de idade e a indivíduos reformados.
+		6. Aplica-se um desconto a indivíduos menores de idade ou a indivíduos reformados.
+
+	8.2 feito em folhas
+	8.4 prof mostrou no quadro
+
+	Capítulo 6: Negociação e prioritização de requisitos:
+
+	6.1 (a) Rastreabilidade
+
+	6.2 3.
+
+	6.5 O professor fez referência a um tipo de gráfico, desenhei no caderno.
+
+	6.7 Eu: C
+		Acordo 5 - A: 59 B: 59 C: 3	-> este foi o negócio escolhido
+		Acordo 3 - No entanto eu podia fazer negócio com o A dando-lhe mais do que 59 e eu conseguia mais do que 3, no entanto o B ficava a perder.
+
+	Capítulo 4: Engenharia de Requisitos
+	4.3 
+		Notas:
+		elaboração: polir os requisitos
+		negociação: negociar os requisitos, muitas vezes através de prioritirização
+		documentação: o documento de requisitos funciona como referência fundamental da fases subsequentes do processo de desenvolvimento. é o artefacto principal que resulta da engenharia de requisitos.
+		validação: garantir que os requisitos especificam ...
+
+		3. iniciação: desenvolver um produto que já existe no mercado, não perceber o que o cliente pretende do produto.
+		   
+		   levantamento: alguns requisitos são esquecidos; alguns requisitos podem ser levantados erradamente.
+		   
+		   elaboração: obtenção de um conjunto de requisitos incompleto e/ou incoerente e/ou não vericável.
+		   
+		   negociação: se o resultado da negociação/priorização não for aceite pelas partes, isso pode durar a não 
+		   aceitação do produto final.
+		   
+		   documentação: perda de informação levantado, o que pode levar à conceção de uma solução inadequado.
+		   validação: deixar passar para as fases posteriores do desenvolvimento uma especificação que não descreve o sistema pretendido.
+		   
+		   gestão: ...
+	4.1
+		Levantamento: identificar as funcionalidades e as restrições do sistema.
+		Negociação/priorização: alcançar, entre as partes interessadas, um acordo alargado em relação aos requisitos.
+		Documentação: documentar todos os requisitos em conformidade com o modelo e formalismos establecidos.
+	4.2
+		Sendo os intervenientes ... (passou)
+	4.4
+		1 - faz parte
+		2 - faz parte
+		3 - faz parte
+		4 - não faz parte, o engenheiro de requisitos não tem que ser especialista do domínio
+	4.5
+		Nota: a elaboração serve mesmo para isto, para resolver problemas no levantamento de requisitos
+
+		A elevada complexidade dos sistemas contribui para a dificuladade de capturar todos os requisitos.
+		
+		Não identificar todas as fontes e partes interessadas tabém contribuir para a omissão de alguns requisitos.
+		
+		Durante o levantamento há alguma propensão para esquecer os requisitos óbvios.
+		
+		Aplicar incorretamente as técnicas de levantamento e/ou não aplicar as técnicas mais adequadas e complementares também reduz a possibilidade de capturar todos os requisitos.
+		
+		Quando as partes interessadas têm interesses contraditórios conduzir a requisitos incoerentes.
+		
+		Efetuar deficientemente ou omitir a fase de elaboração também potência a ocorrência dum conjunto incoerente de requisitos.
+
+	4.6
+		(2) elaboração
+
+
+	Exemplo de questão do teste:
+
+		R1: O responsável submete o pedido de subsídio escolar.
+
+		R2:
+			NOTA: como apenas pedem os requisitos de utilizador, este não pode ocorrer, pois é de sistema.
+		R3: O fiscal deverá receber (recebe) uma informação diariamente, quando o número de pedidos por processo.
+			
+			NOTA: apesar de também ser requisito de sistema, podemos reescrever, para o tornar num requisito de utilizador.
+		R4.1: O fiscal reve um pedido.
+		R4.2: O fiscal por um processo introduz (no sistema) a decisão final (sobre o pedido). Com base nos comentários.
+		R4.3: O fiscal insere comentários de revisão.
+
+
+

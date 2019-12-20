@@ -1,0 +1,72 @@
+- name: Provisioning Tasks
+  hosts: all
+  become: yes
+  vars:
+    packages:
+      - vim-nox
+      - openntpd
+      - sudo
+    username: deployer
+    password: "{{ lookup('file', 'hashed_password') }}"
+    shell: /bin/bash
+    member_of: sudo
+    local_public_key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+    services:
+      - sshd
+      - openntpd
+  tasks:
+    - name: (2.a) update and upgrade system packages
+      apt:
+        update_cache: yes
+        upgrade: yes
+
+    - name: (2.b) install vim-nox openntpd sudo
+      apt:
+        name: "{{ item }}"
+        state: latest
+      loop: "{{ packages }}"
+
+    - name: (2.c) create a user called deployer with password 123456
+      user:
+        name: "{{ username }}"
+        password: "{{ password }}"
+        shell: "{{ shell }}"
+
+    - name: (2.d) add deployer to sudo group
+      user:
+        name: "{{ username }}"
+        groups: "{{ member_of }}"
+        append: yes
+
+    - name: (2.e) prepare deployer for public key authentication
+      authorized_key:
+        user: "{{ username }}"
+        key: "{{ local_public_key }}"
+
+    - name: (2.f) disable root and password authentication for OpenSSH
+      copy:
+        src: sshd_config
+        dest: /etc/ssh/sshd_config
+        mode: 0644
+        owner: root
+        group: root
+      notify:
+        restart sshd
+
+    - name: (2.g) make sure OpenNTPD and OpenSSH services are enabled and running
+      service:
+        name: "{{ item }}"
+        enabled: yes
+        state: started
+      loop: "{{ services }}"
+
+    - name: (2.h) change MOTD at /etc/motd
+      copy:
+        src: motd
+        dest: /etc/motd
+
+  handlers:
+    - name: restart sshd
+      service:
+        name: sshd
+        state: restarted

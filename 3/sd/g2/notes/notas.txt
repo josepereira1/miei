@@ -1,0 +1,45 @@
+Cada programa tem um Thread principal, onde o programa corre.
+
+Não determinismo, não conseguimos saber quem é que vai executar entre diferentes Threads.
+
+Na última aula vimos:
+
+Thread principal cria várias Threads, onde vai existir um contador que vai "navegar" entre as Threads, como a operação de incremento não é atómica, não vai ocorrer sincronização dos valores.
+
+A exclusão mútua é dizer que "neste objeto que eu estou a mexer, ninguém toca", isto não deve ser por muito tempo, pq vamos estar a quebrar a concorrência.
+
+Quando temos syncronized num método significa que ele vai executar em exclusão mútua, e 
+serializado.
+
+class xpto{
+	public void f(){}
+	syncronized void g(){}
+	syncronizde void l(){}
+}
+
+	|x=     T1
+	|y=		|		T2
+	|		|		|
+	|		|x.f()	|x.f()
+	|		|		|
+	|		|		|
+
+
+Neste caso como f() não é syncronized então os x.f() nas duas Threads vão ser executados em concorrência.
+
+Mas se for x.g() na T1 e x.g() na T2, então ai já não temos execução em concorrência.
+
+O tipo ReentrantLock é o que permite isto, ou seja, que implica que quando temos um método syncronized eu só consiga mexer naquele objeto só aquela Thread, todas as outras vão ficar à espera que ela acabe.
+
+No guião 2 no exercício 3, o método tranferir terá que ser:
+
+syncronized public void transferir(int o, int d, int v){
+	debito(o,v);	//	este é syncronized
+	credito(o,v);	//	este é syncronized
+}
+
+Apesar de debito(...) e credito(...) serem syncronized, nada me garante que quando o débito acabar execução, seja executado logo a seguir o credito(...), pq é uma questão de tempo, ou seja, pode ser executado outro método que queira mexer neste objeto, assim se colocarmos syncronized no método transferir, estamos a "dizer" ao compilador que queremos que este método seja executado desde o ínicio ao fim em exclusão mútua.
+
+
+
+

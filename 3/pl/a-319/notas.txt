@@ -1,0 +1,16 @@
+AWK:
+NF: number of fields, número de campos numa linha;
+FS: fields separater;
+NK:
+RS: record separate
+OFS:
+ORS:
+$0: registo de inteiro
+
+
+correr com o gawk:
+gawk -f esquema inscritos.txt
+gawk -f esquema2 'João.*Martins'	/* vai encontrar todos os João com apelidos Martins, dado como argumento */
+
+comandos interessantes:
+which gawk	/* saber a origem do gawk */

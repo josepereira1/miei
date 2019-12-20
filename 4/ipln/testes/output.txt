@@ -1,0 +1,204 @@
+﻿<!DOCTYPE HTML>
+<html><head><title>Dicionário Português-Alemão Flores</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="google" content="notranslate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7790207955723098",
+    enable_page_level_ads: true
+  });
+</script><meta http-equiv="Content-Language" content="pt">
+<meta name="description" content="Dicionário Português-Alemão Flores; flor=f Blume. açafrão-da-primavera=m Krokus. anêmona=f Anemone. aspidistra=f Schusterpalmen. áster=f Aster. azaléia=f Azelee. begônia=f Begonie. cíclame=nt Alpenveilchen. campainha branca=nt Schneeglöcken. campainha=f Glockenblume">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="keywords" content="Dicionário Português-Alemão, Portuguese, German, Blume, Flores">
+<META NAME="ROBOTS" CONTENT="NOODP"><META NAME="ROBOTS" CONTENT="NOYDIR"><link rel="stylesheet" type="text/css" media="screen and (min-device-width: 481px)" href="https://www.jonsay.co.uk/style.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 480px)" href="https://www.jonsay.co.uk/smallstyle.css">
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+ga("create", "UA-3672154-1", "jonsay.co.uk");
+ga("send", "pageview");
+
+</script><script  type="text/javascript">
+function go()
+{
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async=true;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));
+
+
+(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs"));
+(function() {
+    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+    po.src = "https://apis.google.com/js/plusone.js";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+  })();
+}
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement("script");
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName("script")[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-e5hsm-H3-Oa2M"
+});
+</script></head><body bgcolor="ffffff" onload="go();"><div id="fb-root"></div><a name="#top"></a><font size="2">Cookie free zone. Google might use them though.<br></font><div class="header"><div style="float:left;width:50%;font-size:1.2em;">jonsay.co.uk</div><div style="float:right;width:50%;font-size:0.9em;text-align:right;">Language Dictionaries</div><div style="clear:both;"></div></div>
+<div class="nav2"><ul><li style="color:#ffffff">Our Websites:-</li><li><a href="https://www.jonsay.co.uk/index.html">Home</a></li>
+<li><a href="https://conversion.jonsay.co.uk">Unit Converter</a></li>
+<li><a href="https://guitar.jonsay.co.uk">Guitar Resources</a></li>
+<li><a href="https://www.jonsay.co.uk/makeapicture.php">Image Generator</a></li>
+<li><a href="https://quiz.jonsay.co.uk">Free Quiz</a></li>
+<li><a href="https://www.uploadandwin.com">Photo Competition</a></li>
+</ul></div>
+<div style="clear:both"></div><div>
+<!-- Responsive Link Unit -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7790207955723098"
+     data-ad-slot="4393558598"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><div style="float:left;width:auto"><a class="bar" href="https://www.jonsay.co.uk/index.html" target="_top">Home</a> > <a class="bar" href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German">Dicionário Português-Alemão</a></div><table width="100%" cellspacing="0" cellpadding="0" bgcolor="FFFFFF"><tr><td align="center"><!-- google_ad_section_start --><h1>Dicionário Português-Alemão | Flores</h1><!-- google_ad_section_end --></td></tr></table><table cellspacing="0" cellpadding="0" width="100%"><tr><td valign="top"><td valign="top"><form action="dictionary.php" method="get" name="searchform">Search dictionary :- <input type="hidden" name="langa" value="Portuguese"><input type="hidden" name="langb" value="German"><input type="text" name="word" value="" size="10"><input type="submit" value="Go"></form><br><table width="100%" cellspacing="0" cellpadding="0"><!-- google_ad_section_start --><tr><td width="50%"><font size="4" color="008888">Português</font></td><td width="50%"><font size="4" color="008888">Alamão</font></td></tr>
+
+<tr><td><font size="5">flor</font></td><td><font size="5">f Blume</font></td></tr>
+<tr><td>açafrão-da-primavera</td><td>m Krokus</td></tr>
+<tr><td>anêmona</td><td>f Anemone</td></tr>
+<tr><td>aspidistra</td><td>f Schusterpalmen</td></tr>
+<tr><td>áster</td><td>f Aster</td></tr>
+<tr><td>azaléia</td><td>f Azelee</td></tr>
+<tr><td>begônia</td><td>f Begonie</td></tr>
+<tr><td>cíclame</td><td>nt Alpenveilchen</td></tr>
+<tr><td>campainha branca</td><td>nt Schneeglöcken</td></tr>
+<tr><td>campainha</td><td>f Glockenblume</td></tr>
+<tr><td>cardo</td><td>f Distel</td></tr><tr><td colspan="2"><div style="float:left;"><script type="text/javascript">
+    google_ad_client = "ca-pub-7790207955723098";
+    google_ad_slot = "4238792741";
+    google_ad_width = 336;
+    google_ad_height = 280;
+</script>
+<!-- listbox1 -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div><div style="float:left;"><!-- Medium box1 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-7790207955723098"
+     data-ad-slot="2892568061"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></td></tr>
+
+<tr><td>chagas, capuchinha</td><td>f Kapwzinerkresse</td></tr>
+<tr><td>cravo</td><td>f Nelke</td></tr>
+<tr><td>crisântemo</td><td>f Chrysantheme</td></tr>
+<tr><td>dália</td><td>f Dahlie</td></tr>
+<tr><td>delphinium</td><td>f Rittersporne</td></tr>
+<tr><td>dente-de-leão</td><td>m Löwenzahn</td></tr>
+<tr><td>fúcsia</td><td>f Fuchsie</td></tr>
+<tr><td>gerânio</td><td>f Geranie</td></tr>
+<tr><td>girassol</td><td>f Sonnenblume</td></tr>
+<tr><td>gladíolo</td><td>f Gladiole</td></tr>
+<tr><td>hortênsia, hidrângea</td><td>f Hortensie</td></tr>
+<tr><td>íris</td><td>f iris, f Schwertlilie</td></tr>
+<tr><td>jacinto</td><td>f hyazinthe</td></tr>
+<tr><td>lário</td><td>f Lilie</td></tr>
+<tr><td>lilás</td><td>m Flieder</td></tr>
+<tr><td>malmequer</td><td>f Ringelblume</td></tr>
+<tr><td>margarida</td><td>nt Gänseblümchen</td></tr>
+<tr><td>narciso-dos-prados</td><td>f Osterglocke</td></tr>
+<tr><td>narciso</td><td>f Narzisse</td></tr>
+<tr><td>orquídea</td><td>f Orchidee</td></tr>
+<tr><td>papoula</td><td>m Mohn</td></tr>
+<tr><td>pelargonium</td><td>f Pelargonium</td></tr>
+<tr><td>petúnia</td><td>f Petunie</td></tr>
+<tr><td>primavera</td><td>f Schlüsselblume</td></tr>
+<tr><td>rododendro</td><td>m Rhododendron</td></tr>
+<tr><td>rosa</td><td>f Rose</td></tr>
+<tr><td>tremoço</td><td>f Lupine</td></tr>
+<tr><td>tulipa</td><td>f Tulpe</td></tr>
+<tr><td>zinnia</td><td>f Zinnie</td></tr>
+<tr><td colspan="2"><!-- Responsive wide -->
+<style type="text/css">
+.adslot_3 { width: 728px; height: 90px; }
+@media (min-width:500px) { .adslot_3 { width: 320px; height: 100px;} }
+@media (min-width:640px) { .adslot_3 { width: 468px; height: 60px; } }
+@media (min-width:900px) { .adslot_3 { width: 728px; height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_3"
+     style="display:block"
+     data-ad-client="ca-pub-7790207955723098"
+     data-ad-slot="1012217795"
+     data-ad-format="horizontal"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></td></tr>
+<!-- google_ad_section_end --></table><font size="4">Now take the <a href="https://www.jonsay.co.uk/language-test.php?langa=Portuguese&amp;langb=German&amp;category=flowers">Flores test in German</a></font><br><br></td><td valign="top"><td width="160" valign="top"><table width="160" cellspacing="0" cellpadding="0"><tr><td class="cat">
+<font size="5">Categorias</font>
+<br>
+<font size="4"><a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=countries" class="nav">Países</a></font><br>
+<br>
+<font size="4">Vida Selvagem</font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=nature" class="nav">natureza</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=humanbody" class="nav">Corpo Humano</a><br>
+<font size="4"><a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=animals" class="nav">Animais</a></font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=mammals" class="nav">Mamíferos</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=fish" class="nav">Peixe</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=reptiles" class="nav">Répteis</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=insects" class="nav">Insetos</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=plants" class="nav">Plantas</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=flowers" class="nav">Flores</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=vegetables" class="nav">Vegetals</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=fruits" class="nav">Frutas</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=trees" class="nav">Árvores</a><br>
+<br>
+<font size="4">Vida em Geral</font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=computers" class="nav">Computadores</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=daymonthyear" class="nav">Dia, Mês, Ano</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=directions" class="nav">Indicação</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=drinks" class="nav">Bebidas</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=mythology" class="nav">Mitologia</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=relatives" class="nav">Parentes</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=religion" class="nav">Religião</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=time" class="nav">Tempo</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=tools" class="nav">Ferramentas</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=weapon" class="nav">Armas</a><br>
+<br>
+<font size="4">Moda</font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=clothes" class="nav">Roupa</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=fabrics" class="nav">Tecidos</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=jewellery" class="nav">Jóias</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=shoes" class="nav">Sapatos</a><br>
+<br>
+<font size="4"><a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=buildings" class="nav">Edifícios</a></font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=home" class="nav">Lar</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=livingroom" class="nav">Sala Se Estar</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=kitchen" class="nav">Cozinha</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=bathroom" class="nav">Banheiro</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=bedroom" class="nav">Quarto</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=office" class="nav">Escritório</a><br>
+<br>
+<font size="4">Ciência</font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=astronomy" class="nav">Astronomia</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=elements" class="nav">Elemento</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=shapes" class="nav">Formas</a><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=weightsmeasures" class="nav">Pesos e Medidas</a><br>
+<br>
+<font size="4"><a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=language" class="nav">Língua</a></font><br>
+<a href="https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&amp;langb=German&amp;category=numbers" class="nav">Números</a><br>
+</td></tr></table></td></td></tr></table><center>Copyright © 2005-2019 jonsay.co.uk <a href="https://www.jonsay.co.uk/requestsandcontacts.php" target="_top">contact me</a> <a href="https://www.jonsay.co.uk/faq.html" target="_top" rel="nofollow">FAQ`s</a> <a href="https://www.jonsay.co.uk/privacy_policy.html" target="_blank" rel="nofollow">Privacy Policy</a><br><h6 style="margin:4px;padding:0px;">Website designed by <a href="https://www.jonsay.co.uk/jonathansayles.html">Jonathan Sayles</a></h6></center></body></html>

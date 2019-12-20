@@ -1,0 +1,8 @@
+total 56
+-rw-r--r--@ 1 josepereira  staff    126 Mar 14 14:15 Makefile
+-rw-r--r--  1 josepereira  staff      0 Mar 20 18:04 erros.txt
+drwxr-xr-x  3 josepereira  staff    102 Mar 14 22:51 etc
+-rwxr-xr-x  1 josepereira  staff  13424 Mar 20 18:04 execute
+-rw-r--r--@ 1 josepereira  staff   5519 Mar 20 18:04 g4.c
+-rw-r--r--  1 josepereira  staff      0 Mar 14 14:52 output.txt
+-rw-r--r--  1 josepereira  staff      0 Mar 20 18:04 saida.txt

@@ -1,0 +1,21 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/xenial64"
+
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get install aptitude -y
+  # SHELL
+
+  config.vm.provision "ansible" do |ansible|
+    ansible.raw_arguments = [
+      "-e ansible_python_interpreter=/usr/local/bin/python3"
+    ]
+    ansible.playbook = "playbook.yml"
+  end
+end
+
+
+# => ansible-playbook playbook.yml -b -K
+# => o vagrant já faz este comando, quando fazemos vagrant up

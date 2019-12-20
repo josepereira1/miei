@@ -1,0 +1,12 @@
+%option main
+
+
+%%
+
+TODO(.*\n){1,4} {ECHO;}	
+	/*o {1,4} serve para apanhar no min 1 linha, no máx 4 linhas a seguir ao TODO*/
+.|\n  {}	
+	/*tudo que apanhar, excepto o \n e o que for capturado pela expressão regular é removido*/ 
+
+%%
+

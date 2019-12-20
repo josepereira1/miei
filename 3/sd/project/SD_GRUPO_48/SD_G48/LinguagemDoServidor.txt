@@ -1,0 +1,41 @@
+Linguagem de resposta do servidor:
+
+Padrão:
+output servidor - significado
+
+0 - erro de input;
+1 - Sucesso no login;
+2 - password incorreta;
+3 - email não existe;
+4 - proposta submetida com sucesso, aguarde pelo fim do leilão;
+5 - insucesso na proposta (valor baixo);
+6 - erro interno (servidor não existe);
+7 - leilão terminou;
+9 - erro interno (reserva não existe);
+10 - erro interno (cliente não existe);
+11 - libertado servidor com sucesso;
+12 - erro interno (reserva não correspondete);
+13 - erro interno (Ultimo leilao nao sync);
+14 - erro interno (Reserva existe);
+15 - não autenticado;
+
+q_id - retorna o id do servidor reservado;
+w_valor - valor do saldo do cliente;
+e_produtos - retorna os produtos presentes no sistema;
+r_reservas - retorna as reservas do cliente;
+t_ - informa que ganhou um leilão;
+y_id - perdeu um servidor atribuído em leilão;
+
+
+Linguagem que o servidor recebe:
+
+Padrão:
+input para o servidor - significado
+
+a_email_password - autenticar no sistema;
+b_nomeServidor_valor - reservar servidor a leilão;
+c_nomeServidor - reservar leilão a pedido;
+d - consulta saldo do cliente;
+e_idServidor - libertar um servidor;
+k - mostrar produtos do sistema;
+y - reservas do cliente;

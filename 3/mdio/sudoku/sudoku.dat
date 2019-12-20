@@ -1,0 +1,11 @@
+/*********************************************
+ * OPL 12.6.2.0 Data
+ * Author: falvelos
+ * Creation Date: 5 de Abr de 2017 at 12:12:54
+ *********************************************/
+
+  
+SheetConnection sheet("sudoku.xlsx");
+
+d from SheetRead(sheet,"Sheet1!d");
+y to SheetWrite(sheet,"Sheet1!x");

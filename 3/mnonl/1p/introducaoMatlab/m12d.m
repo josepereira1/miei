@@ -1,0 +1,1 @@
+E=D([2 4],:);   %   vai buscar a matriz D, que é a matriz A mais uma linha de 4's e devolve a linha 2 e 4;

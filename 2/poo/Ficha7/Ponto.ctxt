@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Ponto
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Ponto\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=
+comment1.target=Ponto()
+comment10.params=x\ y
+comment10.target=void\ deslocamento(int,\ int)
+comment2.params=x\ y
+comment2.target=Ponto(int,\ int)
+comment3.params=umPonto
+comment3.target=Ponto(Ponto)
+comment4.params=
+comment4.target=int\ getX()
+comment5.params=
+comment5.target=int\ getY()
+comment6.params=x
+comment6.target=void\ setX(int)
+comment7.params=y
+comment7.target=void\ setY(int)
+comment8.params=
+comment8.target=Ponto\ clone()
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=11

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Matrix
+comment1.params=
+comment1.target=Matrix()
+comment10.params=o
+comment10.target=boolean\ equals(java.lang.Object)
+comment2.params=linhas\ colunas
+comment2.target=Matrix(int,\ int)
+comment3.params=mat
+comment3.target=Matrix(Matrix)
+comment4.params=
+comment4.target=int\ getLinhas()
+comment5.params=index
+comment5.target=int\ getColunasAtIndex(int)
+comment6.params=elem\ linha\ coluna
+comment6.target=void\ setElemAtIndex(int,\ int,\ int)
+comment7.params=elem\ linha\ coluna
+comment7.target=int\ getElemAtIndex(int,\ int,\ int)
+comment8.params=
+comment8.target=void\ printMatrix()
+comment9.params=
+comment9.target=Matrix\ clone()
+numComments=11

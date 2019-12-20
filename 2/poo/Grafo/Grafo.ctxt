@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Grafo
+comment1.params=
+comment1.target=Grafo()
+comment10.params=v
+comment10.target=boolean\ isSink(java.lang.Integer)
+comment11.params=v
+comment11.target=boolean\ isSource(java.lang.Integer)
+comment12.params=
+comment12.target=int\ size()
+comment2.params=adj
+comment2.target=Grafo(java.util.Map)
+comment3.params=umGrafo
+comment3.target=Grafo(Grafo)
+comment4.params=
+comment4.target=java.util.Map\ getAdj()
+comment5.params=adj
+comment5.target=void\ setAdj(java.util.Map)
+comment6.params=
+comment6.target=Grafo\ clone()
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=vOrig\ vDest
+comment9.target=void\ addArco(java.lang.Integer,\ java.lang.Integer)
+numComments=13

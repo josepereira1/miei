@@ -1,0 +1,5 @@
+\b o que faz?
+
+aula 6, linha 72
+txt=re.sub(r'(\b(s(é|e)c(?:ulo|ulos|\.)?) [XLDIVMC]+)',r'{\1:t}',txt)
+pq temos (?:ulo|ulos|\.), ou seja, pq não queremos capturar isto?

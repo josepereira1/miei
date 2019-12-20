@@ -1,0 +1,182 @@
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Programacao em logica estendida
+% Representacao de conhecimento imperfeito
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% SICStus PROLOG: Declaracoes iniciais
+
+:- set_prolog_flag( discontiguous_warnings,off ).
+:- set_prolog_flag( single_var_warnings,off ).
+:- set_prolog_flag( unknown,fail ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% SICStus PROLOG: definicoes iniciais
+
+:- op( 900,xfy,'::' ).
+:- dynamic filho/2.
+:- dynamic pai/2.
+
+:- op( 1100,xfy,'??' ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Extensao do predicado filho: Filho,Pai -> {V,F,D}
+
+filho( joao,jose ).
+filho( jose,manuel ).
+filho( carlos,jose ).
+
+-filho( F,P ) :-
+    nao( filho( F,P ) ),
+    nao( excecao( filho( F,P ) ) ).
+
+% Invariante Estrutural:  nao permitir a insercao de conhecimento
+%                         repetido
+
++filho( F,P ) :: (solucoes( (F,P),(filho( F,P )),S ),
+                  comprimento( S,N ), N == 1
+                  ).
+
+% Invariante Referencial: nao admitir mais do que 2 progenitores
+%                         para um mesmo individuo
+
++filho( F,P ) :: (solucoes( (Ps),(filho( F,Ps )),S ),
+                  comprimento( S,N ), N =< 2
+                  ).
+
+% Invariante Referencial: nao é possivel remover filhos para
+%                         os quais exista registo de idade
+
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Extensao do predicado idade: Pessoa,Idade -> {V,F,D}
+
+idade( joao,21 ).
+
+-idade( P,I ) :-
+    nao( idade( P,I ) ),
+    nao( excecao( idade( P,I ) ) ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Explicitacao das situacoes de excecao
+
+% A Belem é filha de uma pessoa de que se desconhece a identidade
+
+filho( belem,xpto023 ).
+
+excecao( filho( F,P ) ) :- filho( F,xpto023 ).
+
+% A Maria é filha do Faria ou do Garcia
+
+excecao( filho( maria,faria ) ).
+excecao( filho( maria,garcia ) ).
+
+% O Julio tem um filho que ninguem pode conhecer
+
+filho( xpto732,julio ).
+excecao( filho( F,P ) ) :-
+    filho( xpto732,P ).
+nulointerdito( xpto732 ).
++filho( F,P ) :: (solucoes( (Fs,P),(filho(Fs,julio),nao(nulointerdito(Fs))),S ),
+                  comprimento( S,N ), N == 0 
+                  ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+
+evolucao( Termo ) :-
+    solucoes( Invariante,+Termo::Invariante,Lista ),
+    insercao( Termo ),
+    teste( Lista ).
+
+insercao( Termo ) :-
+    assert( Termo ).
+insercao( Termo ) :-
+    retract( Termo ),!,fail.
+
+teste( [] ).
+teste( [R|LR] ) :-
+    R,
+    teste( LR ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Extensão do predicado que permite a involucao do conhecimento
+
+
+
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Extensao do meta-predicado si: Questao,Resposta -> {V,F}
+%                            Resposta = { verdadeiro,falso,desconhecido }
+
+si( Questao,verdadeiro ) :-
+    Questao.
+si( Questao,falso ) :-
+    -Questao.
+si( Questao,desconhecido ) :-
+    nao( Questao ),
+    nao( -Questao ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Extensao do meta-predicado nao: Questao -> {V,F}
+
+nao( Questao ) :-
+    Questao, !, fail.
+nao( Questao ).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+
+solucoes( X,Y,Z ) :-
+    findall( X,Y,Z ).
+
+comprimento( S,N ) :-
+    length( S,N ).
+
+
+% ficha-9
+
+% i)
+
+% isto não era necessário para esta questão, mas já fica
++ pai(P,F) :: (solucoes( F ,(filho(F,P)), S ),
+                  comprimento( S,N ), N > 1 
+                  ).
+
++ mae(P,F) :: (solucoes( F ,(filho(F,P)), S ),
+                  comprimento( S,N ), N > 1 
+                  ).
+
+pai(abel, ana).
+mae(ana, alice).
+
+filho(alice, ana).
+filho(alice, abel).
+
+nasceu(ana, data(1,1,2010)).
+
+% ii)
+
+pai(antonio, anibal).
+mae(alberta, anibal).
+
+nasceu(anibal, data(2,1,2010)).
+
+% iii)
+
+pai(bras, berta).
+mae(belem, berto).
+
+nasceu(berto, data(2,2,2010)).
+
+% iv)
+
+nasceu(catia, data(3,3,2010)).
+
+
+% v)
+
+mae(catia, crispim).
+excecao().
+
+
+
+
+

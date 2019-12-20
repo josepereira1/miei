@@ -1,0 +1,1 @@
+diagonalEZeros = diag(diag(A))

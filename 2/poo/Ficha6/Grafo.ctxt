@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Grafo
+comment1.params=
+comment1.target=Grafo()
+comment2.params=adj
+comment2.target=Grafo(java.util.Map)
+comment3.params=from\ to
+comment3.target=void\ addArco(java.lang.Integer,\ java.lang.Integer)
+comment4.params=v
+comment4.target=boolean\ isSink(java.lang.Integer)
+comment5.params=v
+comment5.target=boolean\ isSource(java.lang.Integer)
+comment6.params=v
+comment6.target=java.util.Set\ fanOut(java.lang.Integer)
+comment6.text=\n\ ISTO\ \u00C9\ MUITO\ BONITO\ ,\ MAS\ O\ Map.Entry\ \u00E9\ uma\ interface,\ logo\ n\u00E3o\ posso\ criar\ inst\u00E2ncias\ de\ uma\ coisa\ que\ n\u00E3o\ \u00E9\ um\ class,\ a\n\ segunda\ solu\u00E7\u00E3o\ \u00E9\ a\ correcta,\ visto\ que\ o\ java\ j\u00E1\ fez\ uma\ maneira\ de\ contronar\ o\ problema;\n\ \ \ \ public\ Set<Map.Entry<Integer,Integer>>fanOut(Integer\ v){\n\ \ \ \ \ \ \ \ if(\!adj.containKey(v))\ return\ null;\n\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ Set<Map.Entry<Integer,Integer>>\ res\ \=\ new\ TreeSet();\n\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ for(Integer\ a\:\ adj.get(v)){\n\ \ \ \ \ \ \ \ \ \ \ \ res.add(new\ Map.Entry<Integer,Integer>(v,a));\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ res;\n\ \ \ \ }\n
+numComments=7

@@ -1,0 +1,36 @@
+#!/usr/local/bin/gawk -f
+
+BEGIN{FS="::"}
+
+NF==7 && p[$1]==0 {print beginHTML($1) > $1 ".html"}	# colocar o título em cada ficheiro html criado para cada província, então testa-mos quando o contador é igual a zero, porque ai é quando estou a criar este ficheiro pela primeira vez
+
+NF==7{
+	#if(p[$1]==0)beginHTML($1) > $1 ".html"	# isto é um possível aternativa para a condição acima
+
+	#print "<li><a href='" $6 "'>" $3 "</a></li>"
+	#printf("<ul><li><a href=%s>%s</a></li></ul>",$5,3)
+	print link($5,$3) > $1 ".html"	# criar um ficheiro html para cada província
+	p[$1]++	# $1 é referente à província
+	split($6, t, ":")	# split, separa o tempo em segundos, min, horas, ...
+	duracao[$1] += t[1]*60+ t[2]	# na posição 1 estão os minutos, na 2 os segundos
+}
+
+END{
+	#for(k in p) print p[k], k
+	print beginHTML("Arquivo Sonoro") > "index" ".html"
+	for(k in p) print link(k ".html", k " - " p[k] " duração = " duracao[k] " segundos") > "index" ".html"
+	# gera um index.html, com os links para as províncias onde também se conta o número de ocorrências, que está em p
+	print endHTML() > "index.html"
+}
+
+function beginHTML(t){
+	return "<html><head><meta charset='UTF-8'/></head><body><h1>" t "</h1>"
+}
+
+function endHTML(){
+	return "</body></html>"
+}
+	
+function link(u,t){
+	return "<li><a href='" u "'>" t "</a></li>"
+}

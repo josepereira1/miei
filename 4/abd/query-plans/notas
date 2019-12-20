@@ -1,0 +1,2 @@
+Com a alteração do ficheiro de configuração do postgresql pertende-se que se obrigue o mesmo a usar o algoritmo nested-loop, que por norma é mais lento.
+Para isso colocou-se a off o hash join e o merge join.

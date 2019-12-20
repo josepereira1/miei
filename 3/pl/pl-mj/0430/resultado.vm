@@ -1,0 +1,31 @@
+
+pushi 0
+
+pushi 0
+
+start
+
+pushs "Escreva o X:"
+writes
+read
+atoi
+storeg 0
+
+pushi 7
+
+storeg 1
+
+pushg 0
+jz else:
+pushi 99
+
+writei
+
+fimse:
+jump fimse:
+else:
+pushg 0
+
+writei
+fimse:
+stop

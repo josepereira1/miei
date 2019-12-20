@@ -1,0 +1,11 @@
+	/*converter os pés para metros no ficheiro exemplo3.txt*/
+
+%option main
+
+%%
+	int i;
+
+[0-9]+\ pés   {sscanf(yytext,"%d", &i); 
+		printf("%.2f metros", i/3.0    );}
+
+%%

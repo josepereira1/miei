@@ -1,0 +1,40 @@
+%{
+	
+%}
+
+%option noyywrap
+%option yylineno 
+
+A               (á|à|â|ã|é|ç|[a-z])
+
+PM				([A-Z]{A}+|[A-Z]\.)
+	/* PM - Palavras Maiúsculas */
+
+Conect			(d[eao]|de\ dos|los|von)
+	/* Conector de nomes próprios */
+
+E 				\ +
+	/* Espaços */
+
+PF				([.!?]\n?|\n\n){E}?
+	/* Fim de linha */
+
+%%
+{PM}({E}{Conect}{E}{PM}|{E}{PM})*	{printf("%d - %s\n", yylineno, yytext);}
+{PF}{PM}							{}
+.|\n   								{}
+%%
+
+int main(int argc, char* argv[]) {
+	
+	if (argc==1) {
+		yylex();
+	} else {
+		for(int i=1; i<argc; i++){
+			yyin=fopen(argv[i], "r");
+			yylex();
+			fclose(yyin);
+		}
+	}
+	return 0;
+}

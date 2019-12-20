@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=GestorPontos2
+comment1.params=
+comment1.target=GestorPontos2()
+comment2.params=pontos
+comment2.target=GestorPontos2(java.util.List)
+comment3.params=obj
+comment3.target=GestorPontos2(GestorPontos2)
+comment4.params=pontos
+comment4.target=void\ setPontos(java.util.List)
+comment5.params=
+comment5.target=java.util.List\ getPontos()
+comment6.params=p
+comment6.target=void\ addPonto(Ponto)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

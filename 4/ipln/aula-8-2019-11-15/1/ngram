@@ -1,0 +1,64 @@
+#!/usr/bin/python3
+"""
+Ngrams - calculate ngrams frequency
+"""
+
+#   Objetivo:
+#   uma janela deslizante a percorrer o texto, apanhando sequências de N caracteres
+
+import re
+import subprocess
+import sys
+from getopt import getopt
+import fileinput
+from collections import Counter
+
+N = 10
+
+#   filtra sequências de N caracteres, usando uma janela deslizante, e conta as ocorrências das mesmas
+def cal_n_grams(texto):
+    freqs = {}  #   dicionário para guardar as frequências das palavras
+
+    #   duas chavetas, escreve uma chaveta
+    #   resolver isto com expressões regulares
+    for seq1, seq2 in re.findall(f"(.)(?=(.{{{N-1}}}))", texto):
+        #   get(seq1+seq2, 0), o zero é para se não tiver nenhum valor, assume zero
+        freqs[seq1+seq2] = freqs.get(seq1+seq2, 0) + 1  #   contar
+
+    #   resolver o problema sem expressões regulares
+    # for i in range(0, len(texto) - N -1):
+    #     print(texto[i:i+N])
+
+    #   i:i+N é para ele fazer as N combinações
+    #   texto[i]
+    #   texto[i+1]
+    #   texto[i+2]
+    #   texto[i+3]
+    #   ...
+    #   texto[i+N]    
+
+    return freqs
+
+#   fazer o print das sequências ordenadas pelas suas ocorrências
+def print_sorted(freqs):
+    #   key=lambda p:p[1], informa o critério de ordenação que queremos usar, neste caso pelo valor do dicionário, o que está na posição 1 (número de ocorrências). 
+    #   reverse=True, ordena ao contrário, ou seja, de forma descrescente
+    #   https://docs.python.org/3/howto/sorting.html
+    for p in sorted(freqs.items(), key=lambda p: p[1], reverse=True):   #   devolve de forma ordenada o que damos como argumento
+        print(f"{p[0]} - {p[1]}")
+
+def main():
+    opts, resto = getopt(sys.argv[1:], "albdc")
+    dop = dict(opts)
+    
+    texto = ""
+
+    # Reads file
+    for line in fileinput.input(resto):
+        texto += line
+
+    print_sorted(cal_n_grams(texto))
+
+main()
+
+#   python3 ngram reliquia_fix.txt | more

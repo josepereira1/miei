@@ -1,0 +1,3 @@
+ficheiro arg-sons.txt= RS=::
+
+gawk -f arq-son-to-html < arq-son.txt > index.html

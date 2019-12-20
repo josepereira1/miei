@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Ficha1
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Ficha1\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=graus
+comment1.target=double\ celsiusParaFarenheit(double)
+comment2.params=a\ b
+comment2.target=int\ maximoNumeros(int,\ int)
+comment3.params=nome\ saldo
+comment3.target=java.lang.String\ criaDescricaoConta(java.lang.String,\ double)
+comment4.params=valor\ taxaConversao
+comment4.target=double\ eurosParaLibras(double,\ double)
+comment5.params=n1\ n2
+comment5.target=void\ sortMedian(int,\ int)
+comment6.params=num
+comment6.target=long\ fatorial(int)
+comment7.params=num
+comment7.target=long\ tempoGasto(int)
+numComments=8

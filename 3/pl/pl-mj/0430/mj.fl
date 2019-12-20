@@ -1,0 +1,26 @@
+%{
+#include <stdio.h>
+
+%}
+%option noyywrap
+
+%%
+[0-9]+(\.[0-9]+)?		{yylval.n=atof(yytext);return NUM;}
+
+int						{return INT;}
+print					{return PRINT;}
+read					{return READ;}
+var 					{return VAR;}
+if						{return IF;}
+else 					{return ELSE;}
+while 					{return WHILE;}
+\"[^\"\n]*\"			{yylval.c=strdup(yytext);return STRING;}			
+
+[a-zA-Z]+				{yylval.c=strdup(yytext);return ID;}
+
+[;=+\-*/:]				{return yytext[0];}
+
+\n\n					{return yytext;}
+. 						{yyerror("Carater Inválido");}
+
+%%

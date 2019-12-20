@@ -1,0 +1,21 @@
+%option noyywrap
+
+%%
+
+0-9]+(\.[0-9]+)?  {yylval.n = atof(yytext); return NUM; }
+
+var 				{return VAR;}
+
+int 				{return INT;}
+
+print				{return PRINT;}
+
+[a-zA-Z]+: 			{yylval.c = strdup(yytext); return ID;}
+
+[;=+\.*/:]			{return yytext[0];}
+
+[ \t\n\r]     		{}
+
+.             { yyerror("Carater inválido"); }
+
+%%

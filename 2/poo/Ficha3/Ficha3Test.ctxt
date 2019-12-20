@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Ficha3Test
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=Resumo\ Teorico\:\n\ \ \ \ \ \ \ ->\ Numa\ Class\ temos\ que\ ter\ sempre\ definidos\ os\ metodos\:\ toString(),\ equal(),\ clone();\n\ \ \ \ \ \ \ ->\ O\ equals()\ do\ java\ compara\ os\ ponteiros\ dos\ objetos,\ logo\ temos\ que\ fazer\ um\ equals\ adequado\ a\ nossa\ Class;\n\ \ \ \ \ \ \ ->\ O\ mesmo\ se\ diz\ toString,\ pois\ funciona\ mal\ para\ arrays\ que\ nao\ estejam\ 100%\ ocupados;\n\ \ \ \ \ \ \ ->\ Nao\ precisamos\ de\ fazer\ encapsulamento\ para\ tipos\ simples,\ Strings\ e\ LocalDates;\n\ \ \ \ \ \ \ ->\ \n
+numComments=2

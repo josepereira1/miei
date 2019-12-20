@@ -1,0 +1,8 @@
+Exercício: fazer o package para o programa da última aula.
+
+package
+
+acctk
+ |
+ |  addacc : texto -> texto
+ |  rmacc  : texto -> texto

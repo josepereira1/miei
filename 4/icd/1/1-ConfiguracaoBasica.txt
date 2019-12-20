@@ -1,0 +1,33 @@
+Configuração de rede da máquina virtual
+
+Placa nº1 - NAT   
+
+Placa nº2 - Bridge    
+
+Placa nº3 - Host Only
+
+Criação de chave ssh para acesso. 
+
+ssh-keygen     
+
+copiar o id_rsa.pub para authorized_keys       
+
+clientes SSH 
+
+MobaXterm,  SmarTTY     http://www.htpcbeginner.com/best-ssh-clients-windows-putty-alternatives/2/ 
+
+disable firewall    
+
+systemctl stop firewalld    
+
+systemctl disable firewalld
+
+editar /etc/selinux/config
+
+mudar 
+
+SELINUX=enforcing
+
+para
+
+SELINUX=disabled

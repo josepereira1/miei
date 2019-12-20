@@ -1,0 +1,17 @@
+var				tipo
+qqcoisa 			declarações
+estruturas de controlo 
+
+funções
+
+
+f.lp
+ |
+ |
+ |
+\ /
+[].vm
+
+
+símbolos terminais:
+T = {;,=,+,-,/,*,:,'var',identificador(nome da variável),'int',NUM,'print'} 

@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+
+"""
+Xcent - extract and classify named entities
+"""
+
+import re
+import subprocess
+import sys
+from getopt import getopt
+import fileinput
+from collections import Counter
+
+
+fn = 0
+fp = 0
+tp = 0
+t = subprocess.getoutput(f'diff -y {sys.argv[1]} {sys.argv[2]}').splitlines()
+
+
+# Reads file
+#for line in fileinput.input():
+for line in t:
+    if re.search(r'>', line):
+        fn += 1
+    elif re.search(r'<', line):
+        fp += 1
+    elif re.search(r'\|', line):
+        fn += 1
+        fp += 1
+    else:
+        tp += 1
+
+precision = tp / (tp + fp)
+recall = tp / (tp + fn)
+f1 = 2 * (precision * recall) / (precision + recall)
+
+print(f"Precision: {precision}, Recall: {recall}, F1: {f1}")

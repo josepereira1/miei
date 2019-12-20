@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Ponto3D
+comment0.text=\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Ponto3D\ aqui.\n\ \n\ @author\ (seu\ nome)\ \n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\n
+comment1.params=
+comment1.target=Ponto3D()
+comment10.params=o
+comment10.target=boolean\ equals(java.lang.Object)
+comment2.params=x\ y\ z
+comment2.target=Ponto3D(int,\ int,\ int)
+comment3.params=umPonto
+comment3.target=Ponto3D(Ponto3D)
+comment4.params=
+comment4.target=Ponto\ clone()
+comment5.params=
+comment5.target=int\ getZ()
+comment6.params=z
+comment6.target=void\ setZ(int)
+comment7.params=deltaX\ deltaY\ deltaZ
+comment7.target=void\ deslocamento(int,\ int,\ int)
+comment8.params=umPonto
+comment8.target=double\ distancia(Ponto3D)
+comment9.params=umPonto
+comment9.target=boolean\ iguais(Ponto3D)
+numComments=11

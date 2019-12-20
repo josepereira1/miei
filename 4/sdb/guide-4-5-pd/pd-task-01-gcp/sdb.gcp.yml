@@ -1,0 +1,13 @@
+plugin: gcp_compute
+projects:
+  - artful-hexagon-257511
+zones:
+  - us-central1-a 
+filters:
+  #- name = it_allows_wildcards* 
+keyed_groups:
+  - prefix: '' 
+    separator: '' 
+    key: labels
+auth_kind: serviceaccount 
+service_account_file: artful-hexagon-257511-baf3770e4de2.json

@@ -1,0 +1,58 @@
+1. Fazer um clone da máquina base
+
+2. Mudar o nome para cl1
+
+3. Instalar o software de cluster
+    yum install pcs pacemaker fence-agents-all
+    yum install iscsi-initiator-utils 
+    yum install postgresql-server.x86_64
+    
+4. desligar a máquina e fazer o clone
+
+5. configurar ips manuais nas placas NAT
+    
+6. registar os nomes e ips no /etc/hosts
+
+7. Seguir o procedimento do manual da redhat "Red Hat Enterprise Linux 7
+High Availability Add-On Reference"
+    (em ambas as maquinas)
+    passwd hacluster
+    systemctl start pcsd.service
+    systemctl enable pcsd.service
+    
+    systemctl enable multipathd
+    systemctl start multipathd
+    
+    
+    iscsiadm --mode discovery --type sendtargets --portal drbd2 (ou ip da maquina drbd1)
+    iscsiadm --mode discovery --type sendtargets --portal drbd1 (ou ip da maquina drbd2)
+    iscsiadm --mode node -l 
+
+    //  NOTA IMPORTANTE: como remover nós adicionados
+        iscsiadm --mode node    // listar todos os nós
+        iscsiadm -m node -T target_iqn_name -p ip address --op delete   //  remover um nó
+        iscsiadm -m node -U all     //  log out a todos os nós 
+    
+    //  NOTA IMPORTANTE: antes de fazer o mount:
+        cp /usr/share/doc/device-mapper-multipath-0.4.9/multipath.conf /etc/multipath.conf
+        systemctl start multipathd
+
+    mkdir /mnt/db
+    
+    (em apenas 1 nó)
+    mount /dev/mapper/mpatha /mnt/db/
+    mkdir /mnt/db/PG
+    chown postgres.postgres /mnt/db/PG
+    su - postgres
+    initdb -D /mnt/db/PG/
+    exit
+    umount /mnt/db
+    
+    
+    (em apenas um dos nós)
+    pcs cluster auth cl1 cl2
+    
+    
+    disable stonith
+
+

@@ -1,0 +1,1 @@
+produto2 = AA*BB

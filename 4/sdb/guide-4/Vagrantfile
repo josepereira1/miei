@@ -1,0 +1,38 @@
+PUBLIC_KEY = File.read(File.expand_path("~/.ssh/id_rsa.pub")).strip
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/xenial64"
+
+  config.vm.provider "virtualbox" do |vb|
+  vb.memory = "512"
+  vb.cpus = "1"
+  end
+
+  config.vm.provision "ansible" do |ansible|
+      ansible.raw_arguments = [
+        "-e ansible_python_interpreter=/usr/bin/python3
+        "]
+        ansible.playbook = "playbook.yml"
+  end
+
+# NOTA: SEMPRE QUE TEMOS UM <<do>> temos que fechar com dois ends
+
+# NOTA: O CÓDIGO SEGUINTE É PARA GARANTIR QUE O SISTEMA OPERATIVO TENHA O <<aptitude>>
+  
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get install aptitude -y
+  SHELL
+
+end
+
+
+
+

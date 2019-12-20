@@ -1,0 +1,34 @@
+PUBLIC_KEY = File.read(File.expand_path("~/.ssh/id_rsa.pub")).strip
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/xenial64"
+
+  config.vm.provider "virtualbox" do |vb|
+  vb.memory = "4096"
+  vb.cpus = "1"
+  end
+
+
+  config.vm.define "vm1" do |vm1|
+    vm1.vm.network "private_network", ip: "10.0.0.101"
+  end
+
+  config.vm.define "vm2" do |vm2|
+    vm2.vm.network "private_network", ip: "10.0.0.102"
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get install -y vim
+    sudo apt-get install unzip
+    echo "#{PUBLIC_KEY}" >> /home/vagrant/.ssh/authorized_keys
+
+  SHELL
+end

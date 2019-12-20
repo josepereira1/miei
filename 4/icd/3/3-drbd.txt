@@ -1,0 +1,117 @@
+Instalação e configuração de DRBD
+==================================
+
+Manual e guia do DRBD
+https://docs.linbit.com/docs/users-guide-9.0/
+
+1. Pegar na VM da ultima aula e destruir LVM, VG e PV
+
+    NOTA (POSSÍVEIS DÚVIDAS): 
+        para remover o lvol0/lvol1 tive que fazer:
+            umount /dev/AulaICD/lvol0    // pode ser preciso fazer umount
+            lvremove /dev/AulaICD/lvol0
+            umount /dev/AulaICD/lvol1     // pode ser preciso fazer umount
+            lvremove /dev/AulaICD/lvol1
+        para remover o volume group:
+            vgremove /dev/AulaICD
+        para remover os PVs:
+            pvremove /dev/sdb
+            pvremove /dev/sdc
+
+2. Istalar o repositorio elrepo
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm
+
+yum update
+yum install drbd90-utils kmod-drbd90 drbd90-utils-sysvinit
+ 
+ 
+3.mudar o nome da maquina para drbd1
+    usar o nmtui
+    
+4. definir um ip estático numa das placas de rede usando o nmtui
+    10.0.0.1/24
+    
+    acrescentar as linhas 
+    10.0.0.1        drbd1
+    10.0.0.2        drbd2
+    ao /etc/hosts
+5. Criar os ficheiros de configuração na diretoria /etc/drbd.d/
+    global_common.conf
+global {
+    usage-count no;
+}
+
+common {
+    net { 
+        protocol C; 
+    }
+}
+    
+    
+    
+        
+>>>d1.res
+
+resource d1 {
+    on drbd1 {
+        device    /dev/drbd1;
+        disk      /dev/sdb;
+        address   10.0.0.1:7789;
+        meta-disk internal;
+    }
+    on drbd2 {
+        device    /dev/drbd1;
+        disk      /dev/sdb;
+        address   10.0.0.2:7789;
+        meta-disk internal;
+      }
+}
+        
+6. fazer poweroff da VM e duplica-la
+
+7. Na nova VM mudar o nome e a configuração do ip de rede (10.0.0.2/24)
+    e ativar 
+    systemctl restart network
+    systemctl restart NetworkManager
+    
+
+8. verficar que a rede fica operacional
+    ping 10.0.0.1/2 e obter resposta
+    
+9. inicializar os discos em ambas as máquinas
+    drbdadm create-md d1
+    
+10. em ambas as máquinas 
+    drbdadm up d1 
+    
+11. numa das máquinas (drbd1)
+    drbdadm primary --force d1
+    drbdadm status para acompanhar a sincronização inicial
+
+12. na maquina drbd1 
+    criar um mount point para o filesystem
+        mkdir /mnt/lv1
+    criar um filesystem 
+        mkfs.xfs /dev/drbd1
+    montar o fs
+         mount /dev/drbd1 /mnt/lv1
+    copiar dados para o fs
+        cp -r /etc /mnt/lv1
+        
+    desmontar o fs
+        umount /mnt/lv1
+
+13. passar drbd1 para secundario e drbd2 a primario
+    (drbd1) drbdadm secondary d1
+         atenção que é preciso fazer umount ao fs
+    (drbd2) drbdadm primary d1
+        fazer mount da partição e verificar que os dados estão lá
+        criar um mount point para o filesystem
+            mkdir /mnt/lv1
+        montar o fs
+             mount /dev/drbd1 /mnt/lv1
+        verificar que os dados estão no filesystem  
+            ls -la /mnt/lv1
+            ls -la /mnt/lv1/etc
+        

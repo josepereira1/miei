@@ -1,0 +1,7 @@
+Comandos para mongoDB:
+
+1-importar ficheiros de povoamento:
+
+mongoimport --db test --collection restaurants --drop --file ~/Users/josepereira/Documents/base/programs/git/uminho/bd/pl10/Mongo-Assets/primer-dataset.json
+
+

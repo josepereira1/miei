@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 12.6.2.0 Data
+ * Author: falvelos
+ * Creation Date: 6 de Abr de 2017 at 12:05:11
+ *********************************************/
+
+SheetConnection sheet("enfermeiros.xlsx"); 
+
+n from SheetRead(sheet,"Sheet1!n");
+prefs from SheetRead(sheet,"Sheet1!prefs");
+
+x to SheetWrite(sheet,"Sheet1!x");

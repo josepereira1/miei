@@ -1,0 +1,51 @@
+Fase 1 - perceber o funcionamento do LVS.
+
+Requisitos:
+    3 VMs
+        1 director
+        2 servidores web
+        ver figura com configuração.
+        o director é o default gw dos servidores web
+        
+Configuração:
+    0. Configurações VMWARE
+    0.1 Criar uma rede nova isolada de tudo
+
+    1. director.
+    1.1 clonar a máquina base
+    1.2 instalar sw
+        yum install net-tools telnet screen tcpdump ipvsadm  keepalived  haproxy
+    1.2.1 mudar o nome da maquina para lvs
+    1.3 ativar a funcionalidade de router
+        echo 1 >  /proc/sys/net/ipv4/ip_forward
+        
+        criar o ficheiro
+        /etc/sysctl.d/ip_forward.conf
+        com o conteudo
+        net.ipv4.ip_forward = 1
+    \\ NOTA: OS COMANDOS ABAIXO TEM QUE SER EXECUTADOS SEMPRE QUE FAZEMOS REBOOT À MÁQUINA!!!
+    1.4 configurar um serviço no ipvsadm (adaptar os ips às maquinas)
+        ipvsadm -A -t 172.16.141.197:80 -s rr
+    1.5 adicionar os servidores ao serviço
+         ipvsadm -a -t 172.16.141.197:80 -r 10.10.10.10 -m
+         ipvsadm -a -t 172.16.141.197:80 -r 10.10.10.9 -m
+    1.6 Colocar a placa 2 na rede configurada em 0.1 e atribuir-lhe um ip (eg 10.10.10.1)
+        
+    2. servidores web
+    2.1 clonar a maquina base
+    2.2 mudar o nome para ws1
+    2.3 yum install net-tools telnet tcpdump httpd screen
+    2.4 desligar a placa em NAT (placa de rede 1)
+    2.5 configuração de rede
+    2.5.1 Colocar a placa 2 na rede configurada em 0.1 e atribuir-lhe um ip (eg ws1 10.10.10.9; ws2 10.10.10.10 )
+    2.5.2 Configurar o director como default gw (linha gateway no nmtui 10.10.10.1)
+    2.5.2 Desligar a placa NAT (placa 1)
+    2.5.2 Verficar a configuração de rede (ip addr; netstat -nr)
+    2.6 arrancar o http
+    2.6.1 systemctl start httpd
+    2.6.2 systemctl enable httpd
+    
+    3. Testar na máquina fisica que consegue aceder ao web server
+    3.1 modificar a página do webserver para verificar o balanceamento 
+
+

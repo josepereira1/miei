@@ -1,0 +1,8 @@
+
+%option main
+
+%%
+
+a+	{printf("Encontrei um a!");}
+
+%%
