@@ -7,7 +7,7 @@
 import re
 import requests as req
 
-x= req.get("https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&langb=German")
+x = req.get("https://www.jonsay.co.uk/dictionary.php?langa=Portuguese&langb=German")
 x = x.text
 
 # os () servem para delimitar a região de captura, ou seja, tudo que esteja fora, é descartado

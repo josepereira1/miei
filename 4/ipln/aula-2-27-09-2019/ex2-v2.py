@@ -9,7 +9,7 @@ dop = dict(opts)
 # print(dop)
 
 # output = sp.getoutput(f"head -{50+1} exemplo.txt | tail -11")
-# o 'f' antes da string server para avisar que vai ter uma expressão
+# o 'f' antes da string serve para avisar que vai ter uma expressão matemática/computacional (50+1)
 # no meio da string, caso não se meta o 'f' antes da string, ele 
 # iria imprimir {50+1} como caracteres
 

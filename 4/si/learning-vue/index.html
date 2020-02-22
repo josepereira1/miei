@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<body>
+
+<h2>Vue.js</h2>
+
+<div id="app">
+  {{ message }}
+</div>
+
+<p>
+<button onclick="myFunction()">Click Me!</button>
+</p>
+
+<script>
+var myObject = new Vue({
+  el: '#app',
+  data: {message: 'Hello Vue!'}
+})
+
+function myFunction() {
+    myObject.message = "John Doe";
+}
+</script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<body>	
+
+<h2>Vue.js</h2>
+
+<!-- 
+	o id é muito importante, pois é uma espécie de observer, isto é, quando o objeto que tiver este <<el>> for alterado, o código html entre este <div> é atualizado
+-->
+<div id="app">
+  <p>{{ universidade }}</p>
+  <p>{{ curso }}</p>
+
+
+  <!-- 
+	o v-for, é um for sobre listas
+  -->
+	<ul>
+		<li v-for="elem in arr">{{elem.text}}</li>
+	</ul>
+
+	<p>Aluno: {{aluno}}</p>
+
+	 <!-- 
+  	equivalente ao anterior, no entanto, usado, nestas situações, onde não se consegue usar o anterior
+  	--> 
+  	<p><input v-model="aluno"></p>
+</div>
+
+<script>
+myObject = new Vue({
+  el: '#app',
+  data: {
+  universidade: 'Universidade do Minho',
+  curso: 'Mestrado integrado em Engenharia Informática',
+  hint: 'insira o numero aqui',
+  aluno: '',
+  arr: [
+  		{text: 'Sistemas Interativos'}, {text: 'Arquiteturas '}
+  	   ]
+  }
+})
+</script>
+
+</body>
+</html>
+
+
