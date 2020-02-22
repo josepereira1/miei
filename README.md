@@ -44,26 +44,44 @@
 - [projeto-sd](https://github.com/josepereira1/projeto-sd) - Projeto de Sistemas Distribuídos
 
 * **Segundo Semestre**
+
 - [cc](https://github.com/josepereira1/miei/tree/master/3/cc) - Comunicações por Computador
 - [projeto-cc](https://github.com/josepereira1/projeto-cc) - Projeto de Comunicação por Computadores
+
 - [cg](https://github.com/josepereira1/miei/tree/master/3/cg) - Computação Gráfica
 - [projeto-cg](https://github.com/josepereira1/projeto-cg) - Projeto de Computação Gráfica
+
 - [meio](https://github.com/josepereira1/miei/tree/master/3/meio) - Modelos Estocásticos de Investigação Operacional
 - [projeto-meio](https://github.com/josepereira1/projeto-meio) - Projeto de Modelos Estocásticos de Investigação Operacional
+
 - [pl](https://github.com/josepereira1/miei/tree/master/3/pl) - Processamento de Linguagens
 - [projeto-pl](https://github.com/josepereira1/projeto-pl) - Projeto de Processamento de Linguagens
+
 - [srcr](https://github.com/josepereira1/miei/tree/master/3/srcr) - Sistemas de Representação de Conhecimento e Raciocínio
 - [projeto-srcr](https://github.com/josepereira1/projeto-srcr) - Projeto de Sistemas de Representação de Conhecimento e Raciocínio
 
 ## Quarto Ano:
 * **Perfil de Engenharia de Aplicações**
+
 - [abd](https://github.com/josepereira1/miei/tree/master/4/abd) - Administração de Base de Dados
+- [projeto-abd](https://github.com/josepereira1/projeto-abd) - Projeto de Administração de Base de Dados
+
 - [icd](https://github.com/josepereira1/miei/tree/master/4/icd) - Infraestruturas de Centro de Dados
+- [projeto-icd](https://github.com/josepereira1/projeto-icd) - Projeto de Infraestruturas de Centro de Dados
 
 * **Perfil de Engenharia de Sistemas de Software**
+
 - [as](https://github.com/josepereira1/miei/tree/master/4/as) - Arquiteturas de Software
+- [projeto-as-1](https://github.com/josepereira1/projeto-as-1) - Primeiro projeto de Arquiteturas de Software
+- [projeto-as-2](https://github.com/josepereira1/projeto-as-2) - Segundo projeto de Arquiteturas de Software
+
 - [er](https://github.com/josepereira1/miei/tree/master/4/er) - Engenharia de Requisitos
+- [projeto-er](https://github.com/josepereira1/projeto-er) - Projeto de Engenharia Requisitos
 
 * **Complementares**
+
 - [ipln](https://github.com/josepereira1/miei/tree/master/4/ipln) - Introdução ao Processamento de Linguagens Naturais
+- [projeto-ipln](https://github.com/josepereira1/projeto-ipln) - Projeto de Introdução ao Processamento de Linguagens Naturais
+
 - [sdb](https://github.com/josepereira1/miei/tree/master/4/sdb) - System Deployment & Benchmarking
+- [projeto-sdb](https://github.com/josepereira1/projeto-sdb) - Projeto de System Deployment & Benchmarking
