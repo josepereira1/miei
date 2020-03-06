@@ -1,20 +1,22 @@
 public class ConcreteObserver implements Observer {
     public int id;
-    private ConcreteSubject subject;
+    private Subject subject;
     private int state;
 
     public ConcreteObserver(ConcreteSubject subject){
-        subject.registerObserver(this);//  o próprio ConcreteObserver se regista como observador
         this.subject = subject;
+        this.subject.registerObserver(this);//  o próprio ConcreteObserver se regista como observador
     }
 
     @Override
-    public void update() {
-        this.state = this.subject.getState();
-        System.out.println("id = "+ this.id + " | value = " + this.state);
+    public void update(Object[] args) {
+        if(args[0] instanceof  Integer)this.state = (Integer) args[0];
+        System.out.println("id = "+ this.id + " | estado = " + this.state);
     }
 
-    // other methods
+    // outros métodos
+
+    // ...
 
     public int getState(){
         return this.state;

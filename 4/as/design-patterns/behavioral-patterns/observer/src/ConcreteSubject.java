@@ -15,20 +15,22 @@ public class ConcreteSubject implements Subject {
     public void registerObserver(ConcreteObserver concreteSubject) {
         lastId++;
         concreteSubject.id = lastId;
-        System.out.println("Register observer with id " + lastId + "!");
+        System.out.println("registar observador com id " + lastId);
         observers.put(lastId , concreteSubject);
     }
 
     @Override
     public void removeObserver(int id) {
-        System.out.println("Remove observer with id " + id);
+        System.out.println("remover observador com id " + id);
         observers.remove(id);
     }
 
     @Override
     public void notifyObservers() {
-        System.out.println("Notify observers!");
-        for(Observer ob : observers.values())ob.update();
+        System.out.println("notificar observadores");
+        Object[] info = new  Object[1];
+        info[0] = this.state;   //  generic (array of objects) info passed to observers
+        for(Observer ob : observers.values())ob.update(info);
     }
 
     public int getState(){

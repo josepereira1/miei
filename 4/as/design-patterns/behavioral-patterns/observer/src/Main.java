@@ -15,19 +15,18 @@ public class Main {
         //  criação de vários observers
         for(int i = 0; i < numberOfObservers; i++) new ConcreteObserver(subject);
 
-        System.out.println("current state = " + subject.getState());
+        System.out.println("estado inicial = " + subject.getState());
 
         try {
-            System.out.println("Thread sleep!");
+            System.out.println("esperar 2 segundos");
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Thread wake up!");
 
         //  mudamos o estado, e de seguida notificar os observadores desta mudança
-        System.out.println("Change state to 50!");
         subject.setState(50);
+        System.out.println("alterar estado para " + subject.getState());
         subject.notifyObservers();
 
         /*
@@ -36,14 +35,14 @@ public class Main {
          */
         subject.setState(5000);
 
-        System.out.println("Change State: " + subject.getState());
-        System.out.println("Current state of observer 1 before notify observers: " + ob1.getState());
+        System.out.println("alterar estado para " + subject.getState());
+        System.out.println("estado atual do observador 1 = " + ob1.getState());
 
         subject.notifyObservers();
 
         subject.removeObserver(3);
-        System.out.println("Set state to 10000");
         subject.setState(10000);
+        System.out.println("alterar estado para " + subject.getState());
         subject.notifyObservers();
 
     }
