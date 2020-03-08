@@ -1,3 +1,3 @@
 public interface Observer {
-    void update(Object[] args);
+    void update(Object info);
 }
