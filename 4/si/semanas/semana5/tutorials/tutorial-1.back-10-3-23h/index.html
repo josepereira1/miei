@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+    	<link rel="icon" href="favicon.ico">
+    	<title>Template</title>
+    	<link rel="stylesheet" type="text/css" href="style/reset.css">
+    	<link rel="stylesheet" type="text/css" href="style/style.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  			crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<header>
+			<b class="larger-words">App Name</b>
+		</header>
+		<nav>
+			<b class="medium-words">User name</b>
+			<div class="nav-bar">
+				<a class="nav-button" href="#">All Games</a>
+				<a class="nav-button" 	href="#">My Games</a>
+				<a class="nav-button" href="#">Add Game</a>
+			</div>
+		</nav>
+		<aside>
+			<b class="medium-words">Filter</b>
+			<form>
+				<ul>
+					<li>
+						<select class="aside-buttons" id="year">
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+						<option value="2018">2018</option>
+						</select>
+					</li>
+					<li>
+						<select class="aside-buttons" id="plataform">
+							<option value="pc">PC</option>
+							<option value="megadrive">Megadrive</option>
+							<option value="playstation">Playstation</option>
+						</select>
+					</li>
+				</ul>
+			</form>
+		</aside>
+		<main>
+			<table class="border-table">
+				<thead class="row1 border-table">
+					<tr>
+						<th  class="col1 border-table">Games</th>
+						<th  class="col2 border-table">Year</th>
+						<th  class="col3 border-table">Plataform</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="border-table">
+						<td class="cell border-table">Game 1</td>
+						<td class="cell border-table">1992</td>
+						<td class="cell border-table">Megadrive</td>
+					</tr>
+					<tr class="border-table">
+						<td class="cell border-table">Game 2</td>
+						<td class="cell border-table">2017</td>
+						<td class="cell border-table">PC</td>
+					</tr>
+				</tbody >
+			</table>
+			<a class="paginas">3</a> <a class="paginas">2</a> <a class="paginas">1</a>
+		</main>	
+		<footer>
+			© Footer information
+		</footer>
+	</body>
+	<script src="script/script.js"></script>
+</html>

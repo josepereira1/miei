@@ -1,0 +1,31 @@
+Exercício 1
+
+Aplicações com boa interface:
+
+    - Facebook;
+
+    - Uber;
+
+    - Google Maps.
+
+Aplicações com má interface:
+
+    - CaixaDireta Mobile;
+
+    - The Pirate Bay;
+
+    - vi.
+
+Exercício 2
+
+Consideramos aplicações com boas interfaces quando facilmente apresentam as funcionalidades que tem.
+
+Consideramos más quando devido a um erro (por exemplo a preencher um formulário) tem de se voltar a repetir tudo para corrigir.
+
+As opiniões podem variar consoante o grau de familiarização com esse tipo de interfaces.
+
+A própria personalidade do utilizador é um fator.
+
+Pessoas com alguns problemas visuais (daltónicos, epilepsia).
+
+João Marques (A81826), José Pereira (A82880), Ricardo Petronilho (A81744)

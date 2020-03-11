@@ -1,0 +1,88 @@
+Grupo 10
+
+Apresentamos duas propostas para o projeto, porque ainda não sabemos bem o que vamos fazer, surgiram-nos as duas seguintes propostas, e desta forma fizemos os erros para ambas.
+
+Proposta 1
+
+-> Website de acompanhamento online de Personal Trainers
+
+	Um website para os personal trainers acompanharem pessoas online, isto é, criar planos de exercícios e dietas personalizadas, packs predefinidos, chat entre personal trainers e consumidores dos planos.
+
+	Actors: personal trainer, consumidores dos planos dos Pts ao qual vamos chamar de "clientes", administrador
+
+	Requisitos Funcionais:
+
+		Actor: clientes
+	
+		1 - Consultar perfil do personal trainer (classificações, comentários sobre os mesmos);
+		2 - Comprar um pack (plano de treino, de várias semanas) predefinido de um determinado personal trainer;
+		3 - Registar-se na aplicação;
+		4 - Atribuir classificação/comentários a personal trainer após efetuar um pack (plano) do mesmo.
+		5 - Conversa (chat) com personal trainer;
+		6 - Descarregar ficheiros dos personal trainers;
+		7 - Efetuar o pagamento dos packs;
+		...
+		
+		Actor: personal trainer
+
+		1 - O personal trainer acompanha os seus clientes, ajustando os planos consoante os desenvolvimentos dos mesmos.
+		2 - Criação de packs;
+		3 - Registo na aplicação como personal trainer (onde será preciso um comprovativo do mesmo);
+		4 - Conversa (chat) com clientes;
+		5 - Carregar ficheiros para os clientes
+		6 - Definir informações do pack (preço, nome, resumo do mesmo, etc ...);
+		...
+
+
+
+	Erros para a proposta 1:
+
+		Erros selecionados: 
+			1 - As funcionalidades da aplicação devem ser facilmente visíveis ou acedidas através do menu principal em poucos passos
+			2 - Os formulários da aplicação devem ser claros, pois caso contrário, podemos obter dados errados por mal entendimento do utilizador
+		
+	
+		Restantes erros:
+			3 - A interface para o chat deve ser simples, pois em muitas outras aplicações, tornam-nas complexas, não sendo tão práticas de usar.
+			4 - A interface deve permitir a fácil/rápida transição entre chats, principalmente em relação ao personal trainer, que terá vários chats com vários clientes em simultâneo, tornando o trabalho do mesmo mais rápido.
+			5 - A a informação sobre o plano de treino deve ser apresentada de forma clara. 
+
+
+Proposta 2
+
+-> 3cloud - aplicação para partilha de armazenamento de dados
+
+	Todos os clientes fornecem um X número de bytes (variável por cada cliente) por exemplo, 512 MB, desta forma caso 1000 clientes aderissem ao sistema, teriamos disponível 1000 * 512 = 512 000 MB = 500 GB de espaço total de armazenamento. A memória fornecida pelos utilizadores será usada como cloud para os vários utilizadores da aplicação, reaproveitando os recursos dos seus dispositivos, partilhando com outros utilizadores. Resumidamente, é uma cloud distribuída pelos vários utilizadores.
+
+	FAQs - Frequently Asked Questions:
+
+	1 - Vou ter um ficheiro pessoal (ex: foto) no dispositivo de um desconhecido?
+	R:. O ficheiro é dividido em N partes (bytes) sendo cada parte distribuida por vários dispositivos, nunca havendo o ficheiro total num único dispositivo, desta forma é impossível reconstituir o ficheiro completamente. Juntamente a este requisito é feita a encriptação dos dados antes de enviados para esta cloud partilhada.
+
+	Utilizadores: qualquer pessoa com um dispositivo, administração
+
+
+	Requisitos funcionais:
+
+		Requisitos do utilizador:
+
+		1 - Cliente pode adicionar/consultar/eliminar/descarregar ficheiros da cloud (enquanto tiver armazenamento disponível)
+		2 - Definir a memória que disponibiliza para a cloud; 
+		...
+
+		Requisitos de sistema:
+
+		1 - Encriptação dos dados, tanto no envio como no armazenamento.
+		2 - Divisão do ficheiro em N partes, sendo que as partes são distribuidas nunca ficam nos mesmos dispositivos finais
+		...
+
+	Erros para a proposta 2:
+
+		Erros selecionados: 
+			1 - As funcionalidades da aplicação devem ser facilmente visíveis ou acedidas através do menu principal em poucos passos.
+			2 - Como se trata de uma aplicação de adição e descarga de ficheiros, os mesmos devem ter estas opções bem visíveis.
+
+		
+	
+		Restantes erros:
+			3 - A organização dos ficheiros, e a informação sobre cada um (tamanho, tipo, data, ...), deve ser bem visível. 

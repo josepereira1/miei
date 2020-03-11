@@ -1,0 +1,54 @@
+KLM
+
+1 - 
+	0.5 - M - preparação mental para apontar
+	1 - P - apontar para o ficheiro
+	2 - B - press no rato
+	3 - B - release no rato
+	4 - H - mover a mão para o teclado
+	4.5 - M - preparação mental para clicar nas teclas
+	5 - K - press ctrl
+	6 - K - press backspace
+	7 - H - voltar a por a mão no rato
+
+	R: Com a utilização de atalhos pode-se verificar que no melhor caso e no caso médio o tempo de execução da tarefa foi menor.
+
+2 - (a)
+	caso com dropdown
+		NIF		MPBBMPBB x9 = 45.00s
+		NOME	MPBBT(n)	= 2.50s + T(n)
+
+	caso com texto
+		NIF		MPBBT(9)	= 5.02s
+		NOME	MPBBT(n)	= 2.50s + T(n)
+
+	R: O segundo caso será 39.98s mais rápido que o primeiro.
+
+	(b)
+	R: A interface não está intuitiva uma vez que para utilizadores, que previamente sabiam identificar e utilizar o NIB, tornou-se confuso devido à separação pelos 4 campos. Ainda o cliente poderia não saber identificar os vários campos no NIB. Por fim, a solução poderia ser apenas um único campo de input textual.
+
+
+3 - 
+
+
+ERROS
+
+1 - 
+	(a)
+	1 - Erro de introdução de dados.
+
+	2 - Falta de concentração.
+
+	3 - Erro de interpretação.
+
+	(b)
+	Slip: 3
+
+	Lapses: 1,2
+
+	(c)
+	1- Nas interfaces usadas para inserir valores décimais, apesar de avisar qual o caracter de separação entre as unidades e as décimas, por falta de concentração, o utilizador erra a inserção desse valor (p.e. colocar ',' em vez de '.').
+
+	2- Por falta de concentração, ao instalar um programa no OSX, quando diz "drag and drop", mas o utilizador pressiona duas vezes no icon da aplicação, não obtendo o resultado pertendido.
+
+	3 - Icons do windows não são intuitivos, pessoas com menos habilidade com computadores, podem confundir o icon de "Este PC", com o próprio computador, isto é, pensam que é outro computador que está aceder (caso real).
