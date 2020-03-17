@@ -1,0 +1,71 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv4#area5#page7" name="Adding Students" landmark="true">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv4#area5#page7#enu3" name="New Student" entity="ent1" linkOrder="sv4#area5#page7#enu3#ln12">
+      <Field id="sv4#area5#page7#enu3#fld8" name="number" type="string" modifiable="true" attribute="ent1#att3"/>
+      <Field id="sv4#area5#page7#enu3#fld9" name="name" type="string" modifiable="true" attribute="ent1#att6"/>
+      <Field id="sv4#area5#page7#enu3#fld10" name="email" type="string" modifiable="true">
+        <VRules>
+          <EMailValidationRule id="sv4#area5#page7#enu3#fld10#email2" name="EMail2"/>
+        </VRules>
+      </Field>
+      <Field id="sv4#area5#page7#enu3#fld11" name="pass" type="string" modifiable="true"/>
+      <Field id="sv4#area5#page7#enu3#fld12" name="user" type="string" modifiable="true"/>
+      <Link id="sv4#area5#page7#enu3#ln12" name="Flow12" to="sv4#miu3" type="normal" validate="true">
+        <LinkParameter id="sv4#area5#page7#enu3#ln12#par13" name="email_email" source="sv4#area5#page7#enu3#fld10" target="sv4#miu3.mov3#opm4#icu4#icp9"/>
+        <LinkParameter id="sv4#area5#page7#enu3#ln12#par14" name="name_name" source="sv4#area5#page7#enu3#fld9" target="sv4#miu3.mov3#opm4#icu4#icp6"/>
+        <LinkParameter id="sv4#area5#page7#enu3#ln12#par15" name="number_number" source="sv4#area5#page7#enu3#fld8" target="sv4#miu3.mov3#opm4#icu4#icp7"/>
+        <LinkParameter id="sv4#area5#page7#enu3#ln12#par16" name="pass_pass" source="sv4#area5#page7#enu3#fld11" target="sv4#miu3.mov3#opm4#icu4#icp8"/>
+        <LinkParameter id="sv4#area5#page7#enu3#ln12#par17" name="user_user" source="sv4#area5#page7#enu3#fld12" target="sv4#miu3.mov3#opm4#icu4#icp10"/>
+      </Link>
+    </EntryUnit>
+    <DataUnit gr:x="165" gr:y="75" id="sv4#area5#page7#dau4" name="Added student" entity="ent1" displayAttributes="ent1#att3 ent1#att6">
+      <Selector id="sv4#area5#page7#dau4#su5" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv4#area5#page7#dau4#su5#kcond5" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area5#page7#enu3">
+          <layout:Field field="sv4#area5#page7#enu3#fld8"/>
+          <layout:Field field="sv4#area5#page7#enu3#fld9"/>
+          <layout:Field field="sv4#area5#page7#enu3#fld10"/>
+          <layout:Field field="sv4#area5#page7#enu3#fld11"/>
+          <layout:Field field="sv4#area5#page7#enu3#fld12"/>
+          <layout:Link link="sv4#area5#page7#enu3#ln12"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv4#area5#page7#dau4">
+          <layout:Attribute attribute="ent1#att3"/>
+          <layout:Attribute attribute="ent1#att6"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

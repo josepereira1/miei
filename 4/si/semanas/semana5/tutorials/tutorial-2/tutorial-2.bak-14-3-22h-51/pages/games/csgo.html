@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="../../bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="../../style/style.css">
+
+        <title>Template</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- App name -->
+            <header class="mt-md-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1><a style="text-decoration: none; color:black" onclick="redirect('../all-games.html');">Games Library</a></h1>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Warning</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    You cannot do this action on game info, please go to My Games page.
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light border rounded px-0 py-2" style="overflow: hidden;">
+                        <a id="userName" href="" class="navbar-brand text-secondary text-decoration-none disabled px-2 ml-2" data-toggle="modal" data-target="#modalLoginForm"></a>
+                        <div class="navbar-collapse d-flex justify-content-end">
+                            <div>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#" onclick="redirect('../all-games.html');">All Games</a>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#" onclick="redirect('../my-games.html');">My Games</a>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button disabled" href="#" data-toggle="modal" data-target="#exampleModal">Add Game</a>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="../../index.html">Log Out</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>CSGO - Counter Strike Global Offensive</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <label>Year:</label>
+                </div>
+                <div class="col-md-11">
+                    <label>2012</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <label>Description:</label>
+                </div>
+                <div class="col-md-8">
+                    <p class="text-justify">Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series and was released for Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, while the Linux version was released in 2014.
+
+                        The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives. The Terrorists, depending on the game mode, must either plant the bomb or defend the hostages, while the Counter-Terrorists must either prevent the bomb from being planted, defuse the bomb, or rescue the hostages. There are nine game modes, all of which have distinct characteristics specific to that mode. The game also has matchmaking support that allows players to play on dedicated Valve servers, as well as allowing members of the community to host their own servers with custom maps and game modes. A battle-royale game-mode, "Danger Zone", was introduced in 2018.
+                        
+                        Global Offensive received positive reviews from critics on release, who praised for its gameplay and faithfulness to predecessors, though it was criticized for some of its early features and was noted for differences between the console and PC versions. Since its release, it has drawn in an estimated 11 million players per month, and has gathered an active competitive scene, with many tournaments sponsored by Valve themselves. In December 2018, Valve transitioned the game to a free-to-play model, focusing on revenue from cosmetic items.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="../../images/csgo.jpg" alt="..." class="img-thumbnail">
+                </div>
+            </div>
+
+        <!-- content -->
+            <!-- footer -->
+            <div class="row">
+                <div class="col-md-12">
+                    <footer class="text-center bg-light p-2 border rounded">Footer information ©</footer>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="../../bootstrap-4.3.1/js/jquery-3.3.1.js"></script>
+        <script src="../../bootstrap-4.3.1/js/popper.min.js"></script>
+        <script src="../../bootstrap-4.3.1/js/bootstrap.js"></script>
+        <script src="../../scripts/script.js"></script>
+
+        <script>
+            getUsernameFromURL();
+        </script>
+    </body>
+</html>

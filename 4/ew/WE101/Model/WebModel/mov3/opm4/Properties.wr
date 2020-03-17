@@ -1,0 +1,26 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="315" gr:y="120" id="mov3#opm4" name="Add student">
+  <OperationUnits>
+    <InputCollectorUnit id="mov3#opm4#icu4" gr:x="30" gr:y="60">
+      <InputCollectorParameter id="mov3#opm4#icu4#icp10" name="user"/>
+      <InputCollectorParameter id="mov3#opm4#icu4#icp9" name="email"/>
+      <InputCollectorParameter id="mov3#opm4#icu4#icp8" name="pass"/>
+      <InputCollectorParameter id="mov3#opm4#icu4#icp7" name="number"/>
+      <InputCollectorParameter id="mov3#opm4#icu4#icp6" name="name"/>
+      <Link id="mov3#opm4#icu4#ln11" name="Flow11" to="mov3#opm4#opg2#cru6" type="transport" validate="true" gr:bendpoints="221,111,-159,91">
+        <LinkParameter id="mov3#opm4#icu4#ln11#par18" name="name_name" source="mov3#opm4#icu4#icp6" target="mov3#opm4#opg2#cru6.ent1#att6"/>
+        <LinkParameter id="mov3#opm4#icu4#ln11#par19" name="number_number" source="mov3#opm4#icu4#icp7" target="mov3#opm4#opg2#cru6.ent1#att3"/>
+      </Link>
+      <OKLink id="mov3#opm4#icu4#oln1" name="Flow10" to="mov3#opm4#opg2#cru5">
+        <LinkParameter id="mov3#opm4#icu4#oln1#par8" name="user_userName" source="mov3#opm4#icu4#icp10" target="mov3#opm4#opg2#cru5.userName"/>
+        <LinkParameter id="mov3#opm4#icu4#oln1#par9" name="name_name" source="mov3#opm4#icu4#icp6" target="mov3#opm4#opg2#cru5.User#att1"/>
+        <LinkParameter id="mov3#opm4#icu4#oln1#par10" name="1_Group.oid(defaultGroup)" target="mov3#opm4#opg2#cru5.User2DefaultGroup.groupOID" sourceValue="1"/>
+        <LinkParameter id="mov3#opm4#icu4#oln1#par11" name="pass_password" source="mov3#opm4#icu4#icp8" target="mov3#opm4#opg2#cru5.password"/>
+        <LinkParameter id="mov3#opm4#icu4#oln1#par12" name="email_email" source="mov3#opm4#icu4#icp9" target="mov3#opm4#opg2#cru5.email"/>
+      </OKLink>
+    </InputCollectorUnit>
+    <OKCollectorUnit gr:x="650" gr:y="75" id="mov3#opm4#okcu3" name="OK Port3">
+      <OutputCollectorParameter id="mov3#opm4#okcu3#ocp1" name="student"/>
+    </OKCollectorUnit>
+    <KOCollectorUnit gr:x="650" gr:y="190" id="mov3#opm4#kocu3" name="KO Port3"/>
+  </OperationUnits>
+</OperationModule>

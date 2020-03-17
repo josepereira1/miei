@@ -1,0 +1,13 @@
+<OperationGroup xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="315" gr:y="70" id="mov3#opm4#opg2" name="Operation Group 2" transaction="true">
+  <OperationUnits>
+    <CreateUnit gr:x="0" gr:y="0" id="mov3#opm4#opg2#cru5" name="add user" entity="User">
+      <OKLink id="mov3#opm4#opg2#cru5#oln8" name="OKFlow7" to="mov3#opm4#opg2#cru6" automaticCoupling="true"/>
+    </CreateUnit>
+    <CreateUnit gr:x="140" gr:y="10" id="mov3#opm4#opg2#cru6" name="add student" entity="ent1">
+      <OKLink id="mov3#opm4#opg2#cru6#oln9" name="OKFlow9" to="mov3#opm4#okcu3">
+        <LinkParameter id="mov3#opm4#opg2#cru6#oln9#par2" name="oid_Output Port Parameter1" source="ent1#att2Array" target="mov3#opm4#okcu3#ocp1"/>
+      </OKLink>
+    </CreateUnit>
+  </OperationUnits>
+  <KOLink id="mov3#opm4#opg2#kln8" name="KOFlow8" to="mov3#opm4#kocu3" automaticCoupling="true"/>
+</OperationGroup>

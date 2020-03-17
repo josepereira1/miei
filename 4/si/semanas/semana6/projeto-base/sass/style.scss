@@ -1,0 +1,21 @@
+table {
+    border-top: hidden;
+}
+
+.nav-button:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+@media only screen and (max-width: 992px) {
+    #year {
+        display: none;
+    }
+
+    #userName {
+        display: none;
+    }
+
+    #add-game {
+        float: left;
+    }
+}

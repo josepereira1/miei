@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+    	<link rel="icon" href="favicon.ico">
+    	<title>Template</title>
+    	<link rel="stylesheet" type="text/css" href="style/reset.css">
+    	<link rel="stylesheet" type="text/css" href="style/style.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  			crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<header>
+			<b class="larger-words">App Name</b>
+		</header>
+		<nav style="overflow: hidden;">
+			<b id="userName" class="medium-words">User name</b>
+			<div class="nav-bar">
+				<a class="nav-button" href="#">All Games</a>
+				<a class="nav-button" 	href="my-games.html">My Games</a>
+				<a class="nav-button" href="add-game.html">Add Game</a>
+			</div>
+		</nav>
+		<aside>
+			<b class="medium-words">Filter</b>
+			<form>
+				<ul>
+					<li>
+						<select class="aside-drop-downs">
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+						<option value="2018">2018</option>
+						</select>
+					</li>
+					<li>
+						<select class="aside-drop-downs">
+							<option value="pc">PC</option>
+							<option value="megadrive">Megadrive</option>
+							<option value="playstation">Playstation</option>
+						</select>
+					</li>
+				</ul>
+			</form>
+		</aside>
+		<main>
+			<!-- apenas aparece em ecrãs pequenos -->
+			<div class="filter-to-small-screens">
+				<b class="medium-words">Filter</b>
+				<form>
+						<select class="aside-drop-downs">
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>						
+						<option value="2018">2018</option>
+						</select>
+						<select class="aside-drop-downs">
+							<option value="pc">PC</option>
+							<option value="megadrive">Megadrive</option>
+							<option value="playstation">Playstation</option>
+						</select>
+				</form>
+			</div>
+			<table>
+				<thead class="row1">
+					<tr>
+						<th class="col1 border-table">Games</th>
+						<th id="year" class="col2 border-table">Year</th>
+						<th class="col3 border-table">Plataform</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="cell border-table">Game 1</td>
+						<td id="year" class="cell border-table">1992</td>
+						<td class="cell border-table">Megadrive</td>
+					</tr>
+					<tr">
+						<td class="cell border-table">Game 2</td>
+						<td id="year" class="cell border-table">2017</td>
+						<td class="cell border-table">PC</td>
+					</tr>
+				</tbody >
+			</table>
+			<a href="#" class="paginas">3</a><a href="#" class="paginas">2</a><a href="#" class="paginas">1</a>
+		</main>	
+		<footer>
+			© Footer information
+		</footer>
+	</body>
+	<script src="script/script.js"></script>
+</html>

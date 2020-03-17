@@ -1,0 +1,26 @@
+[27 Fev 2020 14:58:45] DEBUG Executing SQL script
+[27 Fev 2020 14:58:45] INFO ================================================================================
+[27 Fev 2020 14:58:45] INFO outputPath= '/Users/jacome/Google Drive (jacomeum@gmail.com)/aulas/1920/EW/webratioprojs/WE101/.Temp~/UpdateSQL.xml'
+[27 Fev 2020 14:58:45] INFO onError= 'stop'
+[27 Fev 2020 14:58:45] INFO statementSeparator= ';'
+[27 Fev 2020 14:58:45] INFO derby.system.home= '/Users/jacome/Google Drive (jacomeum@gmail.com)/aulas/1920/EW/webratioprojs/.metadata/.plugins/com.webratio.commons.db/derby'
+[27 Fev 2020 14:58:45] INFO password= 'root'
+[27 Fev 2020 14:58:45] INFO url= 'jdbc:mysql://localhost:3306/we11920'
+[27 Fev 2020 14:58:45] INFO username= 'root'
+[27 Fev 2020 14:58:45] INFO autoCommit= 'false'
+[27 Fev 2020 14:58:45] INFO outputLogPath= '/Users/jacome/Google Drive (jacomeum@gmail.com)/aulas/1920/EW/webratioprojs/WE101/.Temp~/UpdateSQL.xml.log'
+[27 Fev 2020 14:58:45] INFO driverClass= 'com.mysql.jdbc.Driver'
+[27 Fev 2020 14:58:45] INFO encoding= ''
+[27 Fev 2020 14:58:45] INFO eventSocketPort= '58825'
+[27 Fev 2020 14:58:45] INFO sqlScript= '/Users/jacome/Google Drive (jacomeum@gmail.com)/aulas/1920/EW/webratioprojs/WE101/.Temp~/UpdateSQL.sql'
+[27 Fev 2020 14:58:45] INFO ================================================================================
+[27 Fev 2020 14:58:45] INFO Connecting to the Database...
+[27 Fev 2020 14:58:45] INFO Database connection estabilished
+[27 Fev 2020 14:58:45] INFO transaction isolation: 4
+[27 Fev 2020 14:58:45] DEBUG ================================================================================
+[27 Fev 2020 14:58:45] DEBUG Executing SQL script file: /Users/jacome/Google Drive (jacomeum@gmail.com)/aulas/1920/EW/webratioprojs/WE101/.Temp~/UpdateSQL.sql
+[27 Fev 2020 14:58:45] DEBUG Executing statement:  alter table `student`  add column  `name`  varchar(255)
+[27 Fev 2020 14:58:45] DEBUG ================================================================================
+[27 Fev 2020 14:58:45] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[27 Fev 2020 14:58:45] INFO Database connection closed
+[27 Fev 2020 14:58:45] DEBUG Total time: 385 milliseconds

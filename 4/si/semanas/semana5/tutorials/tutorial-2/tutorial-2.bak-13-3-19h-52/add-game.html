@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <title>Template</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- App name -->
+      <header class="mt-md-5">
+        <div class="row">
+          <div class="col-md-12">
+              <h1><a href="index.html" style="text-decoration: none; color:black">App Name</a></h1>
+          </div>
+        </div>
+      </header>
+      <!-- nav bar -->
+      <!-- my-3 margin-top-bottom size = 3 -->
+      <!-- bg-light background cinzento -->
+      <!-- p-2 padding-all size = 2 -->
+      <nav class="bg-light my-3 p-2">
+          <div class="row">
+          <div class="col-md-2">
+            <ul class="nav justify-content-start">
+              <li class="nav-item">
+                <a class="nav-link disabled text-secondary" href="#">User name</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-10">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link nav-button text-secondary text-decoration-none" href="all-games.html.html">All Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-button text-secondary text-decoration-none" href="my-games.html">My Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-button text-secondary text-decoration-none" href="#">Add Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-button text-secondary text-decoration-none" href="index.html">Log Out</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- content -->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="topBox" class="p-2 mb-2 text-black text-center">Fill fields to add game</div>
+            </div>
+        </div>
+
+        <!-- formulário para adição de novo jogo -->
+        <div class="row">
+            <div class="col-md-12">
+            <form>
+                <div class="form-group row">
+                  <label for="inputTitle" class="col-sm-2 col-form-label d-flex justify-content-end">Title</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputTitle" placeholder="">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputYear" class="col-sm-2 col-form-label d-flex justify-content-end">Year</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputYear" placeholder="">
+                  </div>
+                </div>
+                
+                <div class="form-group row">
+                    <label for="inputPlataform" class="col-sm-2 col-form-label d-flex justify-content-end">Plataform</label>
+                    <div class="col-sm-8">    
+                        <select id="plataform" class="w-100 p">
+                            <option value="pc">PC</option>
+                            <option value="megadrive">Megadrive</option>
+                            <option value="playstation">Playstation</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputPicture" class="col-sm-2 col-form-label d-flex justify-content-end">Picture URL</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="inputPicture" placeholder="">
+                    </div>
+                  </div>
+
+                <div class="form-group row">
+                    <label for="inputPlataform" class="col-sm-2 col-form-label d-flex justify-content-end">Description</label>
+                    <div class="col-md-8">    
+                        <textarea class="w-100" rows="5" id="comment"></textarea>
+                    </div>
+                  </div>
+
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="button" onclick="addNewGame()" class="btn btn-secondary float-right">Save</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col-md-12">
+            <footer class="text-sm-center text-md-center text-lg-center text-xl-center bg-light">© Footer information</footer>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap-4.3.1/js/jquery-3.3.1.js"></script>
+    <script src="bootstrap-4.3.1/js/popper.min.js"></script>
+    <script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+
+    <script>
+        function addNewGame(){
+            document.getElementById('topBox').style.backgroundColor = "rgb(102, 255, 153)";
+            document.getElementById("topBox").innerHTML = "Game added to collection!";
+        }
+    </script>
+  </body>
+</html>

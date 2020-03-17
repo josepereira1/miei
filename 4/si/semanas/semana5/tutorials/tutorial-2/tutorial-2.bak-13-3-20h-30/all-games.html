@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+
+        <title>Template</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- App name -->
+            <header class="mt-md-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1><a href="#" style="text-decoration: none; color:black">App Name</a></h1>
+                    </div>
+                </div>
+            </header>
+
+            <!-- nav bar -->
+            <!-- my-3 margin-top-bottom size = 3 -->
+            <!-- bg-light background cinzento -->
+            <!-- p-2 padding-all size = 2 -->
+            <nav class="bg-light my-3 p-2">
+                <div class="row">
+                    <div class="col-md-2">
+                        <ul class="nav justify-content-start">
+                            <li class="nav-item">
+                                <a id="userName" class="nav-link disabled text-secondary" href="#">User name</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link nav-button text-secondary text-decoration-none" onclick="redirect('all-games.html');">All Games</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-button text-secondary text-decoration-none" onclick="redirect('my-games.html');">My Games</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-button text-secondary text-decoration-none" onclick="redirect('add-game.html');">Add Game</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-button text-secondary text-decoration-none" href="index.html">Log Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <!-- content -->
+            <div class="row">
+                <div class="col-md-8  ">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th scope="col">Games</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Plataform</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Game 1</td>
+                            <td>1992</td>
+                            <td>Megadrive</td>
+                        </tr>
+                        <tr>
+                            <td>Game 2</td>
+                            <td>2017</td>
+                            <td>PC</td>
+                        </tr>
+                        <tr>
+                            <td>Game 3</td>
+                            <td>2015</td>
+                            <td>PC</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            <!-- side bar -->
+                <div class="col-md-4">
+                <aside>
+                    <b>Filter</b>
+                    <form class="align-middle pb-4">
+                    <select id="year" class="w-100 mt-3">
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                    </select>
+                    <select id="plataform" class="w-100 mt-3">
+                        <option value="pc">PC</option>
+                        <option value="megadrive">Megadrive</option>
+                        <option value="playstation">Playstation</option>
+                    </select>
+                    </form>
+                </aside>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-8 bg-white d-flex justify-content-end">
+                    <nav id="pagination" aria-label="Page navigation example">
+                        <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        
+            <!-- footer -->
+            <div class="row">
+                <div class="col-md-12">
+                    <footer class="text-sm-center text-md-center text-lg-center text-xl-center bg-light">© Footer information</footer>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="bootstrap-4.3.1/js/jquery-3.3.1.js"></script>
+        <script src="bootstrap-4.3.1/js/popper.min.js"></script>
+        <script src="bootstrap-4.3.1/js/bootstrap.js"></script>
+        <script src="scripts/script.js"></script>
+
+        <script>
+            getUsernameFromURL();
+        </script>
+    </body>
+</html>

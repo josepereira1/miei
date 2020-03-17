@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Warnings> 
+  <Warning xpath="id('mov3#opm4#opg2#cru5')" rootXPath="id('mov3')" error="false" label="add user" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'add user'</Message> 
+  </Warning>  
+  <Warning xpath="id('mov3#opm4#opg2#cru6')" rootXPath="id('mov3')" error="false" label="add student" key="NO_OUTGOING_KO_LINKS"> 
+    <Message>No outgoing KO flow(s) for the operation 'add student'</Message> 
+  </Warning>  
+  <Warning xpath="/WebProject" rootXPath="/WebProject" key="" label="WebProject"> 
+    <Message>Security Warning: the Admin Area generation is enabled</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="adminArea" value="">Remove the 'Admin Area' property</Resolution> 
+  </Warning>  
+  <Warning xpath="/WebProject" rootXPath="/WebProject" key="" label="WebProject" tab="security"> 
+    <Message>Security Warning: the project contains a protected resource but the 'Protect URL' property is missing</Message>  
+    <Resolution class="com.webratio.ide.ui.resources.ChangeAttributeResolutionGenerator" attribute="protectURL" value="true">Set the 'Protect URL' property to 'true'</Resolution> 
+  </Warning> 
+</Warnings>

@@ -1,0 +1,36 @@
+header {
+  margin-top: 50px;
+}
+
+nav {
+  background-color: rgb(240, 236, 236);
+  margin: 20px 0px 20px 0px;
+  padding: 5px;
+}
+
+select {
+  width: 100%;
+  margin: 8px 0px 8px 0px;
+}
+
+footer {
+  background-color: rgb(240, 236, 236);
+}
+
+.nav-button{
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-button:hover {
+  background-color: rgb(226, 221, 221);
+  color: grey;
+}
+
+.nav-button-area:hover{
+  background-color: rgb(226, 221, 221);
+}
+
+#pagination {
+  background-color: white;
+}

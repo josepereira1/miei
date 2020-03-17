@@ -1,0 +1,182 @@
+@charset "UTF-8";
+header {
+  /* background-color: red; */
+  padding: 10px 10px 5px 10px;
+}
+
+nav {
+  background-color: #c7c7c7;
+  padding: 10px 10px 10px 0px;
+  margin: 10px 10px 5px 10px;
+}
+
+aside {
+  background-color: #c7c7c7;
+  float: right;
+  height: 35.5em;
+  width: 20%;
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+main {
+  margin: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  background-color: #c7c7c7;
+  text-align: center;
+}
+
+/* primeira linha da tabela tem cor diferente */
+th {
+  background-color: #e4e4e4;
+  margin: 10px;
+}
+
+table {
+  padding: 10px;
+  border: 5px;
+  border-color: black;
+  width: 77%;
+}
+
+/* -------------------------- TEXTOS ------------------------ */
+.larger-words {
+  /*  palavras de tamanho grande   */
+  font-family: Helvetica;
+  font-size: larger;
+}
+
+.medium-words {
+  /*  palavras de tamanho médio   */
+  font-family: Helvetica;
+  font-size: medium;
+}
+
+/* --------------------------------------------------------- */
+/* ------------------------ NAV ---------------------------- */
+.nav-bar {
+  /* não se aplicou o float à nav, pois o "User name" 
+     tem que ficar à esquerda, logo dividiu-se */
+  float: right;
+}
+
+.nav-button {
+  /* espaçar os botões da nav */
+  margin: 0px 5px 0px 5px;
+}
+
+.nav-button:hover {
+  /* quando se passa o rato por cima, fica cinzento */
+  background-color: grey;
+  padding: 10px 0px 10px 0px;
+}
+
+.nav-button:visited {
+  /* para manter a cor dos botões, após serem carregados */
+  color: blue;
+}
+
+/* --------------------------------------------------------- */
+/* ------------------------ TABLE -------------------------- */
+.col1 {
+  padding: 5px 0px 5px 0px;
+  width: 8%;
+}
+
+.col2 {
+  padding: 5px 0px 5px 0px;
+  width: 15%;
+}
+
+.col3 {
+  padding: 5px 0px 5px 0px;
+  width: 30%;
+}
+
+.border-table {
+  border: 1px;
+  border-style: solid;
+  border-color: #c7c7c7;
+}
+
+.cell {
+  padding: 5px;
+}
+
+/* --------------------------------------------------------- */
+.aside-drop-downs {
+  width: 70%;
+  margin: 5px;
+}
+
+.paginas {
+  float: right;
+  background-color: gainsboro;
+  border-radius: 2px;
+  margin: 15px 8px 3px 3px;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  /* para tirar o underline do <a> */
+}
+
+.add-new-button-position {
+  margin: 5px 0px 0px 5px;
+}
+
+.add-new-button {
+  text-decoration: none;
+  background-color: white;
+  margin: 5px;
+  padding: 2px 72px 2px 72px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.add-new-button:visited {
+  color: black;
+}
+
+#addNewButtonAside {
+  width: 100%;
+}
+
+#addNewButtonSmallScreens {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1141px) {
+  .filter-to-small-screens {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  /* o aside esconde-se quando o filter passa a aparecer por cima da tabela */
+  aside {
+    display: none;
+  }
+
+  /* quando o aside vai para cima da tabela, a tabela já pode ocupar 100% do main */
+  table {
+    width: 100%;
+  }
+
+  /* os drop-downs são mais pequenos quando estão em cima da tabela */
+  .aside-drop-downs {
+    width: 15%;
+  }
+
+  .add-new-button {
+    background-color: #cecece;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
