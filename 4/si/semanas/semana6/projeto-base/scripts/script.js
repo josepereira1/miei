@@ -1,59 +1,30 @@
-alert("Hello world!");  /* pop-up */
-console.log("Hello world!");  /* print to console */
+// temos que garantir que o código jquery apenas é executado, após o document estar preparado
 
-function sayHello(){ /* function that print "Hello world!" to console */
-    console.log("Hello, world!");
-}
-
-
-/* -------------- o código abaixo foi feito para o tutorial 2 --------------- */
-
-globalVarUsername = "";
-dict = {"username" : "password",
-    "josepereira" : "password1",
-    "joaofernandes" : "password2",
-    "ritaaraujo" : "password3",
-    "paulotavares" : "password4"};
-
-function login(){
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-
-    var flag = 0;
-
-    for(var key in dict) {
-        if (username == key){
-            if (password == dict[key]){
-                var path = "pages/all-games.html?username='";
-                var res = path.concat(key+"'");
-
-                location.href=res;
-                flag = 1;
-                break;  //  não precisa de procurar mais
-            }else{
-                document.getElementById('loginError').style.visibility = "visible";
+function loadGames(){
+    var platforms = new Set();
+    var years = new Set();
+    $(document).ready(function(){
+        $.get("http://ivy.di.uminho.pt:8080/GamesLibraryProvider/GamesService?action=list") .done(function(data) {
+            jsonData = JSON.parse(data);
+            for(index in jsonData){
+                platforms.add(jsonData[index].platform);
+                years.add(jsonData[index].year);
+                $('#myTable').append('<tr><td>' +jsonData[index].name +'</td><td id="year">' +jsonData[index].year +'</td><td>' +jsonData[index].platform +'</td></tr>');
             }
-        }
-    }
-    if(flag == 0)document.getElementById('loginError').style.visibility = "visible";
+            years = [...years].sort();
+            platforms = [...platforms].sort();
+            
+            for(index in years){
+                $("#yearSideBar").append("<option value=" + years[index] + ">" + years[index] + "</option>");
+            }
+            for(index in platforms){
+                $("#platformSideBar").append("<option value=" + platforms[index] + ">" + platforms[index] + "</option>");
+            }
+        });
+    });
 }
 
-function getUsernameFromURL(){
-    url = parent.document.URL.substring(parent.document.URL.indexOf('username='), parent.document.URL.length);
-    var username = url.split("27")[1];                      //  url = "username=%27username%27", temos que remover o lixo, split no <<27>> 
-    username = username.substring(0, username.length - 1);  //  após o split, o output será username%, logo temos que remover o último caracter 
-    document.getElementById('userName').innerHTML = username;
-    globalVarUsername = username;
-}
-
-function addNewGame(){
-    document.getElementById('topBox').style.backgroundColor = "rgb(102, 255, 153)";
-    document.getElementById("topBox").innerHTML = "Game added to collection!";
-}
-
-function redirect(url){
-    var res = url.concat("?username='"+globalVarUsername+"'");
-    location.href=res;
-}
-
-/* -------------- o código acima foi feito para o tutorial 2 --------------- */
+//  função anónima, para chamar sempre o load games
+$(document).ready(function() {
+    loadGames();
+});
