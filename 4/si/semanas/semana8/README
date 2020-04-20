@@ -1,0 +1,11 @@
+Pontos importantes:
+
+	1 - (secção 3.1)
+		Corrigi o flow tendo em conta o diagrama de estados do tutorial 1, isto é, por exemplo no login, não é possível ir para o my games, add game, e ver a informação de um jogo
+		Ainda neste exercício fiz o drop down que está no filtro.
+
+	2 - (secção 3.2)
+		Na questão 1, assumi que ele terá um comando com números e as setas para 
+		navegar, logo não precisa de teclados no ecrã.
+		Na questão 2, desta secção, coloquei um teclado no ecrã para que possam inserir os códigos com apenas um botão, o resto manti igual, pois acho que já o fiz antes de forma simplificado, com drop downs, ou seja, não precisa de inserir dados, apenas navegar.
+		Assumi que os dados códigos e pins são apenas números, ou seja, o teclado inserido é apenas de números.

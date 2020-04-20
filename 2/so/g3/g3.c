@@ -178,6 +178,8 @@ void my_system(char *commands){
 
 // 	exercício 7:
 
+//	Uma bash que executa programas (system-calls) do sistema operativo.
+
 #define K 1024
 
 void bash(){
@@ -185,7 +187,7 @@ void bash(){
 	char *buf;
 	pid_t id;
 
-	my_system("say Welcome José Pereira!");
+	my_system("say Welcome");
 
 	buf = malloc(10*K*sizeof(char));
 	while(1){

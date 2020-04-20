@@ -1,0 +1,99 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="0" id="sv1#area1#page1" name="Companies">
+  <ContentUnits>
+    <IndexUnit gr:x="165" gr:y="5" id="sv1#area1#page1#inu1" name="Copanies list" entity="User" linkOrder="sv1#area1#page1#inu1#ln1 sv1#area1#page1#inu1#ln4" displayAttributes="userName email">
+      <Link id="sv1#area1#page1#inu1#ln1" name="Flow1" to="sv1#area1#page1#dau1" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv1#area1#page1#inu1#ln4" name="Flow4" to="sv1#area1#page1#enu1" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="0,89,170,-1"/>
+    </IndexUnit>
+    <DataUnit gr:x="5" gr:y="0" id="sv1#area1#page1#dau1" name="User" entity="User" displayAttributes="userOID userName password email">
+      <Selector id="sv1#area1#page1#dau1#su1" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area1#page1#dau1#su1#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+      <Property id="sv1#area1#page1#dau1#prop1" name="Property 1"/>
+    </DataUnit>
+    <EntryUnit gr:x="0" gr:y="95" id="sv1#area1#page1#enu1" name="Edit User" entity="User" customDescriptor="false">
+      <Field id="sv1#area1#page1#enu1#fld1" name="id" type="integer" modifiable="true" attribute="userOID"/>
+      <Field id="sv1#area1#page1#enu1#fld2" name="username" type="string" modifiable="true" attribute="userName"/>
+      <Field id="sv1#area1#page1#enu1#fld3" name="password" type="password" modifiable="true" attribute="password"/>
+      <Field id="sv1#area1#page1#enu1#fld4" name="email" type="string" modifiable="true" attribute="email"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page1#inu1">
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="email"/>
+          <layout:Link link="sv1#area1#page1#inu1#ln1"/>
+          <layout:Link link="sv1#area1#page1#inu1#ln4"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page1#dau1">
+          <layout:Attribute attribute="userOID"/>
+          <layout:Attribute attribute="userName"/>
+          <layout:Attribute attribute="password"/>
+          <layout:Attribute attribute="email"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area1#page1#enu1">
+          <layout:Field field="sv1#area1#page1#enu1#fld1"/>
+          <layout:Field field="sv1#area1#page1#enu1#fld2"/>
+          <layout:Field field="sv1#area1#page1#enu1#fld3"/>
+          <layout:Field field="sv1#area1#page1#enu1#fld4"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

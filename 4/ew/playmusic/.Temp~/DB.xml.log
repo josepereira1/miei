@@ -1,0 +1,75 @@
+[08 Apr 2020 05:38:02] Building database metadata model
+[08 Apr 2020 05:38:02] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@6a8c436b, includeTables=true, username=root, outputLogPath=/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/DB.xml.log, readIndexes=null, driverClass=com.mysql.jdbc.Driver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.MySQLMetaDataProvider, outputPath=/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=/Users/josepereira/WebRatioWorkspace/.metadata/.plugins/com.webratio.commons.db/derby, url=jdbc:mysql://localhost:3306/playmusic, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=50678}
+[08 Apr 2020 05:38:02] URL: jdbc:mysql://localhost:3306/playmusic
+[08 Apr 2020 05:38:02] Product name: MySQL
+[08 Apr 2020 05:38:02] Product version: 5.7.29
+[08 Apr 2020 05:38:02] Driver name: MySQL Connector Java
+[08 Apr 2020 05:38:02] Driver version: mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )
+[08 Apr 2020 05:38:02] Driver major version: 5
+[08 Apr 2020 05:38:02] Driver minor version: 1
+[08 Apr 2020 05:38:02] Identifier quote string: 1
+[08 Apr 2020 05:38:02] Retrieving schemas
+[08 Apr 2020 05:38:02] Retrieving [TABLE, VIEW, SYNONYM] for schema ''
+[08 Apr 2020 05:38:02]   Found 'group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found 'group_module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found 'module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found 'music' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found 'user' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found 'user_group' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving columns for 'group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: groupname [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: module_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02] Retrieving primary keys for 'group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found primary key column: oid
+[08 Apr 2020 05:38:02] Retrieving columns for 'group_module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found column: group_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: module_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02] Retrieving primary keys for 'group_module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found primary key column: group_oid
+[08 Apr 2020 05:38:02]   Found primary key column: module_oid
+[08 Apr 2020 05:38:02] Retrieving columns for 'module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: moduleid [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: modulename [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02] Retrieving primary keys for 'module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found primary key column: oid
+[08 Apr 2020 05:38:02] Retrieving columns for 'music' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: name [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02] Retrieving primary keys for 'music' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found primary key column: oid
+[08 Apr 2020 05:38:02] Retrieving columns for 'user' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found column: oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: username [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: password [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: email [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: group_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02] Retrieving primary keys for 'user' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found primary key column: oid
+[08 Apr 2020 05:38:02] Retrieving columns for 'user_group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found column: user_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02]   Found column: group_oid [type = INT][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[08 Apr 2020 05:38:02] Retrieving primary keys for 'user_group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found primary key column: user_oid
+[08 Apr 2020 05:38:02]   Found primary key column: group_oid
+[08 Apr 2020 05:38:02] Retrieving foreign keys for 'group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found foreign key: column module_oid references module(oid)
+[08 Apr 2020 05:38:02] Retrieving foreign keys for 'group_module' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found foreign key: column group_oid references group(oid)
+[08 Apr 2020 05:38:02]   Found foreign key: column module_oid references module(oid)
+[08 Apr 2020 05:38:02] Retrieving foreign keys for 'module' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving foreign keys for 'music' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving foreign keys for 'user' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found foreign key: column group_oid references group(oid)
+[08 Apr 2020 05:38:02] Retrieving foreign keys for 'user_group' [type = TABLE]
+[08 Apr 2020 05:38:02]   Found foreign key: column group_oid references group(oid)
+[08 Apr 2020 05:38:02]   Found foreign key: column user_oid references user(oid)
+[08 Apr 2020 05:38:02] Database metadata retrieved (66 ms)
+[08 Apr 2020 05:38:02] Retrieving auto-increment columns for 'group' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving auto-increment columns for 'group_module' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving auto-increment columns for 'module' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving auto-increment columns for 'music' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving auto-increment columns for 'user' [type = TABLE]
+[08 Apr 2020 05:38:02] Retrieving auto-increment columns for 'user_group' [type = TABLE]
+[08 Apr 2020 05:38:02] Database connection closed

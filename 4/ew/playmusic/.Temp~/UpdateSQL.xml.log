@@ -1,0 +1,39 @@
+[08 Apr 2020 04:34:05] DEBUG Executing SQL script
+[08 Apr 2020 04:34:05] INFO ================================================================================
+[08 Apr 2020 04:34:05] INFO outputPath= '/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/UpdateSQL.xml'
+[08 Apr 2020 04:34:05] INFO onError= 'stop'
+[08 Apr 2020 04:34:05] INFO statementSeparator= ';'
+[08 Apr 2020 04:34:05] INFO derby.system.home= '/Users/josepereira/WebRatioWorkspace/.metadata/.plugins/com.webratio.commons.db/derby'
+[08 Apr 2020 04:34:05] INFO password= 'password'
+[08 Apr 2020 04:34:05] INFO url= 'jdbc:mysql://localhost:3306/playmusic'
+[08 Apr 2020 04:34:05] INFO username= 'root'
+[08 Apr 2020 04:34:05] INFO autoCommit= 'false'
+[08 Apr 2020 04:34:05] INFO outputLogPath= '/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/UpdateSQL.xml.log'
+[08 Apr 2020 04:34:05] INFO driverClass= 'com.mysql.jdbc.Driver'
+[08 Apr 2020 04:34:05] INFO encoding= ''
+[08 Apr 2020 04:34:05] INFO eventSocketPort= '49461'
+[08 Apr 2020 04:34:05] INFO sqlScript= '/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/UpdateSQL.sql'
+[08 Apr 2020 04:34:05] INFO ================================================================================
+[08 Apr 2020 04:34:05] INFO Connecting to the Database...
+[08 Apr 2020 04:34:05] INFO Database connection estabilished
+[08 Apr 2020 04:34:05] INFO transaction isolation: 4
+[08 Apr 2020 04:34:05] DEBUG ================================================================================
+[08 Apr 2020 04:34:05] DEBUG Executing SQL script file: /Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/UpdateSQL.sql
+[08 Apr 2020 04:34:05] DEBUG Executing statement:  create table `group` ( `oid`  integer  not null, `groupname`  varchar(255), primary key (`oid`) )
+[08 Apr 2020 04:34:05] DEBUG Executing statement:    create table `module` ( `oid`  integer  not null, `moduleid`  varchar(255), `modulename`  varchar(255), primary key (`oid`) )
+[08 Apr 2020 04:34:05] DEBUG Executing statement:    create table `user` ( `oid`  integer  not null, `username`  varchar(255), `password`  varchar(255), `email`  varchar(255), primary key (`oid`) )
+[08 Apr 2020 04:34:05] DEBUG Executing statement:    create table `music` ( `oid`  integer  not null, `name`  varchar(255), primary key (`oid`) )
+[08 Apr 2020 04:34:05] DEBUG Executing statement:    alter table `group`  add column  `module_oid`  integer
+[08 Apr 2020 04:34:05] DEBUG Executing statement:  alter table `group`   add index fk_group_module (`module_oid`), add constraint fk_group_module foreign key (`module_oid`) references `module` (`oid`)
+[08 Apr 2020 04:34:05] DEBUG Executing statement:    create table `group_module` ( `group_oid`  integer not null, `module_oid`  integer not null, primary key (`group_oid`, `module_oid`) )
+[08 Apr 2020 04:34:05] DEBUG Executing statement:  alter table `group_module`   add index fk_group_module_group (`group_oid`), add constraint fk_group_module_group foreign key (`group_oid`) references `group` (`oid`)
+[08 Apr 2020 04:34:05] DEBUG Executing statement:  alter table `group_module`   add index fk_group_module_module (`module_oid`), add constraint fk_group_module_module foreign key (`module_oid`) references `module` (`oid`)
+[08 Apr 2020 04:34:06] DEBUG Executing statement:    alter table `user`  add column  `group_oid`  integer
+[08 Apr 2020 04:34:06] DEBUG Executing statement:  alter table `user`   add index fk_user_group (`group_oid`), add constraint fk_user_group foreign key (`group_oid`) references `group` (`oid`)
+[08 Apr 2020 04:34:06] DEBUG Executing statement:    create table `user_group` ( `user_oid`  integer not null, `group_oid`  integer not null, primary key (`user_oid`, `group_oid`) )
+[08 Apr 2020 04:34:06] DEBUG Executing statement:  alter table `user_group`   add index fk_user_group_user (`user_oid`), add constraint fk_user_group_user foreign key (`user_oid`) references `user` (`oid`)
+[08 Apr 2020 04:34:06] DEBUG Executing statement:  alter table `user_group`   add index fk_user_group_group (`group_oid`), add constraint fk_user_group_group foreign key (`group_oid`) references `group` (`oid`)
+[08 Apr 2020 04:34:06] DEBUG ================================================================================
+[08 Apr 2020 04:34:06] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[08 Apr 2020 04:34:06] INFO Database connection closed
+[08 Apr 2020 04:34:06] DEBUG Total time: 806 milliseconds

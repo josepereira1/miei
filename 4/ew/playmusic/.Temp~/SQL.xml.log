@@ -1,0 +1,27 @@
+[05 Apr 2020 11:53:16] DEBUG Executing SQL script
+[05 Apr 2020 11:53:16] INFO ================================================================================
+[05 Apr 2020 11:53:16] INFO outputPath= '/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/SQL.xml'
+[05 Apr 2020 11:53:16] INFO onError= 'abort'
+[05 Apr 2020 11:53:16] INFO statementSeparator= ';'
+[05 Apr 2020 11:53:16] INFO derby.system.home= '/Users/josepereira/WebRatioWorkspace/.metadata/.plugins/com.webratio.commons.db/derby'
+[05 Apr 2020 11:53:16] INFO password= 'password'
+[05 Apr 2020 11:53:16] INFO url= 'jdbc:mysql://localhost:3306/playmusic'
+[05 Apr 2020 11:53:16] INFO username= 'root'
+[05 Apr 2020 11:53:16] INFO autoCommit= 'false'
+[05 Apr 2020 11:53:16] INFO outputLogPath= '/Users/josepereira/josepereira/work/git/miei/4/ew/playmusic/.Temp~/SQL.xml.log'
+[05 Apr 2020 11:53:16] INFO driverClass= 'com.mysql.jdbc.Driver'
+[05 Apr 2020 11:53:16] INFO encoding= ''
+[05 Apr 2020 11:53:16] INFO eventSocketPort= '49427'
+[05 Apr 2020 11:53:16] INFO sqlScript= '/Users/josepereira/Desktop/script.sql'
+[05 Apr 2020 11:53:16] INFO ================================================================================
+[05 Apr 2020 11:53:16] INFO Connecting to the Database...
+[05 Apr 2020 11:53:16] INFO Database connection estabilished
+[05 Apr 2020 11:53:16] INFO transaction isolation: 4
+[05 Apr 2020 11:53:16] DEBUG ================================================================================
+[05 Apr 2020 11:53:16] DEBUG Executing SQL script file: /Users/josepereira/Desktop/script.sql
+[05 Apr 2020 11:53:16] DEBUG Executing statement:  use playmusic
+[05 Apr 2020 11:53:16] DEBUG Executing statement:  show tables
+[05 Apr 2020 11:53:16] DEBUG ================================================================================
+[05 Apr 2020 11:53:16] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[05 Apr 2020 11:53:16] INFO Database connection closed
+[05 Apr 2020 11:53:16] DEBUG Total time: 366 milliseconds

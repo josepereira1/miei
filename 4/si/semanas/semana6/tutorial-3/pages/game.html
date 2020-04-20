@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="../bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="../style/style.css">
+
+        <title>Template</title>
+    </head>
+    <body onload="loadGameInfo()">
+        <div class="container">
+            <!-- App name -->
+            <header class="mt-md-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1><a style="text-decoration: none; color:black" onclick="redirect('../all-games.html');">Games Library</a></h1>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Warning</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    You cannot do this action on game info, please go to My Games page.
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light border rounded px-0 py-2" style="overflow: hidden;">
+                        <a id="userName" href="" class="navbar-brand text-secondary text-decoration-none disabled px-2 ml-2" data-toggle="modal" data-target="#modalLoginForm">Username</a>
+                        <div class="navbar-collapse d-flex justify-content-end">
+                            <div>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#" onclick="location.href='all-games.html'">All Games</a>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#" onclick="location.href='my-games.html'">My Games</a>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button disabled" href="#" data-toggle="modal" data-target="#exampleModal">Add Game</a>
+                                <a class="py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="../index.html">Log Out</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 id="gameTitle"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <label>Year:</label>
+                </div>
+                <div class="col-md-11">
+                    <label id="gameYear"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <label>Description:</label>
+                </div>
+                <div class="col-md-8">
+                    <p id="gameDescription" class="text-justify"></p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="../images/image.png" class="img-thumbnail">
+                </div>
+            </div>
+
+        <!-- content -->
+            <!-- footer -->
+            <div class="row">
+                <div class="col-md-12">
+                    <footer class="text-center bg-light p-2 border rounded">Footer information ©</footer>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="../bootstrap-4.3.1/js/jquery-3.3.1.js"></script>
+        <script src="../bootstrap-4.3.1/js/popper.min.js"></script>
+        <script src="../bootstrap-4.3.1/js/bootstrap.js"></script>
+        
+        <!-- meus scripts -->
+        <script src="../scripts/script.js"></script>
+        <script src="../scripts/game.js"></script>
+    </body>
+</html>

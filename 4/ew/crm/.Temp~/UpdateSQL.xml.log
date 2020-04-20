@@ -1,0 +1,26 @@
+[15 Apr 2020 12:13:03] DEBUG Executing SQL script
+[15 Apr 2020 12:13:03] INFO ================================================================================
+[15 Apr 2020 12:13:03] INFO outputPath= '/Users/josepereira/josepereira/work/git/miei/4/ew/crm/.Temp~/UpdateSQL.xml'
+[15 Apr 2020 12:13:03] INFO onError= 'stop'
+[15 Apr 2020 12:13:03] INFO statementSeparator= ';'
+[15 Apr 2020 12:13:03] INFO derby.system.home= '/Users/josepereira/WebRatioWorkspace/.metadata/.plugins/com.webratio.commons.db/derby'
+[15 Apr 2020 12:13:03] INFO password= 'password'
+[15 Apr 2020 12:13:03] INFO url= 'jdbc:mysql://localhost:3306/crm'
+[15 Apr 2020 12:13:03] INFO username= 'root'
+[15 Apr 2020 12:13:03] INFO autoCommit= 'false'
+[15 Apr 2020 12:13:03] INFO outputLogPath= '/Users/josepereira/josepereira/work/git/miei/4/ew/crm/.Temp~/UpdateSQL.xml.log'
+[15 Apr 2020 12:13:03] INFO driverClass= 'com.mysql.jdbc.Driver'
+[15 Apr 2020 12:13:03] INFO encoding= ''
+[15 Apr 2020 12:13:03] INFO eventSocketPort= '55436'
+[15 Apr 2020 12:13:03] INFO sqlScript= '/Users/josepereira/josepereira/work/git/miei/4/ew/crm/.Temp~/UpdateSQL.sql'
+[15 Apr 2020 12:13:03] INFO ================================================================================
+[15 Apr 2020 12:13:03] INFO Connecting to the Database...
+[15 Apr 2020 12:13:03] INFO Database connection estabilished
+[15 Apr 2020 12:13:03] INFO transaction isolation: 4
+[15 Apr 2020 12:13:03] DEBUG ================================================================================
+[15 Apr 2020 12:13:03] DEBUG Executing SQL script file: /Users/josepereira/josepereira/work/git/miei/4/ew/crm/.Temp~/UpdateSQL.sql
+[15 Apr 2020 12:13:03] DEBUG Executing statement:  create table `carro` ( `oid`  integer  not null, `marca`  varchar(255), primary key (`oid`) )
+[15 Apr 2020 12:13:03] DEBUG ================================================================================
+[15 Apr 2020 12:13:03] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[15 Apr 2020 12:13:03] INFO Database connection closed
+[15 Apr 2020 12:13:03] DEBUG Total time: 384 milliseconds
