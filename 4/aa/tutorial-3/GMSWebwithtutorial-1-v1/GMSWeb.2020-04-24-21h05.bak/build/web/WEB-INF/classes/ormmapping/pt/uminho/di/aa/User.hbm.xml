@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: josepereira(Universidade do Minho)
+License Type: Academic
+-->
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="pt.uminho.di.aa.User" table="`User`" lazy="false">
+		<id name="name" column="Name" type="string">
+			<generator class="assigned">
+			</generator>
+		</id>
+		<property name="email" column="Email" type="string" length="255" not-null="false" lazy="false"/>
+		<property name="password" column="Password" type="string" length="255" not-null="false" lazy="false"/>
+		<set name="ORM_Games" lazy="true" cascade="save-update,lock" inverse="false">
+			<key column="UserName" not-null="false"/>
+			<one-to-many class="pt.uminho.di.aa.Game"/>
+		</set>
+	</class>
+</hibernate-mapping>

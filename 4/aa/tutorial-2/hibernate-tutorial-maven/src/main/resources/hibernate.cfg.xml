@@ -13,7 +13,7 @@
         <property name="hibernate.connection.password">password</property>
 
         <!-- cria o schema -->
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
 
         <mapping class="di.uminho.pt.aa.business.Game"></mapping>
         <mapping class="di.uminho.pt.aa.business.User"></mapping>

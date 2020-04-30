@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- definição dos campos necessários para a base de dados -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/GMSWeb?serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">password</property>
+
+        <!-- cria o schema -->
+        <property name="hibernate.hbm2ddl.auto">create</property>
+
+        <mapping class="di.uminho.pt.aa.business.Game"></mapping>
+        <mapping class="di.uminho.pt.aa.business.User"></mapping>
+        <mapping class="di.uminho.pt.aa.business.Platform"></mapping>
+        <mapping class="di.uminho.pt.aa.business.Format"></mapping>
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>

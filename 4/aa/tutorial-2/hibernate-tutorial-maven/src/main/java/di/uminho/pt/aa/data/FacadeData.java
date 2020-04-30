@@ -7,11 +7,11 @@ import org.hibernate.persister.entity.Queryable;
 import java.util.Collection;
 
 public class FacadeData {
-    DAOUser daoUser;
-    DAOGame daoGame;
-    DAOPlatform daoPlatform;
-    DAOFormat daoFormat;
-    Data data;
+    private DAOUser daoUser;
+    private DAOGame daoGame;
+    private DAOPlatform daoPlatform;
+    private DAOFormat daoFormat;
+    private Data data;
 
     public FacadeData(){
         data = new Data();

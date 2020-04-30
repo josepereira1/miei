@@ -1,0 +1,2 @@
+Na análise que fizer considere que o médico pretende receitar 8 medicamentes aos doentes.
+O médico pretende ainda evitar receitar medicamentos incompatíveis com outros que o paciente esteja a tomar.

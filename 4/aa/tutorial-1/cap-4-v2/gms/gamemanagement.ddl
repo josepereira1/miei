@@ -1,0 +1,14 @@
+ALTER TABLE User_Game DROP FOREIGN KEY tem;
+ALTER TABLE User_Game DROP FOREIGN KEY tem2;
+ALTER TABLE Game DROP FOREIGN KEY tem3;
+DROP TABLE IF EXISTS `User`;
+DROP TABLE IF EXISTS Game;
+DROP TABLE IF EXISTS Platform;
+DROP TABLE IF EXISTS User_Game;
+CREATE TABLE `User` (Name varchar(255) NOT NULL, Email varchar(255), Password varchar(255), PRIMARY KEY (Name));
+CREATE TABLE Game (Name varchar(255) NOT NULL, PlatformName varchar(255), Year int(10) NOT NULL, Price float NOT NULL, Description varchar(255), PRIMARY KEY (Name));
+CREATE TABLE Platform (Name varchar(255) NOT NULL, Year int(10) NOT NULL, Description varchar(255), Manufacture varchar(255), PRIMARY KEY (Name));
+CREATE TABLE User_Game (UserName varchar(255) NOT NULL, GameName varchar(255) NOT NULL, PRIMARY KEY (UserName, GameName));
+ALTER TABLE User_Game ADD CONSTRAINT tem FOREIGN KEY (UserName) REFERENCES `User` (Name);
+ALTER TABLE User_Game ADD CONSTRAINT tem2 FOREIGN KEY (GameName) REFERENCES Game (Name);
+ALTER TABLE Game ADD CONSTRAINT tem3 FOREIGN KEY (PlatformName) REFERENCES Platform (Name);
