@@ -37,12 +37,26 @@ public class ListGames extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        //  process request without JSON (o que foi feito inicialmente, dessa forma separei em dois métodos para aproveitar a classe)
+        //  importa lembrar que neste método não está feito o my games, pois nessa fase do tutorial ainda não tinha sido pedido
+        //processRequestWithoutJSON(request, response);
+
+        //  process request with data from json using AJAX
+        processRequestWithJSON(request, response);
+    }
+
+    protected void processRequestWithoutJSON(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        //  as duas linhas seguintes servem para impedir o user de aceder aos controllers pelo link quando não está logado
+        Boolean logedIn = (Boolean) request.getSession().getAttribute("logedIn");
+        if(logedIn == false) getServletConfig().getServletContext()
+                .getRequestDispatcher("/Index").forward(request,response);
 
         String username = "José Pereira";
         request.setAttribute("username", username);
 
-        int maxPages = GameDAO.getNumberPages(PAGESIZE);   //  para já é estático, mas irei fazer uma função que cálcula este valor
+        int maxPages = GMSFacade.numberOfPagesAllGames(PAGESIZE);   //  para já é estático, mas irei fazer uma função que cálcula este valor
         request.setAttribute("maxPages", maxPages);
 
         Set<Integer> years = GameDAO.getYears();request.setAttribute("years", years);
@@ -52,10 +66,8 @@ public class ListGames extends HttpServlet {
 
         List<Game> list = null;
 
-        if(page == null) list = GMSFacade.getGamesOfPage(0, PAGESIZE);  //  primeiro acesso à página
-        else list = GMSFacade.getGamesOfPage(Integer.valueOf(page)-1, PAGESIZE);    //  as diferentes páginas
-
-
+        if(page == null) list = GMSFacade.getAllGamesPage(0, PAGESIZE);  //  primeiro acesso à página
+        else list = GMSFacade.getAllGamesPage(Integer.valueOf(page)-1, PAGESIZE);    //  as diferentes páginas
 
         request.setAttribute("games", list);
 
@@ -63,6 +75,35 @@ public class ListGames extends HttpServlet {
 
         getServletConfig().getServletContext()
                 .getRequestDispatcher("/WEB-INF/Template.jsp").forward(request,response);
+    }
+
+    protected void processRequestWithJSON(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+
+        String username = "José Pereira";
+        request.setAttribute("username", username);
+
+        Set<Integer> years = GameDAO.getYears();
+        request.setAttribute("years", years);
+        Set<String> platforms = GameDAO.getPlatforms();
+        request.setAttribute("platforms", platforms);
+
+        String action = request.getParameter("action");
+
+        int maxPages;
+
+        if(action != null && action.equals("myGames")) {
+            request.setAttribute("addButton", "addButton");
+            maxPages = GMSFacade.numberOfPagesMyGames(PAGESIZE);    //  determinar o número de páginas para listar o my games
+        }else maxPages = GMSFacade.numberOfPagesAllGames(PAGESIZE);   //  determinar o número de páginas para listar o all games
+
+        request.setAttribute("maxPages", maxPages);
+
+        request.setAttribute("action", action);
+        request.setAttribute("page", "ListGamesJSON.jsp");
+        getServletConfig().getServletContext()
+                .getRequestDispatcher("/WEB-INF/Template.jsp").forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

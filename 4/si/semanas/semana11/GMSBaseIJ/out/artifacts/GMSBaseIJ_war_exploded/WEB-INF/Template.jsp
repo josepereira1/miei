@@ -14,13 +14,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <%@ page pageEncoding="UTF-8" %>
+
     <!-- Bootstrap CSS -->
     <link href="bootstrap-4.3.1/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
 
     <title>Template</title>
 </head>
-<body onload="loadGames(1,1);">
+<body onload="loadGames(1, '${requestScope.action}', '${pageContext.request.contextPath}', ${sessionScope.logedIn});">
 <div class="container">
     <!-- App name -->
     <header class="mt-md-5">
@@ -42,24 +44,25 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body mx-3">
-                    <div class="md-form mb-5">
-                        <i class="fas fa-envelope prefix grey-text"></i>
-                        <label data-error="wrong" data-success="right" for="defaultForm-email">Username</label>
-                        <input type="text" id="username" class="form-control validate" value="username">
-                    </div>
+                <form method="POST" action="${pageContext.request.contextPath}/Index">
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i>
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Username</label>
+                            <input type="text" id="username" class="form-control validate" name="username">
+                        </div>
 
-                    <div class="md-form mb-4">
-                        <i class="fas fa-lock prefix grey-text"></i>
-                        <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
-                        <input type="password" id="password" class="form-control validate" value="password">
-                        <label id="loginError" style="visibility: hidden" class="text-danger pt-2">Username or password wrong!</label>
+                        <div class="md-form mb-4">
+                            <i class="fas fa-lock prefix grey-text"></i>
+                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Password</label>
+                            <input type="password" id="password" class="form-control validate" name="password">
+                            <label id="loginError" style="visibility: hidden" class="text-danger pt-2">Username or password wrong!</label>
+                        </div>
                     </div>
-
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button type="button" class="btn btn-light" action="${pageContext.request.contextPath}\ListGamesAfterLogin">Login</button>
-                </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="submit" class="btn btn-light">Login</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -88,13 +91,37 @@
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg navbar-light bg-light border rounded px-0 py-2" style="overflow: hidden;">
                 <!-- left -->
-                <a href="" class="navbar-brand text-secondary text-decoration-none px-2 ml-2" data-toggle="modal" data-target="#modalLoginForm">${requestScope.username}</a>
+                <c:choose>
+                    <c:when test="${sessionScope.logedIn == false}">
+                        <a href="" class="navbar-brand text-secondary text-decoration-none px-2 ml-2" data-toggle="modal" data-target="#modalLoginForm">Login</a>
+                    </c:when>
+                    <c:otherwise>
+                        <a class="navbar-brand text-secondary text-decoration-none px-2 ml-2 disabled">${sessionScope.username}</a>
+                    </c:otherwise>
+                </c:choose>
                 <!-- right -->
                 <div class="navbar-collapse d-flex justify-content-end">
                     <div>
-                        <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#">All Games</a>
-                        <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#" data-toggle="modal" data-target="#exampleModal">My Games</a>
-                        <a class="ml-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#" data-toggle="modal" data-target="#exampleModal">Add Game</a>
+                        <c:choose>
+                            <c:when test="${sessionScope.logedIn == false}">
+                                <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="#">All Games</a>
+                                <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button disabled" href="#" data-toggle="modal" data-target="#exampleModal">My Games</a>
+                                <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="" data-toggle="modal" data-target="#exampleModal">Add Game</a>
+                            </c:when>
+                            <c:otherwise>
+                                <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="${pageContext.request.contextPath}/ListGames?action=allGames">All Games</a>
+                                <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="${pageContext.request.contextPath}/ListGames?action=myGames" >My Games</a>
+                                <c:choose>
+                                    <c:when test="${requestScope.page == 'GameInfo.jsp'}">
+                                        <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button disabled" href="#">Add Game</a>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="${pageContext.request.contextPath}/AddGame">Add Game</a>
+                                    </c:otherwise>
+                                </c:choose>
+                                <a class="mx-1 py-5 px-1 text-decoration-none text-secondary font-weight-normal nav-button" href="${pageContext.request.contextPath}/Index">Log Out</a>
+                            </c:otherwise>
+                        </c:choose>
                     </div>
                 </div>
             </nav>
@@ -104,6 +131,12 @@
     <!-- FLEX CONTENT -->
     <c:choose>
         <c:when test="${requestScope.page=='ListGames.jsp'}"> <jsp:include page="ListGames.jsp" />
+        </c:when>
+        <c:when test="${requestScope.page=='ListGamesJSON.jsp'}"> <jsp:include page="ListGamesJSON.jsp" />
+        </c:when>
+        <c:when test="${requestScope.page=='AddGame.jsp'}"> <jsp:include page="AddGame.jsp" />
+        </c:when>
+        <c:when test="${requestScope.page=='GameInfo.jsp'}"> <jsp:include page="GameInfo.jsp" />
         </c:when>
     </c:choose>
 

@@ -5,44 +5,24 @@
  * @param {type} colocar a 0 (zero) para uma tabela com links para as páginas dos jogos, outro valor caso contrário
  * @param {iteration} o valor da iteração (salto) dos valores na tabela
  */
-function loadGames(type, iteration){
-    $(document).ready(function(){
-        platforms = new Set();
-        years = new Set();
-        content = "";
-   
-        $.get("http://ivy.di.uminho.pt:8080/GamesLibraryProvider/GamesService?action=list") .done(function(data) {
-            jsonData = JSON.parse(data);
+function loadGames(page, type, path, logedIn){
+        url = "http://localhost:8080/GMSBaseIJ_war_exploded/ListGamesJSON?gamesPages=" + page + "&type=" + type;
+        $.get(url) .done(function(jsonData) {
+            $('#myTable').html("");
             for(i = 0; i < jsonData.length; ){
-                //  guardo os "years" e "platforms" que aparecem para atualizar o "Filer" mais adiante
-                platforms.add(jsonData[i].platform);
-                years.add(jsonData[i].year);
-                
-                //  no index.html não é suposto ter links para as páginas dos jogos, logo nesse caso o type != 0
-                if(type == 0)content = "<tr onclick=location.href=\"game.html?name=\'" + encodeURIComponent(jsonData[i].name) + "\'\"><td>" + jsonData[i].name + "</td><td id=\"year\"" + ">" + jsonData[i].year + "</td><td>" + jsonData[i].platform + "</td></tr>";
-                else content = "<tr><td>" + jsonData[i].name + "</td><td id=\"year\"" + ">" + jsonData[i].year + "</td><td>" + jsonData[i].platform + "</td></tr>";
-                
-                //  append do conteúdo definido em cima, visto que pode ter link ou não
-                $('#myTable').append(content);
-                
-                //  a iteração é útil para a página "My-Games" onde queremos apenas apresentar alguns jogos, logo
-                //  percorremos a lista dos jogos, com saltos, salto esse definido no argumento "iteration"
-                i = i + iteration;
-            }
 
-            //  como usei uma Set(), significa que não há repetivos, mas é necessário ordenar
-            years = [...years].sort();
-            platforms = [...platforms].sort();
-            
-            //  atualizar os campos do "Filter" da side bar com os dados recolhidos dos anos e plataformas de forma ordenada
-            for(index in years){
-                $("#yearSideBar").append("<option value=" + years[index] + ">" + years[index] + "</option>");
-            }
-            for(index in platforms){
-                $("#platformSideBar").append("<option value=" + platforms[index] + ">" + platforms[index] + "</option>");
+                //  onclick=location.href=\"game.html?name=\'" + encodeURIComponent(jsonData[i].name) + "\'\">
+
+                //content = "<tr onclick=location.href=\"" + path + "/GameInfo?gameName=\'" + encodeURIComponent(jsonData[i].name) + "\'><td>" + jsonData[i].name + "</td><td id=\"year\"" + ">" + jsonData[i].year + "</td><td>" + jsonData[i].platform + "</td></tr>";
+
+                if(logedIn)content = "<tr onclick=location.href=\"" + path + "/GameInfo?gameName=" + encodeURIComponent(jsonData[i].name) + "\"><td>" + jsonData[i].name + "</td><td id=\"year\"" + ">" + jsonData[i].year + "</td><td>" + jsonData[i].platform + "</td></tr>";
+                else content = "<tr><td>" + jsonData[i].name + "</td><td id=\"year\"" + ">" + jsonData[i].year + "</td><td>" + jsonData[i].platform + "</td></tr>";
+
+                $('#myTable').append(content);
+
+                i = i + 1;
             }
         });
-    });
 }
 
 /**

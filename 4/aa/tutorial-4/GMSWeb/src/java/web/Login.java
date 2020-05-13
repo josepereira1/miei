@@ -38,9 +38,6 @@ public class Login extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-        //  ControlPersistentSession é um classe minha onde verifico se já existe session
-        PersistentSession persistentSession = ControlPersistentSession.getSession(request);
-        
         String action = request.getParameter("loginAction");
         
         //  o action == null acontece na primeira vez que acede à página

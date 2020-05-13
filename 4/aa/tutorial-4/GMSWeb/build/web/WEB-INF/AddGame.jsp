@@ -22,7 +22,6 @@
         <h1>Add Game</h1>
         <form action="${pageContext.request.contextPath}/AddGame" method="POST">
             Name: <input type="text" name="name"/>
-            <br>
             <button type="submit" name="addGameAction" value="addgame">Add Game to my Library</button>
             <br>
             <p style="color:red">

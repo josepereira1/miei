@@ -87,4 +87,15 @@ public class Game {
                 ", platform='" + platform + '\'' +
                 '}';
     }
+
+    public String toJson() {
+        return "{" +
+                "\"id\":" + id +
+                ",\"name\":\"" + name + '\"' +
+                ",\"year\":" + year +
+                ",\"price\":" + price +
+                ",\"description\":\"" + description + '\"' +
+                ",\"platform\":\"" + platform + '\"' +
+                '}';
+    }
 }

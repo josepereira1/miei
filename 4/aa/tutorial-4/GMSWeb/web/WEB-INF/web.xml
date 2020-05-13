@@ -72,8 +72,19 @@
     <ejb-local-ref>
         <ejb-ref-name>GameBean</ejb-ref-name>
         <ejb-ref-type>Session</ejb-ref-type>
-        <local-home>beans.gameBean</local-home>
-        <local>beans.gameBean</local>
-        <ejb-link>#GameBean</ejb-link>
+        <local>beans.GameBeanLocal</local>
+        <ejb-link>GameBean</ejb-link>
+    </ejb-local-ref>
+    <ejb-local-ref>
+        <ejb-ref-name>UserBean</ejb-ref-name>
+        <ejb-ref-type>Session</ejb-ref-type>
+        <local>beans.UserBeanLocal</local>
+        <ejb-link>UserBean</ejb-link>
+    </ejb-local-ref>
+    <ejb-local-ref>
+        <ejb-ref-name>PlatformBean</ejb-ref-name>
+        <ejb-ref-type>Session</ejb-ref-type>
+        <local>beans.PlatformBeanLocal</local>
+        <ejb-link>PlatformBean</ejb-link>
     </ejb-local-ref>
 </web-app>
