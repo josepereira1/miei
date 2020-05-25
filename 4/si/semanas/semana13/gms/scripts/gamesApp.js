@@ -116,47 +116,21 @@ var vm = new Vue({
 
 Vue.component('game-show', {
     props: ['game'],
-    template: '<div><h3>{{game.name}}</h3><p>Id: {{game.id}}<br/>Year: {{game.year}}<br/>Price: {{game.price}}<br/>Description: {{game.description}}<br/>Platform: {{game.platform}}<br/></p><button v-on:click="$emit(\'back\')">Back</button></button></div>'
+    template: '<div class="col-md-8">\
+                    <h3>{{game.name}}</h3>\
+                    <p>Id: {{game.id}}\
+                    <br/>Year: {{game.year}}\
+                    <br/>\
+                    Price: {{game.price}}\
+                    <br/>\
+                    Description: {{game.description}}\
+                    <br/>\
+                    Platform: {{game.platform}}\
+                    <br/>\
+                    </p>\
+                    <button v-on:click="$emit(\'back\')">Back</button>\
+                </div>'
 })
-
-// Vue.component('games-filter', {
-//     props: ['listOfGames', 'selYear', 'selPlat'],
-//     computed: {
-//         years: function (){
-//             var list = [];
-//             list.push("no selection");
-//             vm.games.forEach(function(g){
-//                 if(!(list.includes(g.year))){
-//                     list.push(g.year);
-//                 }
-//             });
-//             return list;
-//         },
-//         platforms: function (){
-//             var list = [];
-//             list.push("no selection");
-//             vm.games.forEach(function(g){
-//                 if(!(list.includes(g.platform))){
-//                     list.push(g.platform);
-//                 }
-//             });
-//             return list;
-//         },
-//         data: function (){
-//             return {
-//                 year: this.selYear,
-//                 platform: this.selPlat,
-//             }
-//         }
-//     },
-//     template:
-//         '<form class="align-middle pb-4">\
-//             <select class="w-100 mt-3" v-model.number="year" v-on:change="$emit(\'newyear\', year)">\
-//                 <option v-for="y in years">{{y}}</option>\
-//             </select>\
-//         </form>'
-// })
-
 
 Vue.component('games-filter', {
     props: ['listOfGames', 'selYear', 'selPlatform'],
@@ -188,17 +162,51 @@ Vue.component('games-filter', {
             platform: this.selPlatform
         }
     },
-    template:  '<form class="align-middle pb-4"> \
-                    <select class="w-100 mt-3" v-model.number="year" v-on:change="$emit(\'newyear\', year)"> \
-                        <option v-for="y in years">{{y}}</option> \
-                    </select> \
-                    <select class="w-100 mt-3" v-model="platform" v-on:change="$emit(\'newplatform\', platform)"> \
-                        <option v-for="p in platforms">{{p}}</option> \
-                    </select> \
-                </form>'
+    template:  '<div class="col-md-4">\
+                    <aside>\
+                        <b>Filter</b>\
+                        <form class="align-middle pb-4"> \
+                            <select class="w-100 mt-3" v-model.number="year" v-on:change="$emit(\'newyear\', year); $emit(\'newpage\', 0)"> \
+                                <option v-for="y in years">{{y}}</option> \
+                            </select> \
+                            <select class="w-100 mt-3" v-model="platform" v-on:change="$emit(\'newplatform\', platform); $emit(\'newpage\', 0)"> \
+                                <option v-for="p in platforms">{{p}}</option> \
+                            </select> \
+                        </form>\
+                        </aside>\
+                        </div>'
 })
 
-
-{/* <select id="plataform" class="w-100 mt-3" v-model.text="selPlatform">\
-                    <option v-for="p in platforms">{{p}}</option>\
-                </select>\ */}
+Vue.component('games-list', {
+    props: ['gamesPaginatedProp', 'pageProp', 'gamesFilteredProp', 'pageSize'],
+    data: function() {
+        return {
+            actualPage: this.pageProp,
+        }
+    },
+    template: '<div class="col-md-8">\
+                    <table class="table table-striped table-hover">\
+                        <thead>\
+                            <tr>\
+                                <th scope="col">Games</th>\
+                                <th id="year" scope="col">Year</th>\
+                                <th scope="col">Plataform</th>\
+                            </tr>\
+                        </thead>\
+                        <tbody>\
+                            <tr v-for="g in gamesPaginatedProp[pageProp]" v-bind:key="g.id" v-on:click="$emit(\'newgame\', g)">\
+                                <td><a class="text-decoration-none" style="color: black" data-toggle="modal">{{g.name}}</a></td>\
+                                <td id="year">{{g.year}}</td>\
+                                <td>{{g.platform}}</td>\
+                            </tr>\
+                        </tbody>\
+                    </table>\
+                    <nav class="d-flex justify-content-end" v-if="gamesFilteredProp.length>pageSize">\
+                        <form class="pagination">\
+                            <button type="button" v-bind:disabled="actualPage===0" v-on:click="actualPage -= 1;$emit(\'newpage\', actualPage)">&Lt;</button>\
+                            <button type="button" v-bind:disabled="actualPage===i - 1" v-for="i in gamesPaginatedProp.length" v-on:click="actualPage = i - 1; $emit(\'newpage\', actualPage)">{{i}}</button>\
+                            <button type="button" v-bind:disabled="actualPage===gamesPaginatedProp.length - 1" v-on:click="actualPage += 1; $emit(\'newpage\', actualPage)">&Gt;</button>\
+                        </form>\
+                    </nav>\
+                </div>'
+})

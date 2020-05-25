@@ -92,61 +92,14 @@
                 </div>
             </div>
 
-
-
         <!-- content -->
-            <div class="row">
-                <div class="col-md-8  ">
-                    <p>{{message}}</p>
-                    <table class="table table-striped table-hover">
-                        <thead>
-                        <tr>
-                            <th scope="col">Games</th>
-                            <th id="year" scope="col">Year</th>
-                            <th scope="col">Plataform</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="g in gamesPaginated[page]" v-bind:key="g.id" v-on:click="selGame == g ? selGame = {} : selGame = g">
-                                <td><a class="text-decoration-none" style="color: black" data-toggle="modal">{{g.name}}</a></td>
-                                <td id="year">{{g.year}}</td>
-                                <td>{{g.platform}}</td>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
-                </div>
-            <!-- side bar -->
-                <div class="col-md-4">
-                <aside>
-                    <b>Filter</b>
-                    <!--<form class="align-middle pb-4">
-                    <select class="w-100 mt-3" v-model.number="selYear">
-                        <option v-for="y in years">{{y}}</option>
-                    </select>
-                    <select id="plataform" class="w-100 mt-3" v-model.text="selPlatform">
-                        <option v-for="p in platforms">{{p}}</option>
-                    </select>
-                    </form>-->
-                    <games-filter v-bind:list-of-games="games" v-bind:sel-year="selYear" v-bind:sel-platform="selPlatform" v-on:newyear="selYear=$event" v-on:newplatform="selPlatform=$event">
-                    </games-filter>
-                </aside>
-                </div>
+            <div class="row" v-if="selGame.id">     
+                <game-show v-bind:game="selGame" v-on:back="selGame={}"></game-show>                
             </div>
-        
-            <div class="row">
-                <div class="col-md-8">
-                    <nav class="d-flex justify-content-end" v-if="gamesFiltered.length>4">
-                        <form class="pagination">
-                            <button type="button" v-bind:disabled="page===0" v-on:click="page -= 1">&Gt;</button>
-                            <button type="button" v-bind:disabled="page===i - 1" v-for="i in gamesPaginated.length" v-on:click="page = i - 1">{{i}}</button>
-                            <button type="button" v-bind:disabled="page===gamesPaginated.length - 1" v-on:click="page += 1">&Gt;</button>
-                        </form>
-                     </nav>
-                </div>
+            <div class="row" v-else>
+                <games-list v-bind:games-paginated-prop="gamesPaginated" v-bind:page-prop="page" v-bind:games-filtered-prop="gamesFiltered" v-bind:page-size="maxPerPage" v-on:newgame="selGame=$event" v-on:newpage="page=$event"></games-list>
+                <games-filter v-bind:list-of-games="games" v-bind:sel-year="selYear" v-bind:sel-platform="selPlatform" v-on:newyear="selYear=$event" v-on:newplatform="selPlatform=$event" v-on:newpage="page=$event"></games-filter>
             </div>
-
-            <game-show v-bind:game="selGame" v-if="selGame.id" v-on:back="selGame={}"></game-show>
         
             <!-- footer -->
             <div class="row">
