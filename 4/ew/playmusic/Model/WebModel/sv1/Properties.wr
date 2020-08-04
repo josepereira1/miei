@@ -1,3 +1,5 @@
-<SiteView id="sv1" name="Site View 1" landmarks="sv1#area1" homePage="sv1#area1#page1">
-  <OperationUnits/>
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="Site View 1" landmarks="sv1#area1" homePage="sv1#area1#page1">
+  <OperationUnits>
+    <SelectorUnit gr:x="540" gr:y="100" id="sv1#seu1" name="Selector1" entity="ent1"/>
+  </OperationUnits>
 </SiteView>

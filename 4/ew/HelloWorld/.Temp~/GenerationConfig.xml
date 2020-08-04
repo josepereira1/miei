@@ -6,14 +6,14 @@
     <Property name="applicationServer">Tomcat</Property>
     <Property name="cloudDeploy">false</Property>
     <Property name="commonsLibDir">/Users/josepereira/MyApplications/WebRatio_Platform_University_Student_Edition_7.2.18.MacOSX/WebRatio/plugins/com.webratio.commons.libs_7.2.18.201903231300/lib</Property>
-    <Property name="dbConfigPath">/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/WRDBConfig3382331077759623987.xml</Property>
+    <Property name="dbConfigPath">/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/WRDBConfig3909041917088710458.xml</Property>
     <Property name="defaultEncoding"></Property>
     <Property name="deployCorePluginDir">/Users/josepereira/MyApplications/WebRatio_Platform_University_Student_Edition_7.2.18.MacOSX/WebRatio/configuration/org.eclipse.osgi/bundles/49/1/.cp</Property>
     <Property name="derbySystemHome">/Users/josepereira/WebRatioWorkspace/.metadata/.plugins/com.webratio.commons.db/derby</Property>
     <Property name="enterpriseProjectDir"></Property>
-    <Property name="eventSocketPort">55834</Property>
+    <Property name="eventSocketPort">52550</Property>
     <Property name="excludedProjects" type="list"></Property>
-    <Property name="generationTime">202003051608</Property>
+    <Property name="generationTime">202006251857</Property>
     <Property name="helpersPluginDir">/Users/josepereira/MyApplications/WebRatio_Platform_University_Student_Edition_7.2.18.MacOSX/WebRatio/plugins/com.webratio.generator.helpers_7.2.18.201903231300</Property>
     <Property name="hostAlwaysAllowed">false</Property>
     <Property name="i18nBundleKeysFile" type="file"></Property>
@@ -25,7 +25,7 @@
     <Property name="phases">All</Property>
     <Property name="projectDir">/Users/josepereira/josepereira/work/git/miei/4/ew/HelloWorld</Property>
     <Property name="projectName">HelloWorld</Property>
-    <Property name="projectPath">/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/Project6214385277207308567.wr</Property>
+    <Property name="projectPath">/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/Project269768960553269659.wr</Property>
     <Property name="projectType">WEBPROJECT</Property>
     <Property name="rootModuleName"></Property>
     <Property name="uiPluginDir">/Users/josepereira/MyApplications/WebRatio_Platform_University_Student_Edition_7.2.18.MacOSX/WebRatio/plugins/com.webratio.ide.ui_7.2.18.201903231300</Property>

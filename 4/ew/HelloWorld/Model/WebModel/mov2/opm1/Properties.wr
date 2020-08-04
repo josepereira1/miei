@@ -1,0 +1,8 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="180" gr:y="135" id="mov2#opm1" name="Action 1">
+  <OperationUnits>
+    <InputCollectorUnit id="mov2#opm1#icu1" name="Input Collector" gr:x="30" gr:y="60" linkOrder="mov2#opm1#icu1#ln2">
+      <Link id="mov2#opm1#icu1#ln2" name="Flow2" to="mov2#opm1#cru1" automaticCoupling="true" type="transport" validate="true"/>
+    </InputCollectorUnit>
+    <CreateUnit gr:x="310" gr:y="60" id="mov2#opm1#cru1" name="Create1"/>
+  </OperationUnits>
+</OperationModule>

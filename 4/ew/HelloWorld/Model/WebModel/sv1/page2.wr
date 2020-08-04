@@ -1,0 +1,48 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="280" gr:y="80" id="sv1#page2" name="Page 2">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="5" id="sv1#page2#pwu1" name="List1" sortable="true" checkable="false" useCountQuery="false" entity="User" linkOrder="sv1#page2#pwu1#ln1">
+      <Link id="sv1#page2#pwu1#ln1" name="Flow1" to="sv1#page2#dau1" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+    <DataUnit gr:x="150" gr:y="0" id="sv1#page2#dau1" name="Details1" entity="User">
+      <Selector id="sv1#page2#dau1#su1" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#page2#dau1#su1#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page2#pwu1">
+          <layout:Link link="sv1#page2#pwu1#ln1"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page2#dau1"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

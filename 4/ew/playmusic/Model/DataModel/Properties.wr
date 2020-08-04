@@ -46,8 +46,7 @@
       <db:JoinColumn attribute="moduleOID" name="module_oid"/>
     </RelationshipRole2>
   </Relationship>
-  <db:Database id="db1" name="db" type="MySQL" url="jdbc:mysql://localhost:3306/playmusic" username="root" cryptedPassword="true" password="cGFzc3dvcmQ=">
-  </db:Database>
+  <db:Database id="db1" name="db" type="MySQL" url="jdbc:mysql://localhost:3306/playmusic" username="root" cryptedPassword="true" password="cGFzc3dvcmQ="/>
   <Entity gr:x="60" gr:y="30" id="ent1" name="Music" duration="persistent" attributeOrder="ent1#att1 ent1#att2" db:database="db1" db:table="music">
     <Attribute id="ent1#att1" key="true" name="oid" type="integer" db:column="oid"/>
     <Attribute id="ent1#att2" name="name" type="string" db:column="name"/>
