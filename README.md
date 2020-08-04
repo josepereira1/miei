@@ -80,6 +80,6 @@
 
 
 ## Conteúdos interessantes:
-[Design Patterns Implementações](https://github.com/josepereira1/miei/tree/master/4/as/design-patterns)
-[Design Patterns Artigos/Teoria](https://github.com/josepereira1/trabalhos-aa) - Documentação feita para Arquiteturas Aplicacionais
+- [Design Patterns Implementações](https://github.com/josepereira1/miei/tree/master/4/as/design-patterns)
+- [Design Patterns Artigos/Teoria](https://github.com/josepereira1/trabalhos-aa) - Documentação feita para Arquiteturas Aplicacionais
 
