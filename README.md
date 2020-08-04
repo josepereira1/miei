@@ -77,3 +77,9 @@
 - [projeto-ipln](https://github.com/josepereira1/projeto-ipln) - Projeto de Introdução ao Processamento de Linguagens Naturais
 - [sdb](https://github.com/josepereira1/miei/tree/master/4/sdb) - System Deployment & Benchmarking
 - [projeto-sdb](https://github.com/josepereira1/zulip-deployment) - Projeto de System Deployment & Benchmarking
+
+
+## Conteúdos interessantes:
+[Design Patterns Implementações](https://github.com/josepereira1/miei/tree/master/4/as/design-patterns)
+[Design Patterns Artigos/Teoria](https://github.com/josepereira1/trabalhos-aa) - Documentação feita para Arquiteturas Aplicacionais
+
