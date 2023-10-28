@@ -1,0 +1,278 @@
+\section{Anexos}
+\label{sec:anexos}
+
+\appendix
+
+% Primeiro Design Pattern
+\section{Decorator}
+\label{anexo:decorator}
+
+\begin{minted}{java}
+public interface Component {
+    Object execute(Object obj);
+}
+
+// ----------------------------------------------------------
+
+public class ConcreteComponent implements Component {
+    @Override
+    public Object execute(Object obj) {
+        System.out.println("Notificação por Email: " + obj);
+        return null;
+    }
+}
+
+// ----------------------------------------------------------
+
+public class BaseDecorator implements Component{
+    private Component wrappee;
+
+    public BaseDecorator(Component c){
+        this.wrappee = c;
+    }
+
+    @Override
+    public Object execute(Object obj) {
+        this.wrappee.execute(obj);
+        return null;
+    }
+}
+
+// ----------------------------------------------------------
+
+public class ConcreteDecoratorSlack extends BaseDecorator {
+    public ConcreteDecoratorSlack(Component c) {
+        super(c);
+    }
+
+    @Override
+    public Object execute(Object obj){
+        super.execute(obj);
+        extra(obj);
+        return null;
+    }
+
+
+    public Object extra(Object obj){
+        System.out.println("Notificação por Slack: " + obj);
+        return null;
+    }
+}
+
+// ----------------------------------------------------------
+
+public class ConcreteDecoratorSMS extends BaseDecorator {
+    public ConcreteDecoratorSMS(Component c) {
+        super(c);
+    }
+
+    @Override
+    public Object execute(Object obj){
+        super.execute(obj);
+        extra(obj);
+        return null;
+    }
+
+    public Object extra(Object obj){
+        System.out.println("Notificação por SMS: " + obj);
+        return null;
+    }
+}
+
+// ----------------------------------------------------------
+
+public class Client {
+    public static void main(String[] args){
+        //  criamos um componente, que apenas notifica por email, 1 layer
+        Component c = new ConcreteComponent();
+        c.execute("Hello world!");
+
+        System.out.println("--------------------------------------------");
+
+        //  vou adicionar comportamento extra ao componente c, que é enviar 
+        //  notificação também por slack, 2 layers
+        Component d1 = new ConcreteDecoratorSlack(c);
+        d1.execute("Hello world!");
+
+        System.out.println("--------------------------------------------");
+
+        //  por fim, vou adicionar ainda mais comportamento, isto é, mais 
+        //  uma layer, para enviar por SMS, 3 layers
+        Component d2 = new ConcreteDecoratorSMS(d1);
+        d2.execute("Hello world!");
+    }
+}
+
+// ----------------------------------------------------------
+
+Output:
+Notificação por Email: Hello world!
+--------------------------------------------
+Notificação por Email: Hello world!
+Notificação por Slack: Hello world!
+--------------------------------------------
+Notificação por Email: Hello world!
+Notificação por Slack: Hello world!
+Notificação por SMS: Hello world!
+
+\end{minted}
+
+\newpage
+
+% Segundo Design Pattern
+\section{Mediator}
+\label{anexo:mediator}
+
+\begin{minted}{java}
+
+public interface Mediator {
+    void notify(Component sender, String event);
+    void addComponent(Component component);
+}
+
+// ----------------------------------------------------------
+
+public class UIHandler implements Mediator {
+    private Button button;
+    private TextBox textBox;
+    private TextInput nameTextInput;
+
+    @Override
+    public void addComponent(Component component) {
+        if (component instanceof Button) button = (Button) component;
+        else if (component instanceof TextBox) textBox = (TextBox) component;
+        else if (component instanceof TextInput) nameTextInput = (TextInput) component;
+    }
+
+    @Override
+    public void notify(Component sender, String event) {
+        if (sender.equals(button)) reactOnButton(event);
+        else if (sender.equals(textBox)) reactOnTextBox(event);
+        else if (sender.equals(nameTextInput)) reactOnTextInput(event);
+    }
+
+    private void reactOnButton(String event) {
+        switch (event) {
+            case "click":
+                String name = nameTextInput.getText();
+                textBox.setText("Hello " + name + "!");
+                System.out.println(textBox.getText());
+                break;
+            case "hover":
+                textBox.setText("Mouse is over button!");
+                System.out.println(textBox.getText());
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void reactOnTextBox(String event) {}
+
+    private void reactOnTextInput(String event) {}
+}
+// ----------------------------------------------------------
+
+public class Component {
+    protected Mediator mediator;
+
+    public Component(Mediator mediator) {
+        this.mediator = mediator;
+    }
+}
+
+// ----------------------------------------------------------
+
+public class Button extends Component {
+
+    public Button(Mediator mediator) {
+        super(mediator);
+    }
+
+    public void click() {
+        this.mediator.notify(this, "click");
+    }
+
+    public void hover() {
+        this.mediator.notify(this, "hover");
+    }
+}
+
+// ----------------------------------------------------------
+
+public class TextBox extends Component {
+    private StringBuilder currentText;
+
+    public TextBox(Mediator mediator) {
+        super(mediator);
+        this.currentText = new StringBuilder();
+    }
+
+    public void appendText(String text) {
+        this.currentText.append(text);
+    }
+
+    public void setText(String text) {
+        this.currentText.setLength(0);
+        this.currentText.append(text);
+    }
+
+
+
+    public String getText() {
+        return this.currentText.toString();
+    }
+}
+
+// ----------------------------------------------------------
+
+public class TextInput extends Component {
+    private StringBuilder currentText;
+
+    public TextInput(Mediator mediator) {
+        super(mediator);
+        this.currentText = new StringBuilder();
+    }
+
+    public void appendText(String text) {
+        this.currentText.append(text);
+    }
+
+    public void setText(String text) {
+        this.currentText.setLength(0);
+        this.currentText.append(text);
+    }
+
+    public String getText() {
+        return this.currentText.toString();
+    }
+}
+
+// ----------------------------------------------------------
+
+public class Main {
+    public static void main(String[] args) {
+
+        Mediator mediator = new UIHandler(); /** Acts as a mediator between UI components. */
+        Button button = new Button(mediator);
+        TextBox textBox = new TextBox(mediator);
+        TextInput textInput = new TextInput(mediator);
+        mediator.addComponent(button);
+        mediator.addComponent(textBox);
+        mediator.addComponent(textInput);
+
+        textInput.setText("Nestor"); /** Simular a introdução do nome na UI. */
+        button.hover(); /** Simular passar o rato em cima do botão. */
+        button.click(); /** Simular o clicar no botão. */
+    }
+}
+
+// ----------------------------------------------------------
+
+Output:
+Mouse is over button!
+Hello Nestor!
+
+\end{minted}
+
+\appendix

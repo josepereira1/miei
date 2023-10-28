@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="UsersWSDL" targetNamespace="http://wsdl/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://wsdl/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://wsdl/">
+  <xs:element name="generateToken" type="tns:generateToken"/>
+  <xs:element name="generateTokenResponse" type="tns:generateTokenResponse"/>
+  <xs:element name="search" type="tns:search"/>
+  <xs:element name="searchResponse" type="tns:searchResponse"/>
+  <xs:element name="searchWithToken" type="tns:searchWithToken"/>
+  <xs:element name="searchWithTokenResponse" type="tns:searchWithTokenResponse"/>
+  <xs:complexType name="search">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="password" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="user">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="games" type="tns:gameSetCollection"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="password" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="gameSetCollection">
+    <xs:complexContent>
+      <xs:extension base="tns:ormSet">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType abstract="true" name="ormSet">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="generateToken">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="password" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="generateTokenResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchWithToken">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="token" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchWithTokenResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersistentException" type="tns:PersistentException"/>
+  <xs:complexType name="PersistentException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserNotExistsException" type="tns:UserNotExistsException"/>
+  <xs:complexType name="UserNotExistsException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="generateTokenResponse">
+    <wsdl:part element="tns:generateTokenResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchWithToken">
+    <wsdl:part element="tns:searchWithToken" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="search">
+    <wsdl:part element="tns:search" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="PersistentException">
+    <wsdl:part element="tns:PersistentException" name="PersistentException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="generateToken">
+    <wsdl:part element="tns:generateToken" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchResponse">
+    <wsdl:part element="tns:searchResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="searchWithTokenResponse">
+    <wsdl:part element="tns:searchWithTokenResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UserNotExistsException">
+    <wsdl:part element="tns:UserNotExistsException" name="UserNotExistsException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="UsersWSDL">
+    <wsdl:operation name="search">
+      <wsdl:input message="tns:search" name="search">
+    </wsdl:input>
+      <wsdl:output message="tns:searchResponse" name="searchResponse">
+    </wsdl:output>
+      <wsdl:fault message="tns:PersistentException" name="PersistentException">
+    </wsdl:fault>
+      <wsdl:fault message="tns:UserNotExistsException" name="UserNotExistsException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="generateToken">
+      <wsdl:input message="tns:generateToken" name="generateToken">
+    </wsdl:input>
+      <wsdl:output message="tns:generateTokenResponse" name="generateTokenResponse">
+    </wsdl:output>
+      <wsdl:fault message="tns:PersistentException" name="PersistentException">
+    </wsdl:fault>
+      <wsdl:fault message="tns:UserNotExistsException" name="UserNotExistsException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchWithToken">
+      <wsdl:input message="tns:searchWithToken" name="searchWithToken">
+    </wsdl:input>
+      <wsdl:output message="tns:searchWithTokenResponse" name="searchWithTokenResponse">
+    </wsdl:output>
+      <wsdl:fault message="tns:PersistentException" name="PersistentException">
+    </wsdl:fault>
+      <wsdl:fault message="tns:UserNotExistsException" name="UserNotExistsException">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UsersWSDLSoapBinding" type="tns:UsersWSDL">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="search">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="search">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="PersistentException">
+        <soap:fault name="PersistentException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UserNotExistsException">
+        <soap:fault name="UserNotExistsException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="generateToken">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="generateToken">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="generateTokenResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="PersistentException">
+        <soap:fault name="PersistentException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UserNotExistsException">
+        <soap:fault name="UserNotExistsException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="searchWithToken">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="searchWithToken">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="searchWithTokenResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="PersistentException">
+        <soap:fault name="PersistentException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="UserNotExistsException">
+        <soap:fault name="UserNotExistsException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UsersWSDL">
+    <wsdl:port binding="tns:UsersWSDLSoapBinding" name="UsersWSDLPort">
+      <soap:address location="http://localhost:8080/GMSWeb/UsersWSDL"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
